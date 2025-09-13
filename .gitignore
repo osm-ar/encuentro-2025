@@ -1,0 +1,50 @@
+# Symlinks y submodules externos
+escuelas_osm/
+
+# Archivos temporales
+*.tmp
+*.temp
+*~
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs y archivos de depuración
+*.log
+debug_*.txt
+
+# Archivos de configuración personal
+config.local.*
+*.local
+
+# Archivos de backup
+*.bak
+*.backup
+
+# Archivos grandes de datos temporales
+temp_data/
+temp_output/
+temp_reports/
+
+# Archivos Python compilados
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de verificación temporal
+verificacion_*.json
+debug_lote_*.txt
+
+# Archivos duplicados
+photo_2025-09-13_19-16-00.jpg
+
+# Archivos personales del organizador
+personal/
+private/
