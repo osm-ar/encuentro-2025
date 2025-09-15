@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<article class="page-content">
+    <header class="page-header">
+        <h1>{{ page.title }}</h1>
+        {% if page.subtitle %}
+            <p class="page-subtitle">{{ page.subtitle }}</p>
+        {% endif %}
+        {% if page.date %}
+            <p class="page-date">{{ page.date | date: "%d de %B de %Y" }}</p>
+        {% endif %}
+    </header>
+    
+    <div class="page-body">
+        {{ content }}
+    </div>
+    
+    {% if page.show_back_button != false %}
+    <footer class="page-footer">
+        <a href="{{ '/' | relative_url }}" class="btn btn-outline">← Volver al inicio</a>
+    </footer>
+    {% endif %}
+</article>

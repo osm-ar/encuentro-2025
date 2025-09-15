@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Escuelas OSM - Encuentro OSM Argentina 2025</title>
+    
+    <!-- SEO -->
+    <meta name="description" content="Encuentro de la Comunidad de OpenStreetMap de Argentina - 27 de septiembre 2025, Universidad Nacional de Luján">
+    <meta property="og:title" content="Proyecto Escuelas OSM">
+    <meta property="og:description" content="Encuentro de la Comunidad de OpenStreetMap de Argentina - 27 de septiembre 2025, Universidad Nacional de Luján">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://0.0.0.0:4000/proyecto-escuelas/">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/assets/img/osm-ar-logo.png">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <img src="/assets/img/osm-ar-logo.png" alt="OSM Argentina" class="logo">
+                    <h1><a href="/">Encuentro OSM Argentina 2025</a></h1>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="/">Inicio</a></li>
+                    <li class="nav-dropdown">
+                        <a href="/programa">Actividades</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/programa">Programa</a></li>
+                            <li><a href="/casos-exito">Casos de Éxito</a></li>
+                            <li><a href="/proyecto-escuelas">Escuelas OSM</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/sponsors">Sponsors</a></li>
+                    <li><a href="/flyer">Flyer</a></li>
+                    <li><a href="/participar">Participar</a></li>
+                    <li><a href="https://tinyurl.com/osm-lujan" target="_blank">Inscripción</a></li>
+                    <li><a href="https://osmcal.org/event/4002/" target="_blank" class="btn-participar">Confirmar Asistencia</a></li>
+                </ul>
+                
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        <article class="page-content">
+    <header class="page-header">
+        <h1>Proyecto Escuelas OSM</h1>
+        
+            <p class="page-subtitle">Mapear los establecimientos educativos de Argentina en OpenStreetMap</p>
+        
+        
+    </header>
+    
+    <div class="page-body">
+        <h2 id="-proyecto-escuelas-osm-argentina">🏫 Proyecto Escuelas OSM Argentina</h2>
+
+<p><strong>Actividad principal del mapatón:</strong> Mapear escuelas usando datos oficiales del Ministerio de Educación con verificación automática de duplicados.</p>
+
+<hr />
+
+<h2 id="-en-números">📊 En Números</h2>
+
+<div class="estadisticas-proyecto">
+  <div class="stat-box">
+    <div class="stat-number">64,639</div>
+    <div class="stat-label">Escuelas oficiales<br />en Argentina</div>
+  </div>
+  
+  <div class="stat-box">
+    <div class="stat-number">78.8%</div>
+    <div class="stat-label">Cobertura actual<br />en OpenStreetMap</div>
+  </div>
+  
+  <div class="stat-box">
+    <div class="stat-number">13,758</div>
+    <div class="stat-label">Escuelas faltantes<br />por mapear</div>
+  </div>
+  
+  <div class="stat-box destacado">
+    <div class="stat-number">248</div>
+    <div class="stat-label">Tareas preparadas<br />para el encuentro</div>
+  </div>
+</div>
+
+<hr />
+
+<h2 id="-challenges-para-el-encuentro">🎯 Challenges para el Encuentro</h2>
+
+<h3 id="challenge-principal-escuelas-luján"><strong>Challenge Principal: Escuelas Luján</strong></h3>
+<ul>
+  <li><strong>218 tareas</strong> de escuelas en la zona de Luján</li>
+  <li><strong>Verificación automática</strong> con enlaces Overpass</li>
+  <li><strong>Enlaces directos</strong> a legajos oficiales del Ministerio</li>
+  <li><strong>Tags específicos:</strong> <code class="language-plaintext highlighter-rouge">sotm_lujan2025=yes</code> + <code class="language-plaintext highlighter-rouge">proyecto_escuelas_argentina=yes</code></li>
+</ul>
+
+<p><a href="https://maproulette.org/browse/challenges/53133" class="btn btn-success btn-large">🗺️ Participar en Challenge Luján</a></p>
+
+<h3 id="challenge-adicional-escuelas-chajarí"><strong>Challenge Adicional: Escuelas Chajarí</strong></h3>
+<ul>
+  <li><strong>30 tareas</strong> complementarias</li>
+  <li>Mismo sistema de verificación y tags</li>
+  <li>Para participantes que completen el challenge principal</li>
+</ul>
+
+<p><a href="https://maproulette.org/browse/projects/61059" class="btn btn-outline">📋 Ver Proyecto Completo</a></p>
+
+<hr />
+
+<h2 id="️-metodología-y-herramientas">🛠️ Metodología y Herramientas</h2>
+
+<h3 id="workflow-para-mappers"><strong>Workflow para Mappers</strong></h3>
+
+<h4 id="1-acceder-a-la-tarea">1. Acceder a la Tarea</h4>
+<ul>
+  <li>Ir al <a href="https://maproulette.org/browse/challenges/53133">Challenge Luján</a></li>
+  <li>Seleccionar una tarea disponible</li>
+  <li>Leer las instrucciones específicas</li>
+</ul>
+
+<h4 id="2-verificar-duplicados-obligatorio">2. Verificar Duplicados (OBLIGATORIO)</h4>
+<ul>
+  <li><strong>Clic en enlace Overpass</strong> incluido en cada tarea</li>
+  <li>Verificación automática en radio de 5km</li>
+  <li>Búsqueda por CUE exacto y nombres similares</li>
+  <li>Confirmar que NO existe la escuela en OSM</li>
+</ul>
+
+<h4 id="3-consultar-fuente-oficial">3. Consultar Fuente Oficial</h4>
+<ul>
+  <li><strong>Enlace directo</strong> al legajo del Ministerio de Educación</li>
+  <li>Verificar nombre oficial, dirección y detalles</li>
+  <li>Confirmar coordenadas y ubicación exacta</li>
+</ul>
+
+<h4 id="4-mapear-la-escuela">4. Mapear la Escuela</h4>
+<ul>
+  <li>Usar editor <strong>JOSM</strong> o <strong>iD</strong> según preferencia</li>
+  <li><strong>Copiar tags</strong> del bloque “COPIAR TAGS” de la tarea</li>
+  <li>Posicionar correctamente según fuentes oficiales</li>
+  <li>Agregar tags de seguimiento del encuentro</li>
+</ul>
+
+<h4 id="5-completar-la-tarea">5. Completar la Tarea</h4>
+<ul>
+  <li>Marcar tarea como completada en MapRoulette</li>
+  <li>Comentarios opcionales sobre dificultades encontradas</li>
+  <li>Continuar con siguiente tarea</li>
+</ul>
+
+<hr />
+
+<h2 id="️-sistema-de-tags">🏷️ Sistema de Tags</h2>
+
+<h3 id="tags-oficiales-incluidos"><strong>Tags Oficiales Incluidos</strong></h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>amenity=school
+name=Nombre Oficial de la Escuela
+ref:cue=060118000
+ref:arg:cue=060118000
+official:legajo=https://mapa.educacion.gob.ar/legajo/060118000
+overpass:search=https://overpass-turbo.eu/...
+source=Ministerio de Educación Argentina
+</code></pre></div></div>
+
+<h3 id="tags-de-seguimiento-del-encuentro"><strong>Tags de Seguimiento del Encuentro</strong></h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sotm_lujan2025=yes
+proyecto_escuelas_argentina=yes
+</code></pre></div></div>
+
+<h3 id="tags-opcionales"><strong>Tags Opcionales</strong></h3>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">education:AR=*</code> - Nivel educativo específico</li>
+  <li><code class="language-plaintext highlighter-rouge">operator=*</code> - Sector (público/privado)</li>
+  <li><code class="language-plaintext highlighter-rouge">address:*</code> - Dirección completa si disponible</li>
+</ul>
+
+<hr />
+
+<h2 id="-verificación-automática">🔍 Verificación Automática</h2>
+
+<h3 id="sistema-overpass-integrado"><strong>Sistema Overpass Integrado</strong></h3>
+<ul>
+  <li><strong>21,026 consultas</strong> preconfiguradas</li>
+  <li><strong>Búsqueda inteligente</strong> por CUE y nombre</li>
+  <li><strong>Detección automática</strong> de establecimientos cercanos</li>
+  <li><strong>Enlaces directos</strong> - Un clic para verificar</li>
+</ul>
+
+<h3 id="criterios-de-búsqueda"><strong>Criterios de Búsqueda</strong></h3>
+<ul>
+  <li><strong>CUE exacto</strong> en radio de 5km (identificador único)</li>
+  <li><strong>Nombres similares</strong> en radio de 500m</li>
+  <li><strong>Elementos cercanos</strong> con <code class="language-plaintext highlighter-rouge">amenity=school</code></li>
+  <li><strong>Variaciones</strong> de nombre y abreviaciones</li>
+</ul>
+
+<hr />
+
+<h2 id="-características-únicas-del-proyecto">🌟 Características Únicas del Proyecto</h2>
+
+<h3 id="referencias-oficiales-completas"><strong>Referencias Oficiales Completas</strong></h3>
+<ul>
+  <li><strong>Legajos ministeriales</strong> - Enlaces directos verificables</li>
+  <li><strong>CUE específico Argentina</strong> - Identificador único nacional</li>
+  <li><strong>Fuente oficial</strong> documentada en cada elemento</li>
+  <li><strong>Trazabilidad completa</strong> desde gobierno a OSM</li>
+</ul>
+
+<h3 id="calidad-de-datos-garantizada"><strong>Calidad de Datos Garantizada</strong></h3>
+<ul>
+  <li><strong>Setup completado</strong> - 248 tareas verificadas y listas</li>
+  <li><strong>Duplicados investigados</strong> - Casos críticos pre-resueltos</li>
+  <li><strong>Referencias no contaminantes</strong> - Sin afectar campo website</li>
+  <li><strong>Workflow probado</strong> - Metodología testeada y funcionando</li>
+</ul>
+
+<hr />
+
+<h2 id="-impacto-esperado">📈 Impacto Esperado</h2>
+
+<h3 id="durante-el-encuentro"><strong>Durante el Encuentro</strong></h3>
+<ul>
+  <li><strong>Participantes del encuentro</strong> × <strong>4.5 horas</strong> de mapatón intensivo</li>
+  <li><strong>Estimación conservadora:</strong> 50-100 escuelas mapeadas</li>
+  <li><strong>Zona Luján:</strong> Cobertura educativa significativamente mejorada</li>
+  <li><strong>Experiencia práctica</strong> con datos gubernamentales oficiales</li>
+</ul>
+
+<h3 id="post-encuentro"><strong>Post Encuentro</strong></h3>
+<ul>
+  <li><strong>Metodología consolidada</strong> para futuras provincias</li>
+  <li><strong>Modelo replicable</strong> para otros encuentros regionales</li>
+  <li><strong>Base técnica sólida</strong> para State of the Map Argentina 2026</li>
+  <li><strong>Precedente exitoso</strong> de colaboración comunidad-estado</li>
+</ul>
+
+<hr />
+
+<h2 id="-valor-temático-comunidad-y-estado">💡 Valor Temático: “Comunidad y Estado”</h2>
+
+<h3 id="ejemplo-concreto-de-colaboración"><strong>Ejemplo Concreto de Colaboración</strong></h3>
+<ul>
+  <li><strong>Datos oficiales:</strong> Ministerio de Educación Nacional</li>
+  <li><strong>Plataforma comunitaria:</strong> OpenStreetMap</li>
+  <li><strong>Metodología híbrida:</strong> Verificación oficial + validación comunitaria</li>
+  <li><strong>Herramientas ciudadanas:</strong> Verificación transparente de datos públicos</li>
+</ul>
+
+<h3 id="impacto-social-directo"><strong>Impacto Social Directo</strong></h3>
+<ul>
+  <li><strong>Educación accesible:</strong> Escuelas visibles en mapas libres</li>
+  <li><strong>Transparencia gubernamental:</strong> Datos públicos verificables</li>
+  <li><strong>Herramientas ciudadanas:</strong> OSM como infraestructura cívica</li>
+  <li><strong>Capacidades locales:</strong> Comunidad técnica fortalecida</li>
+</ul>
+
+<hr />
+
+<h2 id="-para-participantes-del-encuentro">🚀 Para Participantes del Encuentro</h2>
+
+<h3 id="preparación-recomendada"><strong>Preparación Recomendada</strong></h3>
+<ul>
+  <li><strong>Cuenta OSM</strong> activa y funcional</li>
+  <li><strong>Editor preferido</strong> configurado (JOSM o iD)</li>
+  <li><strong>Experiencia básica</strong> con mapeo de POIs</li>
+  <li><strong>Ganas de aprender</strong> metodologías de verificación oficial</li>
+</ul>
+
+<h3 id="durante-el-mapatón"><strong>Durante el Mapatón</strong></h3>
+<ul>
+  <li><strong>Soporte técnico</strong> disponible (Andrés Duhour + team)</li>
+  <li><strong>Resolución de dudas</strong> en tiempo real</li>
+  <li><strong>Trabajo colaborativo</strong> presencial/virtual</li>
+  <li><strong>osmlanduseR</strong> para análisis post-mapeo</li>
+</ul>
+
+<h3 id="seguimiento-post-encuentro"><strong>Seguimiento Post-Encuentro</strong></h3>
+<ul>
+  <li><strong>Dashboard</strong> de progreso en wiki OSM</li>
+  <li><strong>Tags de seguimiento</strong> para medir impacto</li>
+  <li><strong>Documentación</strong> de lessons learned</li>
+  <li><strong>Base</strong> para próximos proyectos similares</li>
+</ul>
+
+<hr />
+
+<h2 id="-enlaces-y-recursos">🔗 Enlaces y Recursos</h2>
+
+<div class="recursos-proyecto">
+  <a href="https://maproulette.org/browse/challenges/53133" class="recurso-principal">
+    🗺️ Challenge Luján (218 tareas)
+  </a>
+  
+  <a href="https://maproulette.org/browse/projects/61059" class="recurso-secundario">
+    📋 Proyecto Completo MapRoulette
+  </a>
+  
+  <a href="https://mapa.educacion.gob.ar/" target="_blank" class="recurso-secundario">
+    🏛️ Mapa Educativo Oficial
+  </a>
+  
+  <a href="https://overpass-turbo.eu/" target="_blank" class="recurso-secundario">
+    🔍 Overpass Turbo
+  </a>
+</div>
+
+<hr />
+
+<div class="proyecto-footer">
+  <h3>🎖️ Proyecto Listo para SOTM 2025</h3>
+  <p>Setup completado, herramientas probadas, metodología consolidada.<br />
+  <strong>¡Todo preparado para mapear colaborativamente las 248 escuelas durante el encuentro!</strong></p>
+</div>
+
+<style>
+.estadisticas-proyecto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.stat-box {
+  background: white;
+  padding: 2rem 1rem;
+  border-radius: 8px;
+  text-align: center;
+  border: 2px solid #e9ecef;
+  transition: transform 0.3s ease;
+}
+
+.stat-box:hover {
+  transform: translateY(-4px);
+}
+
+.stat-box.destacado {
+  border-color: #F4C430;
+  background: linear-gradient(135deg, #F4C430, #FFD700);
+  color: #2E5C8A;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2E5C8A;
+  margin-bottom: 0.5rem;
+}
+
+.stat-box.destacado .stat-number {
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.recursos-proyecto {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.recurso-principal {
+  display: block;
+  padding: 2rem;
+  background: linear-gradient(135deg, #28a745, #20c997);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.recurso-principal:hover {
+  transform: translateY(-4px);
+  color: white;
+}
+
+.recurso-secundario {
+  display: block;
+  padding: 1rem;
+  background: white;
+  border: 2px solid #2E5C8A;
+  color: #2E5C8A;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.recurso-secundario:hover {
+  background: #2E5C8A;
+  color: white;
+}
+
+.proyecto-footer {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  border-left: 4px solid #F4C430;
+  margin: 3rem 0;
+}
+
+.proyecto-footer h3 {
+  color: #2E5C8A;
+  margin-bottom: 1rem;
+}
+</style>
+
+
+    </div>
+    
+    
+    <footer class="page-footer">
+        <a href="/" class="btn btn-outline">← Volver al inicio</a>
+    </footer>
+    
+</article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>27 de septiembre de 2025</h3>
+                <p>Universidad Nacional de Luján</p>
+                <p><strong>Andrés Duhour</strong> - <a href="https://www.openstreetmap.org/user/AndresDuhour" target="_blank">Chairman</a></p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="https://tinyurl.com/osm-lujan" target="_blank">Inscripción</a></li>
+                    <li><a href="https://osmcal.org/event/4002/" target="_blank">OSM Calendar</a></li>
+                    <li><a href="https://maproulette.org/browse/challenges/53133" target="_blank">MapRoulette</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Comunidad</h3>
+                <div class="social-compact">
+                    <a href="https://t.me/osm_ar" target="_blank" title="Telegram @osm_ar">
+                        <img src="/assets/img/telegram-logo.svg" alt="Telegram">
+                        @osm_ar
+                    </a>
+                    <a href="https://www.instagram.com/OpenStreetMapAR/" target="_blank" title="Instagram @OpenStreetMapAR">
+                        <img src="/assets/img/instagram-logo.svg" alt="Instagram">
+                        @OpenStreetMapAR
+                    </a>
+                    <a href="https://openstreetmap.org.ar/" target="_blank" title="OSM Argentina">
+                        🌐 openstreetmap.org.ar
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Comunidad OpenStreetMap Argentina. Contenido bajo licencia abierta.</p>
+        </div>
+    </footer>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="/assets/js/main.js"></script>
+    
+    <!-- Mapa específico para páginas que lo requieran -->
+    
+</body>
+</html>

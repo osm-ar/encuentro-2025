@@ -1,0 +1,101 @@
+# Encuentro OSM Argentina 2025 - Jekyll Configuration
+
+# Site settings
+title: "Encuentro OSM Argentina 2025"
+description: "Encuentro de la Comunidad de OpenStreetMap de Argentina - 27 de septiembre 2025, Universidad Nacional de Luján"
+baseurl: "" # subpath of site, e.g. /blog
+url: "https://osm-argentina.github.io/encuentro-2025" # base URL for site
+
+# Event details
+event:
+  name: "Encuentro OSM Argentina 2025"
+  subtitle: "Comunidad y Estado"
+  date: "2025-09-27"
+  date_formatted: "sábado 27 de septiembre de 2025"
+  date_short: "27 de septiembre de 2025"
+  time: "09:00-19:00"
+  location: "Universidad Nacional de Luján"
+  address: "Ruta 5 y Avenida Constitución, Luján, Buenos Aires"
+  coordinates: [-34.578776, -59.086683]
+
+# Chairman
+chairman:
+  name: "Andrés Duhour"
+  osm_profile: "https://www.openstreetmap.org/user/AndresDuhour"
+  experience: "19,204 ediciones OSM, 10+ años"
+  specialty: "Cuenca del Río Luján, osmlanduseR"
+
+# Links
+links:
+  osm_calendar: "https://osmcal.org/event/4002/"
+  wiki: "https://wiki.openstreetmap.org/wiki/ES:Argentina/Eventos/Encuentro_de_la_Comunidad_2025"
+  maproulette_project: "https://maproulette.org/browse/projects/61059"
+  maproulette_lujan: "https://maproulette.org/browse/challenges/53133"
+  inscripcion_oficial: "https://tinyurl.com/osm-lujan"
+
+# Redes sociales OSM Argentina
+social:
+  # Canales activos
+  telegram: "https://t.me/osm_ar"
+  instagram: "https://www.instagram.com/OpenStreetMapAR/"
+  website: "https://openstreetmap.org.ar/"
+  
+  # Canales adicionales (en desuso para este sitio)
+  twitter: "https://twitter.com/OpenStreetMapAR"  # No usado
+  facebook: "https://www.facebook.com/OpenStreetMapAR"  # No usado
+  youtube: "https://www.youtube.com/channel/UCY8ecMiXarIiOmcR17Ng2tQ"  # No usado
+  forum: "https://community.openstreetmap.org/c/communities/ar/"  # No usado
+  mailing_list: "https://lists.openstreetmap.org/listinfo/talk-ar"  # No usado
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Locale
+locale: "es_AR"
+timezone: "America/Argentina/Buenos_Aires"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  casos_exito:
+    output: true
+    permalink: /casos-exito/:name/
+  programa:
+    output: true
+    permalink: /programa/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "casos_exito"
+    values:
+      layout: "caso-exito"
+  - scope:
+      path: ""
+      type: "programa"
+    values:
+      layout: "programa"
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache

@@ -1,0 +1,156 @@
+---
+layout: default
+title: Encuentro OSM Argentina 2025
+include_map: true
+---
+
+<div class="hero-section">
+  {% include hero-flyer-elements.html %}
+  <div class="event-badge">
+    <h1>Encuentro OSM Argentina 2025</h1>
+    <h2>{{ site.event.date_short }}</h2>
+    <p>{{ site.event.location }}</p>
+    <p class="hero-subtitle">Comunidad y Estado</p>
+    <div class="hero-actions">
+      <a href="/flyer" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.9rem;">Ver flyer completo</a>
+    </div>
+  </div>
+</div>
+
+## 🎯 Sobre el Encuentro
+
+**Encuentro de la Comunidad de OpenStreetMap de Argentina** enfocado en el tema **"Comunidad y Estado"**, con mapatón, intercambio de experiencias y charlas temáticas sobre el uso de OpenStreetMap en organismos públicos.
+
+### 📍 Información del Evento
+
+- **📅 Fecha:** {{ site.event.date_formatted }}
+- **📍 Lugar:** {{ site.event.location }}
+- **👥 Modalidad:** Híbrida (presencial + virtual)
+
+### 👨‍💼 Chairman: {{ site.chairman.name }}
+
+**{{ site.chairman.experience }}** especializado en {{ site.chairman.specialty }}. [Ver perfil OSM]({{ site.chairman.osm_profile }})
+
+---
+
+## 🗓️ Programa del Encuentro
+
+<div class="programa-preview">
+  <div class="horario-item">
+    <div class="hora">8:30-9:00</div>
+    <div class="actividad">🎫 Acreditación</div>
+  </div>
+  
+  <div class="horario-item">
+    <div class="hora">9:00-9:30</div>
+    <div class="actividad">🎯 Apertura del Encuentro</div>
+  </div>
+  
+  <div class="horario-item">
+    <div class="hora">9:30-11:00</div>
+    <div class="actividad">💬 Charlas Temáticas - OSM en organismos públicos</div>
+  </div>
+  
+  <div class="horario-item">
+    <div class="hora">11:00-12:30</div>
+    <div class="actividad">🛠️ Talleres y Experiencias</div>
+  </div>
+  
+  <div class="horario-item">
+    <div class="hora">12:30-13:30</div>
+    <div class="actividad">🍽️ Almuerzo</div>
+  </div>
+  
+  <div class="horario-item destacado">
+    <div class="hora">13:30-18:00</div>
+    <div class="actividad">🗺️ Mapatón - Proyecto Escuelas OSM</div>
+  </div>
+  
+  <div class="horario-item">
+    <div class="hora">18:00</div>
+    <div class="actividad">🎯 Cierre - Propuesta SOTM 2026</div>
+  </div>
+</div>
+
+[Ver programa completo](/programa){:.btn .btn-outline}
+
+---
+
+## 🏫 Proyecto Especial: Escuelas OSM
+
+**Actividad principal del mapatón:** Mapear escuelas usando datos oficiales del Ministerio de Educación con **248 tareas** preparadas en MapRoulette.
+
+[Ver proyecto completo](/proyecto-escuelas){:.btn .btn-outline} [Participar en MapRoulette]({{ site.links.maproulette_lujan }}){:.btn .btn-success}
+
+---
+
+## 🏛️ Casos de Éxito
+
+**Pergamino** (10 años colaboración municipal) y **Misiones** (programa provincial) demuestran el potencial de integración OSM-Estado.
+
+[Ver casos detallados](/casos-exito){:.btn .btn-outline}
+
+---
+
+## 🔗 Enlaces y Comunidad
+
+<div class="enlaces-oficiales">
+  <a href="{{ site.links.osm_calendar }}" class="enlace-oficial">
+    📅 OSM Calendar
+  </a>
+  
+  <a href="{{ site.links.wiki }}" class="enlace-oficial">
+    📚 Wiki OSM
+  </a>
+  
+  <a href="{{ site.links.maproulette_project }}" class="enlace-oficial">
+    🗺️ MapRoulette
+  </a>
+</div>
+
+### 💬 Únete a la comunidad
+
+- **[Telegram @osm_ar]({{ site.social.telegram }})** - Canal principal de OSM Argentina
+- **[Instagram @OpenStreetMapAR]({{ site.social.instagram }})** - Fotos y actualizaciones
+- **[Web oficial]({{ site.social.website }})** - openstreetmap.org.ar
+
+---
+
+## 📍 Ubicación
+
+<div id="mapa-encuentro" style="height: 400px; margin: 2rem 0;"></div>
+
+**{{ site.event.location }}**  
+{{ site.event.address }}
+
+### 🚗 Cómo llegar
+- **En auto:** Ruta 5, salida Luján
+- **En transporte público:** Desde CABA, tren hasta Luján
+- **Coordenadas:** {{ site.event.coordinates[0] }}, {{ site.event.coordinates[1] }}
+
+---
+
+## 🎯 Participar
+
+### Para Participantes Presenciales
+1. **Confirmar asistencia** en [OSM Calendar]({{ site.links.osm_calendar }})
+2. **Preparar herramientas:** JOSM o iD editor
+3. **Cuenta OSM:** Tener usuario activo OpenStreetMap
+
+### Para Participantes Virtuales
+1. **Conexión híbrida** disponible
+2. **MapRoulette online:** Participación en tiempo real
+3. **Chat comunitario:** Coordinación durante el evento
+
+<div class="cta-buttons">
+  <a href="{{ site.links.inscripcion_oficial }}" target="_blank" class="btn btn-success btn-large">Inscribirse Ahora</a>
+  <a href="{{ site.links.osm_calendar }}" target="_blank" class="btn btn-outline btn-large">OSM Calendar</a>
+</div>
+
+---
+
+<div class="footer-evento">
+  <p><strong>Organiza:</strong> Comunidad OpenStreetMap Argentina</p>
+  <p><strong>Chairman:</strong> {{ site.chairman.name }}</p>
+  <p><strong>Anfitriona:</strong> Universidad Nacional de Luján</p>
+</div>

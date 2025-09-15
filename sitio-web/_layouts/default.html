@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    
+    <!-- SEO -->
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ '/assets/img/osm-ar-logo.png' | relative_url }}">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="OSM Argentina" class="logo">
+                    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
+                    <li class="nav-dropdown">
+                        <a href="{{ '/programa' | relative_url }}">Actividades</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{ '/programa' | relative_url }}">Programa</a></li>
+                            <li><a href="{{ '/casos-exito' | relative_url }}">Casos de Éxito</a></li>
+                            <li><a href="{{ '/proyecto-escuelas' | relative_url }}">Escuelas OSM</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="{{ '/sponsors' | relative_url }}">Sponsors</a></li>
+                    <li><a href="{{ '/flyer' | relative_url }}">Flyer</a></li>
+                    <li><a href="{{ '/participar' | relative_url }}">Participar</a></li>
+                    <li><a href="{{ site.links.inscripcion_oficial }}" target="_blank">Inscripción</a></li>
+                    <li><a href="{{ site.links.osm_calendar }}" target="_blank" class="btn-participar">Confirmar Asistencia</a></li>
+                </ul>
+                
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        {{ content }}
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>{{ site.event.date_short }}</h3>
+                <p>{{ site.event.location }}</p>
+                <p><strong>{{ site.chairman.name }}</strong> - <a href="{{ site.chairman.osm_profile }}" target="_blank">Chairman</a></p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="{{ site.links.inscripcion_oficial }}" target="_blank">Inscripción</a></li>
+                    <li><a href="{{ site.links.osm_calendar }}" target="_blank">OSM Calendar</a></li>
+                    <li><a href="{{ site.links.maproulette_lujan }}" target="_blank">MapRoulette</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Comunidad</h3>
+                <div class="social-compact">
+                    <a href="{{ site.social.telegram }}" target="_blank" title="Telegram @osm_ar">
+                        <img src="/assets/img/telegram-logo.svg" alt="Telegram">
+                        @osm_ar
+                    </a>
+                    <a href="{{ site.social.instagram }}" target="_blank" title="Instagram @OpenStreetMapAR">
+                        <img src="/assets/img/instagram-logo.svg" alt="Instagram">
+                        @OpenStreetMapAR
+                    </a>
+                    <a href="{{ site.social.website }}" target="_blank" title="OSM Argentina">
+                        🌐 openstreetmap.org.ar
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Comunidad OpenStreetMap Argentina. Contenido bajo licencia abierta.</p>
+        </div>
+    </footer>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    
+    <!-- Mapa específico para páginas que lo requieran -->
+    {% if page.include_map %}
+    <script>
+        // Inicializar mapa del encuentro
+        var map = L.map('mapa-encuentro').setView([{{ site.event.coordinates[0] }}, {{ site.event.coordinates[1] }}], 15);
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        
+        L.marker([{{ site.event.coordinates[0] }}, {{ site.event.coordinates[1] }}])
+            .addTo(map)
+            .bindPopup('<strong>{{ site.event.location }}</strong><br>{{ site.event.address }}');
+    </script>
+    {% endif %}
+</body>
+</html>
