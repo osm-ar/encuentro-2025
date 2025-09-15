@@ -6,6 +6,12 @@ description: "Encuentro de la Comunidad de OpenStreetMap de Argentina - 27 de se
 baseurl: "/encuentro-2025" # subpath of site for GitHub Pages
 url: "https://manureta.github.io" # base URL for site
 
+# Performance and SEO
+timezone: "America/Argentina/Buenos_Aires"
+lang: es-AR
+author: "OpenStreetMap Argentina"
+google_analytics: # Add Google Analytics ID if needed
+
 # Event details
 event:
   name: "Encuentro OSM Argentina 2025"

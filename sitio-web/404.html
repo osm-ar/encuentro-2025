@@ -1,0 +1,184 @@
+---
+layout: default
+title: Página no encontrada
+description: La página que buscas no existe en el sitio del Encuentro OSM Argentina 2025
+permalink: /404.html
+---
+
+<div class="error-page">
+  <div class="error-content">
+    <div class="error-visual">
+      <div class="error-number">404</div>
+      <div class="error-icon">🗺️</div>
+    </div>
+    
+    <h1>¡Ups! Página no encontrada</h1>
+    <p class="error-message">
+      La página que buscas no existe en nuestro mapa. 
+      Tal vez fue movida o la URL no es correcta.
+    </p>
+    
+    <div class="error-suggestions">
+      <h2>¿Qué puedes hacer?</h2>
+      <ul>
+        <li>Verifica que la URL esté escrita correctamente</li>
+        <li>Regresa a la <a href="{{ '/' | relative_url }}">página principal</a></li>
+        <li>Explora nuestras secciones principales:</li>
+      </ul>
+    </div>
+    
+    <div class="error-navigation">
+      <a href="{{ '/' | relative_url }}" class="btn btn-primary">🏠 Inicio</a>
+      <a href="{{ '/programa' | relative_url }}" class="btn btn-outline">📅 Programa</a>
+      <a href="{{ '/participar' | relative_url }}" class="btn btn-outline">👥 Participar</a>
+      <a href="{{ '/sponsors' | relative_url }}" class="btn btn-outline">🤝 Sponsors</a>
+    </div>
+    
+    <div class="error-contact">
+      <p>¿Sigues teniendo problemas? Contáctanos:</p>
+      <div class="contact-links">
+        <a href="{{ site.social.telegram }}" target="_blank">
+          <img src="{{ '/assets/img/telegram-logo.svg' | relative_url }}" alt="Telegram">
+          Telegram @osm_ar
+        </a>
+        <a href="{{ site.links.wiki }}" target="_blank">
+          📝 Wiki OSM Argentina
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.error-page {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.error-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.error-visual {
+  margin-bottom: 2rem;
+}
+
+.error-number {
+  font-size: 6rem;
+  font-weight: 900;
+  color: #2E5C8A;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.error-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.error-page h1 {
+  color: #2E5C8A;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.error-message {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.error-suggestions {
+  text-align: left;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #F4C430;
+}
+
+.error-suggestions h2 {
+  color: #2E5C8A;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.error-suggestions ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.error-suggestions li {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.error-navigation {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.error-contact {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.contact-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.contact-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #2E5C8A;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.contact-links a:hover {
+  background-color: #f8f9fa;
+}
+
+.contact-links img {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  .error-number {
+    font-size: 4rem;
+  }
+  
+  .error-page h1 {
+    font-size: 1.5rem;
+  }
+  
+  .error-navigation {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+</style>

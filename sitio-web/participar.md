@@ -176,6 +176,16 @@ El encuentro está abierto a toda la comunidad interesada en OpenStreetMap, desd
 - **Respetar diversidad de enfoques técnicos**
 - **Mantener un ambiente inclusivo y profesional**
 
+### **Alineación con la Comunidad OSM**
+
+Este encuentro sigue los principios establecidos por la comunidad OpenStreetMap:
+
+- **[Buenas Prácticas OSM](https://wiki.openstreetmap.org/wiki/ES:Buenas_prácticas)**: Directrices que aumentan la calidad de nuestros datos cartográficos
+- **[Código de Conducta Comunitario](https://wiki.openstreetmap.org/wiki/Community_Code_of_Conduct_(Draft))**: Normas para comunicación respetuosa en canales oficiales
+- **[Contribuir a los Datos del Mapa](https://wiki.openstreetmap.org/wiki/ES:Contribuir_a_los_datos_del_mapa)**: Principios fundamentales para edición colaborativa
+
+**Nota importante:** Como en toda la comunidad OSM, la participación es voluntaria y basada en consenso, no en imposición de reglas.
+
 ---
 
 ## 📞 Contacto y Soporte

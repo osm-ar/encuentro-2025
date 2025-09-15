@@ -1,19 +1,31 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casos de Éxito - Encuentro OSM Argentina 2025</title>
+    
+    <!-- Skip navigation link for screen readers -->
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
     
     <!-- SEO -->
     <meta name="description" content="Encuentro de la Comunidad de OpenStreetMap de Argentina - 27 de septiembre 2025, Universidad Nacional de Luján">
     <meta property="og:title" content="Casos de Éxito">
     <meta property="og:description" content="Encuentro de la Comunidad de OpenStreetMap de Argentina - 27 de septiembre 2025, Universidad Nacional de Luján">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://0.0.0.0:4000/casos-exito/">
+    <meta property="og:url" content="http://localhost:4000/casos-exito/">
+    
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//unpkg.com">
+    
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"></noscript>
     
     <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/assets/css/main.css">
@@ -41,22 +53,23 @@
                         </ul>
                     </li>
                     <li><a href="/sponsors">Sponsors</a></li>
+                    <li><a href="/faq">FAQ</a></li>
                     <li><a href="/flyer">Flyer</a></li>
                     <li><a href="/participar">Participar</a></li>
                     <li><a href="https://tinyurl.com/osm-lujan" target="_blank">Inscripción</a></li>
                     <li><a href="https://osmcal.org/event/4002/" target="_blank" class="btn-participar">Confirmar Asistencia</a></li>
                 </ul>
                 
-                <div class="nav-toggle">
+                <button class="nav-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
                     <span></span>
                     <span></span>
                     <span></span>
-                </div>
+                </button>
             </div>
         </nav>
     </header>
 
-    <main class="site-main">
+    <main class="site-main" id="main-content" role="main">
         <article class="page-content">
     <header class="page-header">
         <h1>Casos de Éxito</h1>
@@ -561,7 +574,7 @@
             <div class="footer-section">
                 <h3>27 de septiembre de 2025</h3>
                 <p>Universidad Nacional de Luján</p>
-                <p><strong>Andrés Duhour</strong> - <a href="https://www.openstreetmap.org/user/AndresDuhour" target="_blank">Chairman</a></p>
+                <p><strong>Andrés Duhour</strong> - <a href="https://www.openstreetmap.org/user/AndresDuhour" target="_blank">Coordinador</a></p>
             </div>
             
             <div class="footer-section">
@@ -597,7 +610,8 @@
     </footer>
 
     <!-- Leaflet JS -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     
     <!-- Custom JS -->
     <script src="/assets/js/main.js"></script>

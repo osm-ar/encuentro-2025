@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro Directo - Encuentro OSM Argentina 2025</title>
+    <title>Página no encontrada - Encuentro OSM Argentina 2025</title>
     
     <!-- Skip navigation link for screen readers -->
     <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
     
     <!-- SEO -->
-    <meta name="description" content="Encuentro de la Comunidad de OpenStreetMap de Argentina - 27 de septiembre 2025, Universidad Nacional de Luján">
-    <meta property="og:title" content="Registro Directo">
-    <meta property="og:description" content="Encuentro de la Comunidad de OpenStreetMap de Argentina - 27 de septiembre 2025, Universidad Nacional de Luján">
+    <meta name="description" content="La página que buscas no existe en el sitio del Encuentro OSM Argentina 2025">
+    <meta property="og:title" content="Página no encontrada">
+    <meta property="og:description" content="La página que buscas no existe en el sitio del Encuentro OSM Argentina 2025">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://localhost:4000/registro/">
+    <meta property="og:url" content="http://localhost:4000/404.html">
     
     <!-- DNS prefetch for external resources -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -70,78 +70,183 @@
     </header>
 
     <main class="site-main" id="main-content" role="main">
-        <article class="page-content">
-    <header class="page-header">
-        <h1>Registro Directo</h1>
-        
-            <p class="page-subtitle">Formulario embebido para inscripción inmediata</p>
-        
-        
-    </header>
+        <div class="error-page">
+  <div class="error-content">
+    <div class="error-visual">
+      <div class="error-number">404</div>
+      <div class="error-icon">🗺️</div>
+    </div>
     
-    <div class="page-body">
-        <h2 id="-formulario-de-inscripción">📝 Formulario de Inscripción</h2>
-
-<div class="formulario-container">
-  <div class="formulario-embed">
-    <iframe src="https://ee.kobotoolbox.org/single/5b9841bb7a69d0ff5668b369272169e6" width="100%" height="900" frameborder="0" style="border: none; border-radius: 8px;">
-    </iframe>
+    <h1>¡Ups! Página no encontrada</h1>
+    <p class="error-message">
+      La página que buscas no existe en nuestro mapa. 
+      Tal vez fue movida o la URL no es correcta.
+    </p>
+    
+    <div class="error-suggestions">
+      <h2>¿Qué puedes hacer?</h2>
+      <ul>
+        <li>Verifica que la URL esté escrita correctamente</li>
+        <li>Regresa a la <a href="/">página principal</a></li>
+        <li>Explora nuestras secciones principales:</li>
+      </ul>
+    </div>
+    
+    <div class="error-navigation">
+      <a href="/" class="btn btn-primary">🏠 Inicio</a>
+      <a href="/programa" class="btn btn-outline">📅 Programa</a>
+      <a href="/participar" class="btn btn-outline">👥 Participar</a>
+      <a href="/sponsors" class="btn btn-outline">🤝 Sponsors</a>
+    </div>
+    
+    <div class="error-contact">
+      <p>¿Sigues teniendo problemas? Contáctanos:</p>
+      <div class="contact-links">
+        <a href="https://t.me/osm_ar" target="_blank">
+          <img src="/assets/img/telegram-logo.svg" alt="Telegram">
+          Telegram @osm_ar
+        </a>
+        <a href="https://wiki.openstreetmap.org/wiki/ES:Argentina/Eventos/Encuentro_de_la_Comunidad_2025" target="_blank">
+          📝 Wiki OSM Argentina
+        </a>
+      </div>
+    </div>
   </div>
-  
-  <div class="formulario-alternativo">
-    <p><strong>¿Problemas con el formulario?</strong></p>
-    <a href="https://tinyurl.com/osm-lujan" target="_blank" class="btn btn-primary">
-      Abrir en Nueva Ventana
-    </a>
-    <a href="/inscripcion" class="btn btn-outline">
-      Ver Información Completa
-    </a>
-  </div>
-</div>
-
-<hr />
-
-<div class="registro-footer">
-  <h3>✅ Después de Registrarte</h3>
-  <p>Una vez completado el formulario:</p>
-  <ul>
-    <li>Recibirás confirmación por email</li>
-    <li>Revisa el <a href="/programa">programa completo</a></li>
-    <li>Únete al <a href="https://osmcal.org/event/4002/" target="_blank">evento en OSM Calendar</a></li>
-    <li>Prepárate para el <a href="/proyecto-escuelas">mapatón de escuelas</a></li>
-  </ul>
 </div>
 
 <style>
-.registro-footer {
-  max-width: 800px;
-  margin: 2rem auto;
+.error-page {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 2rem;
-  background: #f8f9fa;
-  border-radius: 8px;
-  border-left: 4px solid #28a745;
+  text-align: center;
 }
 
-.registro-footer h3 {
+.error-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.error-visual {
+  margin-bottom: 2rem;
+}
+
+.error-number {
+  font-size: 6rem;
+  font-weight: 900;
   color: #2E5C8A;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.error-icon {
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
 
-.registro-footer ul {
-  margin: 1rem 0;
+.error-page h1 {
+  color: #2E5C8A;
+  margin-bottom: 1rem;
+  font-size: 2rem;
 }
 
-.registro-footer li {
-  margin: 0.5rem 0;
-  line-height: 1.5;
+.error-message {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.error-suggestions {
+  text-align: left;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #F4C430;
+}
+
+.error-suggestions h2 {
+  color: #2E5C8A;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.error-suggestions ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.error-suggestions li {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.error-navigation {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.error-contact {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.contact-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.contact-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #2E5C8A;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.contact-links a:hover {
+  background-color: #f8f9fa;
+}
+
+.contact-links img {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  .error-number {
+    font-size: 4rem;
+  }
+  
+  .error-page h1 {
+    font-size: 1.5rem;
+  }
+  
+  .error-navigation {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-links {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 </style>
-
-
-    </div>
-    
-    
-</article>
     </main>
 
     <footer class="site-footer">
