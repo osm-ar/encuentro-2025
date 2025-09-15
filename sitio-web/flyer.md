@@ -9,13 +9,13 @@ subtitle: Difundí el Encuentro OSM Argentina 2025
   
   <p>Compartí la información del encuentro usando nuestro flyer oficial. ¡Ayudanos a llegar a más maperos!</p>
   
-  <img src="/assets/img/flyer_encuentro_oficial.jpg" alt="Flyer Oficial Encuentro OSM Argentina 2025" class="flyer-image">
+  <img src="{{ '/assets/img/flyer_encuentro_oficial.jpg' | relative_url }}" alt="Flyer Oficial Encuentro OSM Argentina 2025" class="flyer-image">
   
   <div class="flyer-actions">
-    <a href="/assets/img/flyer_encuentro_oficial.jpg" download="encuentro_osm_argentina_2025_flyer.jpg" class="btn btn-primary btn-large">
+    <a href="{{ '/assets/img/flyer_encuentro_oficial.jpg' | relative_url }}" download="encuentro_osm_argentina_2025_flyer.jpg" class="btn btn-primary btn-large">
       📥 Descargar Flyer (JPG)
     </a>
-    <a href="/assets/img/flyer_encuentro_oficial.jpg" target="_blank" class="btn btn-outline btn-large">
+    <a href="{{ '/assets/img/flyer_encuentro_oficial.jpg' | relative_url }}" target="_blank" class="btn btn-outline btn-large">
       🔍 Ver en Tamaño Original
     </a>
   </div>

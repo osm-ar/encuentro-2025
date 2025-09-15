@@ -14,14 +14,14 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
     <div class="sponsor-flip-card">
       <div class="sponsor-flip-inner">
         <div class="sponsor-flip-front">
-          <img src="/assets/img/logo_unlu.png" alt="Universidad Nacional de Luján">
+          <img src="{{ '/assets/img/logo_unlu.png' | relative_url }}" alt="Universidad Nacional de Luján">
           <h4>{{ site.event.location }}</h4>
           <p><strong>Sede Oficial</strong></p>
           <div class="flip-hint">Más información</div>
         </div>
         <div class="sponsor-flip-back sponsor-oficial">
           <div class="back-header">
-            <img src="/assets/img/logo_unlu.png" alt="UNLu" class="back-logo">
+            <img src="{{ '/assets/img/logo_unlu.png' | relative_url }}" alt="UNLu" class="back-logo">
             <h4>Universidad Nacional de Luján</h4>
           </div>
           <div class="sponsor-details">
@@ -45,14 +45,14 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
     <div class="sponsor-flip-card">
       <div class="sponsor-flip-inner">
         <div class="sponsor-flip-front">
-          <img src="/assets/img/osm-ar-logo.png" alt="OpenStreetMap Argentina">
+          <img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="OpenStreetMap Argentina">
           <h4>OpenStreetMap Argentina</h4>
           <p><strong>Organizador Principal</strong></p>
           <div class="flip-hint">Más información</div>
         </div>
         <div class="sponsor-flip-back sponsor-academico">
           <div class="back-header">
-            <img src="/assets/img/osm-ar-logo.png" alt="OSM Argentina" class="back-logo">
+            <img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="OSM Argentina" class="back-logo">
             <h4>OpenStreetMap Argentina</h4>
           </div>
           <div class="sponsor-details">
@@ -73,17 +73,18 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
     </div>
     
     <!-- GeoLibres Argentina -->
+    <!-- --hide-- 
     <div class="sponsor-flip-card">
       <div class="sponsor-flip-inner">
         <div class="sponsor-flip-front">
-          <img src="/assets/img/logo_geolibres.png" alt="GeoLibres Argentina">
+          <img src="{{ '/assets/img/logo_geolibres.png' | relative_url }}" alt="GeoLibres Argentina">
           <h4>GeoLibres Argentina</h4>
           <p><strong>Asociación Civil</strong></p>
           <div class="flip-hint">Más información</div>
         </div>
         <div class="sponsor-flip-back sponsor-oficial">
           <div class="back-header">
-            <img src="/assets/img/logo_geolibres.png" alt="GeoLibres" class="back-logo">
+            <img src="{{ '/assets/img/logo_geolibres.png' | relative_url }}" alt="GeoLibres" class="back-logo">
             <h4>GeoLibres Argentina</h4>
           </div>
           <div class="sponsor-details">
@@ -102,19 +103,21 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
         </div>
       </div>
     </div>
+    -->
     
     <!-- Kaart -->
+    <!-- --hide--
     <div class="sponsor-flip-card">
       <div class="sponsor-flip-inner">
         <div class="sponsor-flip-front">
-          <img src="/assets/img/logo_kaart_official.svg" alt="Kaart">
+          <img src="{{ '/assets/img/logo_kaart_official.svg' | relative_url }}" alt="Kaart">
           <h4>Kaart</h4>
           <p><strong>Sponsor Técnico</strong></p>
           <div class="flip-hint">Más información</div>
         </div>
         <div class="sponsor-flip-back sponsor-oficial">
           <div class="back-header">
-            <img src="/assets/img/logo_kaart_official.svg" alt="Kaart" class="back-logo">
+            <img src="{{ '/assets/img/logo_kaart_official.svg' | relative_url }}" alt="Kaart" class="back-logo">
             <h4>Kaart</h4>
           </div>
           <div class="sponsor-details">
@@ -133,19 +136,21 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
         </div>
       </div>
     </div>
+    -->
     
     <!-- TomTom -->
+    <!-- --hide--
     <div class="sponsor-flip-card">
       <div class="sponsor-flip-inner">
         <div class="sponsor-flip-front">
-          <img src="/assets/img/logo_tomtom.svg" alt="TomTom">
+          <img src="{{ '/assets/img/logo_tomtom.svg' | relative_url }}" alt="TomTom">
           <h4>TomTom</h4>
           <p><strong>Sponsor Tecnológico</strong></p>
           <div class="flip-hint">Más información</div>
         </div>
         <div class="sponsor-flip-back sponsor-oficial">
           <div class="back-header">
-            <img src="/assets/img/logo_tomtom.svg" alt="TomTom" class="back-logo">
+            <img src="{{ '/assets/img/logo_tomtom.svg' | relative_url }}" alt="TomTom" class="back-logo">
             <h4>TomTom</h4>
           </div>
           <div class="sponsor-details">
@@ -164,19 +169,20 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
         </div>
       </div>
     </div>
+    -->
     
     <!-- Geoinquiet@s Argentina -->
     <div class="sponsor-flip-card">
       <div class="sponsor-flip-inner">
         <div class="sponsor-flip-front">
-          <img src="/assets/img/logo_geoinquietos_ar_oficial.png" alt="Geoinquiet@s Argentina">
+          <img src="{{ '/assets/img/logo_geoinquietos_ar_oficial.png' | relative_url }}" alt="Geoinquiet@s Argentina">
           <h4>Geoinquiet@s Argentina</h4>
           <p><strong>Comunidad Hermana</strong></p>
           <div class="flip-hint">Más información</div>
         </div>
         <div class="sponsor-flip-back sponsor-colaborador">
           <div class="back-header">
-            <img src="/assets/img/logo_geoinquietos_ar_oficial.png" alt="Geoinquiet@s" class="back-logo">
+            <img src="{{ '/assets/img/logo_geoinquietos_ar_oficial.png' | relative_url }}" alt="Geoinquiet@s" class="back-logo">
             <h4>Geoinquiet@s Argentina</h4>
           </div>
           <div class="sponsor-details">
