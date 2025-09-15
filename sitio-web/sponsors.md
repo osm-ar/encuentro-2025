@@ -206,14 +206,14 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
     <div class="sponsor-flip-card">
       <div class="sponsor-flip-inner">
         <div class="sponsor-flip-front">
-          <div class="logo-placeholder">🏛️</div>
+          <img src="{{ '/assets/img/logo_pergamino.png' | relative_url }}" alt="Municipalidad de Pergamino">
           <h4>Municipalidad de Pergamino</h4>
           <p><strong>Aliado Institucional</strong></p>
           <div class="flip-hint">Más información</div>
         </div>
         <div class="sponsor-flip-back sponsor-colaborador">
           <div class="back-header">
-            <div class="logo-placeholder small">🏛️</div>
+            <img src="{{ '/assets/img/logo_pergamino.png' | relative_url }}" alt="Pergamino" class="back-logo">
             <h4>Municipalidad de Pergamino</h4>
           </div>
           <div class="sponsor-details">
@@ -237,14 +237,14 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
     <div class="sponsor-flip-card">
       <div class="sponsor-flip-inner">
         <div class="sponsor-flip-front">
-          <div class="logo-placeholder">🌿</div>
+          <img src="{{ '/assets/img/logo_misiones.png' | relative_url }}" alt="Gobierno de Misiones">
           <h4>Modernización Misiones</h4>
           <p><strong>Aliado Provincial</strong></p>
           <div class="flip-hint">Más información</div>
         </div>
         <div class="sponsor-flip-back sponsor-colaborador">
           <div class="back-header">
-            <div class="logo-placeholder small">🌿</div>
+            <img src="{{ '/assets/img/logo_misiones.png' | relative_url }}" alt="Misiones" class="back-logo">
             <h4>Gobierno de Misiones</h4>
           </div>
           <div class="sponsor-details">
@@ -381,9 +381,9 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
   display: flex;
   align-items: center;
   gap: 0.8rem;
-  margin-bottom: 1rem;
-  padding-bottom: 0.8rem;
-  border-bottom: 2px solid rgba(255,255,255,0.3);
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
 }
 
 .back-logo {
@@ -398,8 +398,9 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
 .back-header h4 {
   color: white;
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
+  line-height: 1.2;
 }
 
 .sponsor-flip-back h4 {
