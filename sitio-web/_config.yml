@@ -18,7 +18,7 @@ event:
   address: "Ruta 5 y Avenida Constitución, Luján, Buenos Aires"
   coordinates: [-34.578776, -59.086683]
 
-# Chairman
+# Coordinador (facilitador de consensos)
 chairman:
   name: "Andrés Duhour"
   osm_profile: "https://www.openstreetmap.org/user/AndresDuhour"

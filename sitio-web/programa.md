@@ -32,7 +32,7 @@ subtitle: Cronograma completo - 27 de septiembre de 2025
 
 ### 🎯 **9:00 - 9:30** | Presentación y Apertura del Encuentro {#apertura}
 
-**Chairman:** **Andrés Duhour** (10+ años OSM, especialista Río Luján)
+**Coordinador:** **Andrés Duhour** (10+ años OSM, especialista Río Luján)
 
 - Bienvenida a la comunidad OSM Argentina
 - Objetivos del encuentro: "Comunidad y Estado"
@@ -117,7 +117,7 @@ subtitle: Cronograma completo - 27 de septiembre de 2025
 
 ### 🎯 **18:00** | Cierre de la Actividad {#cierre}
 
-**Chairman:** **Andrés Duhour**
+**Coordinador:** **Andrés Duhour**
 
 - **Propuesta de organización** de la conferencia **State Of The Map Argentina en 2026**
 - Próximos pasos para la comunidad OSM Argentina
@@ -190,5 +190,5 @@ subtitle: Cronograma completo - 27 de septiembre de 2025
 <div class="programa-footer">
   <p><strong>📍 Ubicación:</strong> Universidad Nacional de Luján - Ruta 5 y Avenida Constitución, Luján</p>
   <p><strong>🕘 Horario:</strong> 8:30 a 18:00 - Modalidad híbrida</p>
-  <p><strong>👨‍💼 Chairman:</strong> Andrés Duhour - <a href="{{ site.chairman.osm_profile }}" target="_blank">Ver perfil OSM</a></p>
+  <p><strong>👨‍💼 Coordinador:</strong> Andrés Duhour - <a href="{{ site.chairman.osm_profile }}" target="_blank">Ver perfil OSM</a></p>
 </div>

@@ -186,15 +186,16 @@ El encuentro está abierto a toda la comunidad interesada en OpenStreetMap, desd
 - **Preparación:** Recursos en sección correspondiente
 
 ### **Durante el Encuentro**
-- **Soporte técnico:** Andrés Duhour (Chairman)
+- **Soporte técnico:** Andrés Duhour (Coordinador)
 - **Ayuda general:** Equipo organizador disponible
 - **Chat en vivo:** Para participantes virtuales
 
-### **Chairman del Encuentro**
-**Andrés Duhour**  
+### **Coordinador del Encuentro**
+**Andrés Duhour** - *Facilitador de consensos y última palabra en decisiones operativas*  
 - **Perfil OSM:** [AndresDuhour]({{ site.chairman.osm_profile }})
 - **Experiencia:** {{ site.chairman.experience }}
 - **Especialización:** {{ site.chairman.specialty }}
+- **Filosofía:** Comunidad de pares con coordinación horizontal siguiendo principios OSM
 
 ---
 

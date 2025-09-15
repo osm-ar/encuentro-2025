@@ -96,6 +96,14 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
 - Comunidades especializadas
 - Medios de comunicación
 
+### 🌐 Comunidades Hermanas
+**Geoinquiet@s Argentina**
+- Comunidad de software libre para geomática (FOSS4G)
+- Promoción de herramientas abiertas para información geoespacial
+- Apoyo en difusión y participación técnica
+- Red colaborativa de profesionales GIS y desarrolladores
+- [Telegram Geoinquiet@s Argentina](https://t.me/geoinquietosar)
+
 ---
 
 ## 🚀 Impacto de la Colaboración
@@ -133,7 +141,7 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
 <div class="sponsors-call">
   <h3>🤝 ¿Querés ser parte?</h3>
   <p>Si tu organización está interesada en apoyar futuros encuentros de la comunidad OpenStreetMap Argentina, contactanos:</p>
-  <p><strong>Chairman:</strong> Andrés Duhour - [Ver perfil OSM]({{ site.chairman.osm_profile }})</p>
+  <p><strong>Coordinador:</strong> Andrés Duhour - [Ver perfil OSM]({{ site.chairman.osm_profile }})</p>
   <p><strong>Wiki:</strong> [Información de contacto]({{ site.links.wiki }})</p>
   
   <div style="margin-top: 1.5rem;">
@@ -155,7 +163,7 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
     <h4>Colaboradores Principales</h4>
     <a href="{{ site.event.location_url }}" target="_blank">{{ site.event.location }}</a>
     <a href="{{ site.links.wiki }}" target="_blank">OSM Argentina Wiki</a>
-    <a href="{{ site.chairman.osm_profile }}" target="_blank">Chairman OSM Profile</a>
+    <a href="{{ site.chairman.osm_profile }}" target="_blank">Coordinador OSM Profile</a>
   </div>
   
   <div class="recurso-grupo">

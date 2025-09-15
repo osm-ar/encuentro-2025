@@ -27,7 +27,7 @@ include_map: true
 - **📍 Lugar:** {{ site.event.location }}
 - **👥 Modalidad:** Híbrida (presencial + virtual)
 
-### 👨‍💼 Chairman: {{ site.chairman.name }}
+### 👨‍💼 Coordinador: {{ site.chairman.name }}
 
 **{{ site.chairman.experience }}** especializado en {{ site.chairman.specialty }}. [Ver perfil OSM]({{ site.chairman.osm_profile }})
 
@@ -151,6 +151,6 @@ include_map: true
 
 <div class="footer-evento">
   <p><strong>Organiza:</strong> Comunidad OpenStreetMap Argentina</p>
-  <p><strong>Chairman:</strong> {{ site.chairman.name }}</p>
+  <p><strong>Coordinador:</strong> {{ site.chairman.name }}</p>
   <p><strong>Anfitriona:</strong> Universidad Nacional de Luján</p>
 </div>

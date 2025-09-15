@@ -68,7 +68,7 @@ Complete el formulario oficial para confirmar su participación en el **Encuentr
 
 **¿Dudas sobre la inscripción?**
 
-- **Chairman:** Andrés Duhour - [Ver perfil OSM]({{ site.chairman.osm_profile }})
+- **Coordinador:** Andrés Duhour - [Ver perfil OSM]({{ site.chairman.osm_profile }})
 - **OSM Calendar:** [Evento oficial]({{ site.links.osm_calendar }})
 - **Wiki:** [Información completa]({{ site.links.wiki }})
 
