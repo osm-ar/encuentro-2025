@@ -3,8 +3,8 @@
 # Site settings
 title: "Encuentro OSM Argentina 2025"
 description: "Encuentro de la Comunidad de OpenStreetMap de Argentina - 27 de septiembre 2025, Universidad Nacional de Luján"
-baseurl: "" # subpath of site, e.g. /blog
-url: "https://osm-argentina.github.io/encuentro-2025" # base URL for site
+baseurl: "/encuentro-2025" # subpath of site for GitHub Pages
+url: "https://manureta.github.io" # base URL for site
 
 # Event details
 event:
