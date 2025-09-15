@@ -5,9 +5,11 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
 ---
 
 <div class="sponsors-section">
-  <h2>🤝 Nuestros Aliados</h2>
+  <div class="sponsors-intro">
+    <p>El Encuentro OSM Argentina 2025 es posible gracias al apoyo y colaboración de instituciones comprometidas con el mapeo colaborativo y la innovación territorial.</p>
+  </div>
   
-  <p>El Encuentro OSM Argentina 2025 es posible gracias al apoyo y colaboración de instituciones comprometidas con el mapeo colaborativo y la innovación territorial.</p>
+  <h2>🤝 Nuestros Aliados</h2>
   
   <div class="sponsors-flip-grid">
     <!-- Sponsor Principal -->
@@ -263,9 +265,118 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
         </div>
       </div>
     </div>
+    
+    <!-- Invitación Sponsor Técnico -->
+    <div class="sponsor-flip-card invitation-card">
+      <div class="sponsor-flip-inner">
+        <div class="sponsor-flip-front invitation-front">
+          <div class="invitation-icon">🚀</div>
+          <h4>¿Empresa Tecnológica?</h4>
+          <p><strong>Sponsor Técnico</strong></p>
+          <div class="flip-hint">¡Sumate al encuentro!</div>
+        </div>
+        <div class="sponsor-flip-back invitation-back">
+          <div class="back-header">
+            <div class="invitation-icon small">🚀</div>
+            <h4>Sponsor Técnico</h4>
+          </div>
+          <div class="sponsor-details">
+            <p><strong>Beneficios:</strong> Visibilidad en comunidad OSM</p>
+            <ul>
+              <li>📱 Logo en sitio web</li>
+              <li>🎤 Espacio para charla técnica</li>
+              <li>🌐 Networking con desarrolladores</li>
+            </ul>
+            <div class="sponsor-metric">
+              <a href="{{ site.links.wiki }}" target="_blank" class="external-link">
+                📧 Contactar para auspiciar
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Invitación Sponsor Institucional -->
+    <div class="sponsor-flip-card invitation-card">
+      <div class="sponsor-flip-inner">
+        <div class="sponsor-flip-front invitation-front">
+          <div class="invitation-icon">🏛️</div>
+          <h4>¿Organismo Público?</h4>
+          <p><strong>Sponsor Institucional</strong></p>
+          <div class="flip-hint">¡Sumate al encuentro!</div>
+        </div>
+        <div class="sponsor-flip-back invitation-back">
+          <div class="back-header">
+            <div class="invitation-icon small">🏛️</div>
+            <h4>Sponsor Institucional</h4>
+          </div>
+          <div class="sponsor-details">
+            <p><strong>Beneficios:</strong> Colaboración comunidad-estado</p>
+            <ul>
+              <li>🤝 Casos de éxito documentados</li>
+              <li>📊 Presentación de proyectos</li>
+              <li>👥 Red de contactos técnicos</li>
+            </ul>
+            <div class="sponsor-metric">
+              <a href="{{ site.links.wiki }}" target="_blank" class="external-link">
+                📧 Contactar para colaborar
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Invitación Sponsor Académico -->
+    <div class="sponsor-flip-card invitation-card">
+      <div class="sponsor-flip-inner">
+        <div class="sponsor-flip-front invitation-front">
+          <div class="invitation-icon">🎓</div>
+          <h4>¿Universidad/Centro?</h4>
+          <p><strong>Sponsor Académico</strong></p>
+          <div class="flip-hint">¡Sumate al encuentro!</div>
+        </div>
+        <div class="sponsor-flip-back invitation-back">
+          <div class="back-header">
+            <div class="invitation-icon small">🎓</div>
+            <h4>Sponsor Académico</h4>
+          </div>
+          <div class="sponsor-details">
+            <p><strong>Beneficios:</strong> Investigación y educación</p>
+            <ul>
+              <li>📚 Contenido académico</li>
+              <li>🔬 Casos de estudio</li>
+              <li>👨‍🎓 Networking estudiantes</li>
+            </ul>
+            <div class="sponsor-metric">
+              <a href="{{ site.links.wiki }}" target="_blank" class="external-link">
+                📧 Contactar para participar
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 <style>
+.sponsors-intro {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+  text-align: center;
+  border-left: 4px solid #F4C430;
+}
+
+.sponsors-intro p {
+  font-size: 1.1rem;
+  color: #2E5C8A;
+  margin: 0;
+  font-weight: 500;
+}
+
 .sponsors-flip-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -469,6 +580,49 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
 .external-link:hover {
   color: white;
   text-decoration: underline;
+}
+
+/* Invitation Cards */
+.invitation-card .sponsor-flip-front {
+  background: linear-gradient(135deg, #F4C430, #FFD700);
+  border: 2px dashed #2E5C8A;
+}
+
+.invitation-front {
+  background: linear-gradient(135deg, #F4C430, #FFD700) !important;
+  color: #2E5C8A;
+}
+
+.invitation-front h4 {
+  color: #2E5C8A !important;
+  font-weight: 700;
+}
+
+.invitation-front p {
+  color: #2E5C8A !important;
+  font-weight: 600;
+}
+
+.invitation-front .flip-hint {
+  background: rgba(46, 92, 138, 0.1);
+  color: #2E5C8A;
+  font-weight: 600;
+}
+
+.invitation-back {
+  background: linear-gradient(135deg, #2E5C8A, #75AADB) !important;
+  color: white;
+}
+
+.invitation-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+.invitation-icon.small {
+  font-size: 1.5rem;
+  margin: 0;
 }
 
 /* Mobile optimizations */
