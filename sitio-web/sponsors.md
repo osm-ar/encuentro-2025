@@ -201,6 +201,68 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
         </div>
       </div>
     </div>
+    
+    <!-- Municipalidad de Pergamino -->
+    <div class="sponsor-flip-card">
+      <div class="sponsor-flip-inner">
+        <div class="sponsor-flip-front">
+          <div class="logo-placeholder">🏛️</div>
+          <h4>Municipalidad de Pergamino</h4>
+          <p><strong>Aliado Institucional</strong></p>
+          <div class="flip-hint">Más información</div>
+        </div>
+        <div class="sponsor-flip-back sponsor-colaborador">
+          <div class="back-header">
+            <div class="logo-placeholder small">🏛️</div>
+            <h4>Municipalidad de Pergamino</h4>
+          </div>
+          <div class="sponsor-details">
+            <p><strong>Experiencia:</strong> 10 años colaborando con OSM</p>
+            <ul>
+              <li>📊 2,246 ediciones OSM oficiales</li>
+              <li>🌐 IDE municipal con 200+ capas</li>
+              <li>🎓 Capacitación en IDERA 2025</li>
+            </ul>
+            <div class="sponsor-metric">
+              <a href="http://ide.pergamino.gob.ar" target="_blank" class="external-link">
+                🌐 IDE Pergamino
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Gobierno de Misiones -->
+    <div class="sponsor-flip-card">
+      <div class="sponsor-flip-inner">
+        <div class="sponsor-flip-front">
+          <div class="logo-placeholder">🌿</div>
+          <h4>Modernización Misiones</h4>
+          <p><strong>Aliado Provincial</strong></p>
+          <div class="flip-hint">Más información</div>
+        </div>
+        <div class="sponsor-flip-back sponsor-colaborador">
+          <div class="back-header">
+            <div class="logo-placeholder small">🌿</div>
+            <h4>Gobierno de Misiones</h4>
+          </div>
+          <div class="sponsor-details">
+            <p><strong>Programa:</strong> Capacitación OSM 2017</p>
+            <ul>
+              <li>👥 15+ organismos capacitados</li>
+              <li>📚 Curso intensivo 3 días</li>
+              <li>🏛️ Metodología inter-institucional</li>
+            </ul>
+            <div class="sponsor-metric">
+              <a href="https://www.modernizacion.misiones.gov.ar/curso-de-mapeo-colaborativo-con-openstreetmap/" target="_blank" class="external-link">
+                🌐 Programa OSM Misiones
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 <style>
@@ -279,6 +341,17 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
   max-width: 200px;
   object-fit: contain;
   margin-bottom: 1rem;
+}
+
+.logo-placeholder {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+
+.logo-placeholder.small {
+  font-size: 1.5rem;
+  margin: 0;
 }
 
 .sponsor-flip-front h4 {
