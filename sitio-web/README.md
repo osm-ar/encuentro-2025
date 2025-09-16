@@ -84,6 +84,29 @@ Para GitHub Pages:
 3. Configurar custom domain si es necesario
 4. Push del código → Deploy automático con GitHub Actions
 
+### 🤝 Workflow de Contribución
+
+Para contribuir al sitio web:
+
+1. **Fork del repositorio:** `osm-ar/encuentro-2025`
+2. **Crear rama:** `git checkout -b feature/nombre-cambio`
+3. **Desarrollo local:**
+   ```bash
+   cd sitio-web/
+   bundle install
+   bundle exec jekyll serve
+   ```
+4. **Probar cambios** en desarrollo local
+5. **Commit y push** a tu fork
+6. **Pull Request** a `osm-ar/encuentro-2025`
+
+### 📊 Funcionalidades Implementadas Recientemente
+
+- ✅ **Métricas mejoradas** - Cards interactivas con iconos y animaciones
+- ✅ **Logo UNLu Ciencias Básicas** - Departamento anfitrión agregado
+- ✅ **Info transporte público** - Detalles de acceso en FAQ
+- ✅ **URLs oficiales** - Referencias corregidas a sitio osm-ar
+
 ### 📊 Próximas Funcionalidades
 
 - [ ] Countdown timer hacia el evento

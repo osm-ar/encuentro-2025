@@ -36,10 +36,10 @@ sitio-web/           # Fuentes Jekyll
 └── _site/           # Generado automáticamente
 ```
 
-### 5. URL del Sitio
+### 5. URLs del Sitio
 
-Una vez configurado estará disponible en:
-**https://manureta.github.io/encuentro-2025**
+- **Sitio oficial:** https://osm-ar.github.io/encuentro-2025/
+- **Sitio de desarrollo:** https://manureta.github.io/encuentro-2025/
 
 ### 6. Troubleshooting
 
@@ -49,7 +49,8 @@ Si el deploy falla:
 2. **Baseurl correcto** en `_config.yml`:
    ```yaml
    baseurl: "/encuentro-2025"
-   url: "https://manureta.github.io"
+   url: "https://osm-ar.github.io"  # Para sitio oficial
+   url: "https://manureta.github.io" # Para desarrollo
    ```
 3. **Dependencias** actualizadas en `Gemfile.lock`
 4. **Symlinks removidos** (no compatibles con GitHub Pages)
