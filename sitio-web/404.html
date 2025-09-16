@@ -3,13 +3,16 @@ layout: default
 title: Página no encontrada
 description: La página que buscas no existe en el sitio del Encuentro OSM Argentina 2025
 permalink: /404.html
+sitemap: false
 ---
 
 <div class="error-page">
   <div class="error-content">
     <div class="error-visual">
       <div class="error-number">404</div>
-      <div class="error-icon">🗺️</div>
+      <div class="error-logo">
+        <img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="OSM Argentina Logo" class="osm-logo">
+      </div>
     </div>
     
     <h1>¡Ups! Página no encontrada</h1>
@@ -73,12 +76,17 @@ permalink: /404.html
   font-weight: 900;
   color: #2E5C8A;
   line-height: 1;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
-.error-icon {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+.error-logo {
+  margin-bottom: 1.5rem;
+}
+
+.osm-logo {
+  height: 80px;
+  width: auto;
+  opacity: 0.8;
 }
 
 .error-page h1 {
@@ -163,6 +171,10 @@ permalink: /404.html
 }
 
 @media (max-width: 768px) {
+  .osm-logo {
+    height: 60px;
+  }
+  
   .error-number {
     font-size: 4rem;
   }

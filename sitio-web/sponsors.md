@@ -5,10 +5,6 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
 ---
 
 <div class="sponsors-section">
-  <div class="sponsors-intro">
-    <p>El Encuentro OSM Argentina 2025 es posible gracias al apoyo y colaboración de instituciones comprometidas con el mapeo colaborativo y la innovación territorial.</p>
-  </div>
-  
   <h2>🤝 Nuestros Aliados</h2>
   
   <div class="sponsors-flip-grid">
@@ -389,6 +385,10 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
         </div>
       </div>
     </div>
+  </div>
+  
+  <div class="sponsors-intro">
+    <p>El Encuentro OSM Argentina 2025 es posible gracias al apoyo y colaboración de instituciones comprometidas con el mapeo colaborativo y la innovación territorial.</p>
   </div>
 
 <style>
