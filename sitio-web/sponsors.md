@@ -43,6 +43,37 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
       </div>
     </div>
     
+    <!-- Departamento de Ciencias Básicas -->
+    <div class="sponsor-flip-card">
+      <div class="sponsor-flip-inner">
+        <div class="sponsor-flip-front">
+          <img src="{{ '/assets/img/logo_unlu_basicas.png' | relative_url }}" alt="Departamento de Ciencias Básicas - UNLu">
+          <h4>Ciencias Básicas</h4>
+          <p><strong>Dpto. Anfitrión</strong></p>
+          <div class="flip-hint">Más información</div>
+        </div>
+        <div class="sponsor-flip-back sponsor-academico">
+          <div class="back-header">
+            <img src="{{ '/assets/img/logo_unlu_basicas.png' | relative_url }}" alt="Ciencias Básicas UNLu" class="back-logo">
+            <h4>Departamento de Ciencias Básicas</h4>
+          </div>
+          <div class="sponsor-details">
+            <p><strong>Rol:</strong> Departamento anfitrión</p>
+            <ul>
+              <li>📚 Coordinación académica</li>
+              <li>🏛️ Facilidades del edificio</li>
+              <li>🎯 Apoyo logístico</li>
+            </ul>
+            <div class="sponsor-metric">
+              <a href="https://www.basicas.unlu.edu.ar/?q=node/184" target="_blank" class="external-link">
+                🌐 Sitio del Departamento
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!-- OSM Argentina -->
     <div class="sponsor-flip-card">
       <div class="sponsor-flip-inner">
