@@ -25,6 +25,8 @@ include_map: true
 
 - **📅 Fecha:** {{ site.event.date_formatted }}
 - **📍 Lugar:** {{ site.event.location }}
+- **🏛️ Edificio:** {{ site.event.building }}
+- **🚪 Aulas:** {% for classroom in site.event.classrooms %}{{ classroom.name }} ({{ classroom.floor }}){% unless forloop.last %} • {% endunless %}{% endfor %}
 - **👥 Modalidad:** Híbrida (presencial + virtual)
 
 <div class="countdown-container">

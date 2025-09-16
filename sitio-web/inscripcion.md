@@ -98,7 +98,9 @@ subtitle: Registrate para el Encuentro OSM Argentina 2025
       <div class="evento-icon">📍</div>
       <h4>Ubicación</h4>
       <p><strong>{{ site.event.location }}</strong></p>
+      <p><strong>{{ site.event.building }}</strong></p>
       <p>{{ site.event.address }}</p>
+      <p><strong>Aulas:</strong> {% for classroom in site.event.classrooms %}{{ classroom.name }} ({{ classroom.floor }}){% unless forloop.last %} • {% endunless %}{% endfor %}</p>
       <p><a href="{{ '/' | relative_url }}#mapa-encuentro">🗺️ Ver en mapa</a></p>
     </div>
     

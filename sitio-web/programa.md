@@ -46,8 +46,8 @@ subtitle: Cronograma completo - 27 de septiembre de 2025
 **Tema principal:** Uso de OpenStreetMap en organismos públicos
 
 #### **Invitados confirmados:**
-- **Federico Gazaba** - Experiencias de integración OSM en organismos públicos
-- **Carlos Brys** - Herramientas de software para organismos públicos
+- **Federico Gazaba** - IDE Pergamino: Experiencias de integración OSM en organismos públicos
+- **Carlos Brys** - Mapa de Gestión de Emergencias Ambientales en la provincia de Misiones
 
 #### **📋 Presentación de Casos de Éxito** (30 min) {#casos-exito}
 - **📍 [Caso Pergamino]({{ '/casos-exito#pergamino' | relative_url }})** - 10 años colaboración municipal

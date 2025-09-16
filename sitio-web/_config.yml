@@ -21,7 +21,13 @@ event:
   date_short: "27 de septiembre de 2025"
   time: "09:00-19:00"
   location: "Universidad Nacional de Luján"
+  building: "Edificio de la Biblioteca Central Jaime de la Plaza"
   address: "Ruta 5 y Avenida Constitución, Luján, Buenos Aires"
+  classrooms: 
+    - name: "Aula Ruth Fernández de Monjardín de Masci"
+      floor: "Segundo piso"
+    - name: "Aula 703"
+      floor: "Planta baja"
   coordinates: [-34.578776, -59.086683]
 
 # Coordinador (facilitador de consensos)

@@ -43,7 +43,10 @@ No es necesario. Habrá actividades para principiantes y usuarios avanzados. ¡E
 ### 📍 **Logística del Evento**
 
 **¿Cómo llego a la Universidad Nacional de Luján?**
-La universidad está ubicada en {{ site.event.address }}. Puedes consultar rutas en transporte público o acceso vehicular en nuestro [mapa interactivo]({{ '/' | relative_url }}#mapa-encuentro).
+El evento se realizará en el {{ site.event.building }}, ubicado en {{ site.event.address }}. Puedes consultar rutas en transporte público o acceso vehicular en nuestro [mapa interactivo]({{ '/' | relative_url }}#mapa-encuentro).
+
+**¿En qué aulas se realizará el evento?**
+Las actividades se desarrollarán en {% for classroom in site.event.classrooms %}{{ classroom.name }} ({{ classroom.floor }}){% unless forloop.last %} y {% endunless %}{% endfor %}.
 
 **¿Hay estacionamiento disponible?**
 Sí, la universidad cuenta con estacionamiento gratuito para los asistentes.
