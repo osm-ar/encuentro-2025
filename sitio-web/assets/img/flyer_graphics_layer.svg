@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="210mm"
+   height="297mm" 
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="flyer-graphics"
+   xmlns="http://www.w3.org/2000/svg">
+   
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2E5C8A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#75AADB;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F4C430;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffd700;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- OSM-style pattern -->
+    <pattern id="osmPattern" patternUnits="userSpaceOnUse" width="20" height="20">
+      <rect width="20" height="20" fill="#f8f9fa"/>
+      <circle cx="10" cy="10" r="2" fill="#2E5C8A" opacity="0.1"/>
+    </pattern>
+  </defs>
+   
+  <!-- Background with subtle pattern -->
+  <rect
+    style="fill:url(#osmPattern)"
+    width="210"
+    height="297"
+    x="0"
+    y="0" />
+    
+  <!-- Graphics Layer -->
+  <g id="graphics-elements">
+    
+    <!-- Header decoration -->
+    <rect
+      style="fill:url(#headerGradient)"
+      width="210"
+      height="15"
+      x="0"
+      y="0" />
+      
+    <!-- Side decorations -->
+    <rect
+      style="fill:#2E5C8A;opacity:0.1"
+      width="5"
+      height="297"
+      x="0"
+      y="0" />
+      
+    <rect
+      style="fill:#2E5C8A;opacity:0.1"
+      width="5"
+      height="297"
+      x="205"
+      y="0" />
+    
+    <!-- Central accent bar -->
+    <rect
+      style="fill:url(#accentGradient)"
+      width="150"
+      height="8"
+      x="30"
+      y="120"
+      rx="4" />
+    
+    <!-- Decorative elements -->
+    <g id="map-icons" transform="translate(20,40)">
+      <!-- Simple map marker icons -->
+      <circle cx="15" cy="15" r="8" fill="#F4C430" opacity="0.3"/>
+      <circle cx="15" cy="15" r="3" fill="#2E5C8A"/>
+      
+      <circle cx="175" cy="15" r="8" fill="#F4C430" opacity="0.3"/>
+      <circle cx="175" cy="15" r="3" fill="#2E5C8A"/>
+    </g>
+    
+    <!-- Bottom decoration -->
+    <rect
+      style="fill:url(#accentGradient)"
+      width="210"
+      height="8"
+      x="0"
+      y="289" />
+      
+    <!-- QR code frame -->
+    <rect
+      style="fill:none;stroke:#2E5C8A;stroke-width:2"
+      width="40"
+      height="40"
+      x="85"
+      y="240"
+      rx="4" />
+      
+    <!-- Geometric accents -->
+    <g id="geometric-accents" opacity="0.2">
+      <polygon points="20,200 30,200 25,210" fill="#F4C430"/>
+      <polygon points="180,200 190,200 185,210" fill="#F4C430"/>
+      <rect x="15" y="250" width="8" height="8" fill="#2E5C8A" rx="2"/>
+      <rect x="187" y="250" width="8" height="8" fill="#2E5C8A" rx="2"/>
+    </g>
+    
+  </g>
+</svg>

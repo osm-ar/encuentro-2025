@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="400"
+   height="600"
+   viewBox="0 0 400 600"
+   version="1.1"
+   id="flyer-web"
+   xmlns="http://www.w3.org/2000/svg">
+   
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff9f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f0f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+   
+  <!-- Background -->
+  <rect
+    style="fill:url(#bgGradient)"
+    width="400"
+    height="600"
+    x="0"
+    y="0" />
+    
+  <!-- Header decoration -->
+  <rect
+    style="fill:#2E5C8A"
+    width="400"
+    height="8"
+    x="0"
+    y="0" />
+    
+  <!-- Main Content -->
+  <g id="main-content">
+    
+    <!-- Title -->
+    <text
+      style="font-weight:bold;font-size:28px;font-family:Arial,sans-serif;text-align:center;text-anchor:middle;fill:#2E5C8A"
+      x="200"
+      y="80">
+      <tspan>Encuentro OSM</tspan>
+      <tspan x="200" dy="35">Argentina 2025</tspan>
+    </text>
+    
+    <!-- Subtitle -->
+    <text
+      style="font-weight:normal;font-size:18px;font-family:Arial,sans-serif;text-align:center;text-anchor:middle;fill:#666"
+      x="200"
+      y="160">
+      <tspan>Comunidad de OpenStreetMap</tspan>
+    </text>
+    
+    <!-- Date highlight -->
+    <rect
+      style="fill:#F4C430;rx:12"
+      width="280"
+      height="50"
+      x="60"
+      y="190" />
+      
+    <text
+      style="font-weight:bold;font-size:22px;font-family:Arial,sans-serif;text-align:center;text-anchor:middle;fill:#2E5C8A"
+      x="200"
+      y="225">
+      <tspan>27 de septiembre de 2025</tspan>
+    </text>
+    
+    <!-- Theme -->
+    <text
+      style="font-weight:600;font-size:20px;font-family:Arial,sans-serif;text-align:center;text-anchor:middle;fill:#F4C430"
+      x="200"
+      y="280">
+      <tspan>"Comunidad y Estado"</tspan>
+    </text>
+    
+    <!-- Venue -->
+    <g id="venue-info" transform="translate(200,320)">
+      <text
+        style="font-weight:bold;font-size:16px;font-family:Arial,sans-serif;text-align:center;text-anchor:middle;fill:#2E5C8A"
+        x="0"
+        y="0">
+        <tspan>Universidad Nacional de Luján</tspan>
+      </text>
+      <text
+        style="font-weight:normal;font-size:14px;font-family:Arial,sans-serif;text-align:center;text-anchor:middle;fill:#666"
+        x="0"
+        y="25">
+        <tspan>Ruta 5 y Avenida Constitución</tspan>
+      </text>
+    </g>
+    
+    <!-- Features -->
+    <g id="features" transform="translate(200,380)">
+      <text
+        style="font-weight:normal;font-size:14px;font-family:Arial,sans-serif;text-align:center;text-anchor:middle;fill:#333"
+        x="0"
+        y="0">
+        <tspan>🗺️ Mapatón • 🎯 Casos de Éxito • 🤝 Networking</tspan>
+      </text>
+      <text
+        style="font-weight:normal;font-size:14px;font-family:Arial,sans-serif;text-align:center;text-anchor:middle;fill:#333"
+        x="0"
+        y="20">
+        <tspan>🌐 Modalidad Híbrida: Presencial + Virtual</tspan>
+      </text>
+    </g>
+    
+    <!-- QR Code area -->
+    <rect
+      style="fill:#fff;stroke:#2E5C8A;stroke-width:2;rx:8"
+      width="80"
+      height="80"
+      x="160"
+      y="440" />
+    <text
+      style="font-size:12px;text-anchor:middle;fill:#2E5C8A;font-weight:bold"
+      x="200"
+      y="485">QR</text>
+      
+    <!-- Website -->
+    <text
+      style="font-weight:600;font-size:14px;font-family:monospace;text-align:center;text-anchor:middle;fill:#2E5C8A"
+      x="200"
+      y="550">
+      <tspan>osm-ar.github.io/encuentro-2025</tspan>
+    </text>
+    
+  </g>
+  
+  <!-- Footer decoration -->
+  <rect
+    style="fill:#F4C430"
+    width="400"
+    height="8"
+    x="0"
+    y="592" />
+</svg>

@@ -15,9 +15,53 @@ subtitle: Difundí el Encuentro OSM Argentina 2025
     <a href="{{ '/assets/img/flyer_encuentro_oficial.jpg' | relative_url }}" download="encuentro_osm_argentina_2025_flyer.jpg" class="btn btn-primary btn-large">
       📥 Descargar Flyer (JPG)
     </a>
-    <a href="{{ '/assets/img/flyer_encuentro_oficial.jpg' | relative_url }}" target="_blank" class="btn btn-outline btn-large">
+    <a href="{{ '/assets/img/flyer_original.svg' | relative_url }}" download="encuentro_osm_argentina_2025_flyer.svg" class="btn btn-outline btn-large">
+      📥 Descargar SVG Original
+    </a>
+    <a href="{{ '/assets/img/flyer_encuentro_oficial.jpg' | relative_url }}" target="_blank" class="btn btn-outline">
       🔍 Ver en Tamaño Original
     </a>
+  </div>
+</div>
+
+---
+
+## 🎨 Versiones y Capas del Flyer
+
+### 📁 Archivos Disponibles
+
+<div class="flyer-versions-grid">
+  <div class="flyer-version-card">
+    <div class="version-preview">
+      <img src="{{ '/assets/img/flyer_web_compact.svg' | relative_url }}" alt="Versión Web Compacta">
+    </div>
+    <div class="version-info">
+      <h4>🌐 Versión Web</h4>
+      <p>Optimizada para web, tamaño compacto y carga rápida</p>
+      <a href="{{ '/assets/img/flyer_web_compact.svg' | relative_url }}" target="_blank" class="btn btn-sm">Ver SVG</a>
+    </div>
+  </div>
+  
+  <div class="flyer-version-card">
+    <div class="version-preview">
+      <img src="{{ '/assets/img/flyer_text_layer.svg' | relative_url }}" alt="Capa de Texto">
+    </div>
+    <div class="version-info">
+      <h4>📝 Capa de Texto</h4>
+      <p>Solo elementos de texto, ideal para traducciones</p>
+      <a href="{{ '/assets/img/flyer_text_layer.svg' | relative_url }}" target="_blank" class="btn btn-sm">Ver SVG</a>
+    </div>
+  </div>
+  
+  <div class="flyer-version-card">
+    <div class="version-preview">
+      <img src="{{ '/assets/img/flyer_graphics_layer.svg' | relative_url }}" alt="Capa Gráfica">
+    </div>
+    <div class="version-info">
+      <h4>🎨 Capa Gráfica</h4>
+      <p>Elementos decorativos y gráficos reutilizables</p>
+      <a href="{{ '/assets/img/flyer_graphics_layer.svg' | relative_url }}" target="_blank" class="btn btn-sm">Ver SVG</a>
+    </div>
   </div>
 </div>
 
@@ -95,3 +139,77 @@ El flyer incluye códigos QR que dirigen a:
   <p><strong>Este es el material de difusión oficial del Encuentro OSM Argentina 2025.</strong></p>
   <p>Organizado por la comunidad OpenStreetMap Argentina con el respaldo de {{ site.event.location }}.</p>
 </div>
+
+<style>
+/* Flyer versions grid styles */
+.flyer-versions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.flyer-version-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 2px solid #e9ecef;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.flyer-version-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.version-preview {
+  width: 100%;
+  height: 200px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dee2e6;
+}
+
+.version-preview img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.version-info h4 {
+  color: #2E5C8A;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.version-info p {
+  color: #666;
+  margin: 0 0 1rem 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.btn-sm {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .flyer-versions-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .flyer-version-card {
+    text-align: center;
+  }
+}
+</style>
