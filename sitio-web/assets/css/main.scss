@@ -78,6 +78,37 @@ body {
   }
 }
 
+// Default link styles for content
+a {
+  color: $primary-color;
+  text-decoration: underline;
+  text-decoration-color: rgba($primary-color, 0.3);
+  text-underline-offset: 3px;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    color: darken($primary-color, 10%);
+    text-decoration-color: rgba($primary-color, 0.7);
+    text-decoration-thickness: 2px;
+  }
+  
+  &:focus {
+    outline: 3px solid $accent-color;
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  
+  // External links get a subtle indicator
+  &[target="_blank"]:not(.btn):not(.enlace-oficial):not(.nav-menu a) {
+    &:after {
+      content: " ↗";
+      font-size: 0.8em;
+      opacity: 0.7;
+      margin-left: 2px;
+    }
+  }
+}
+
 // Header
 .site-header {
   background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(248,249,250,0.95));
