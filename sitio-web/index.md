@@ -19,14 +19,16 @@ include_map: true
 
 ## 🎯 Sobre el Encuentro
 
-**Encuentro de la Comunidad de OpenStreetMap de Argentina** enfocado en el tema **"Comunidad y Estado"**, con mapatón, intercambio de experiencias y charlas temáticas sobre el uso de OpenStreetMap en organismos públicos.
+Un **espacio de intercambio entre pares** generado desde y para la comunidad de OpenStreetMap Argentina. Este encuentro surge de la propia comunidad para compartir experiencias, aprender colaborativamente y fortalecer los vínculos entre mapeadores, desarrolladores y organizaciones que trabajan con datos geográficos libres.
+
+🎉 **Un ambiente divertido y descontracturado** donde la pasión por los mapas libres se encuentra con el compañerismo, la camaradería y el aprendizaje horizontal. Porque mapear también es disfrutar.
+
+**Tema central:** *"Comunidad y Estado"* - explorando las colaboraciones exitosas entre la comunidad OSM y organismos públicos, con mapatón colaborativo y intercambio horizontal de conocimientos.
 
 ### 📍 Información del Evento
 
 - **📅 Fecha:** {{ site.event.date_formatted }}
-- **📍 Lugar:** {{ site.event.location }}
-- **🏛️ Edificio:** {{ site.event.building }}
-- **🚪 Aulas:** {% for classroom in site.event.classrooms %}{{ classroom.name }} ({{ classroom.floor }}){% unless forloop.last %} • {% endunless %}{% endfor %}
+- **📍 Sede:** [{{ site.event.location }}]({{ '/venue' | relative_url }})
 - **👥 Modalidad:** Híbrida (presencial + virtual)
 
 <div class="countdown-container">
@@ -144,13 +146,9 @@ include_map: true
 
 <div id="mapa-encuentro" style="height: 400px; margin: 2rem 0;"></div>
 
-**{{ site.event.location }}**  
-{{ site.event.address }}
+**{{ site.event.location }}** - {{ site.event.address }}
 
-### 🚗 Cómo llegar
-- **En auto:** Ruta 5, salida Luján
-- **En transporte público:** Desde CABA, tren hasta Luján
-- **Coordenadas:** {{ site.event.coordinates[0] }}, {{ site.event.coordinates[1] }}
+[Ver información completa de la sede]({{ '/venue' | relative_url }}){:.btn .btn-outline}
 
 ---
 
