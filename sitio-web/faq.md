@@ -121,7 +121,7 @@ Argentina tiene experiencias únicas de colaboración entre organismos públicos
 - **Wiki:** [Información completa]({{ site.links.wiki }})
 
 **¿Existen reglas de comportamiento para el evento?**
-Sí, seguimos el [código de conducta detallado](/participar#-código-de-conducta) basado en las [buenas prácticas de OSM](https://wiki.openstreetmap.org/wiki/ES:Buenas_prácticas) y el espíritu colaborativo de la comunidad.
+Sí, seguimos el [código de conducta detallado]({{ '/participar' | relative_url }}#-código-de-conducta) basado en las [buenas prácticas de OSM](https://wiki.openstreetmap.org/wiki/ES:Buenas_prácticas) y el espíritu colaborativo de la comunidad.
 
 **¿Puedo colaborar como voluntario?**
 ¡Sí! Siempre necesitamos ayuda con logística, documentación y soporte técnico. Contáctanos por Telegram.

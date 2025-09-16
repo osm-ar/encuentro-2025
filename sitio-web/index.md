@@ -94,7 +94,7 @@ include_map: true
   </div>
 </div>
 
-[Ver programa completo](/programa){:.btn .btn-outline}
+[Ver programa completo]({{ '/programa' | relative_url }}){:.btn .btn-outline}
 
 ---
 
@@ -102,7 +102,7 @@ include_map: true
 
 **Actividad principal del mapatón:** Mapear escuelas usando datos oficiales del Ministerio de Educación con **248 tareas** preparadas en MapRoulette.
 
-[Ver proyecto completo](/proyecto-escuelas){:.btn .btn-outline} [Participar en MapRoulette]({{ site.links.maproulette_lujan }}){:.btn .btn-success}
+[Ver proyecto completo]({{ '/proyecto-escuelas' | relative_url }}){:.btn .btn-outline} [Participar en MapRoulette]({{ site.links.maproulette_lujan }}){:.btn .btn-success}
 
 ---
 
@@ -110,7 +110,7 @@ include_map: true
 
 **Pergamino** (10 años colaboración municipal) y **Misiones** (programa provincial) demuestran el potencial de integración OSM-Estado.
 
-[Ver casos detallados](/casos-exito){:.btn .btn-outline}
+[Ver casos detallados]({{ '/casos-exito' | relative_url }}){:.btn .btn-outline}
 
 ---
 
