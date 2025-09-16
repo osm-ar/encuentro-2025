@@ -6,7 +6,7 @@ subtitle: Cómo formar parte del Encuentro OSM Argentina 2025
 
 ## 🎯 ¿Cómo Participar?
 
-El encuentro está abierto a toda la comunidad interesada en OpenStreetMap, desde principiantes hasta mappers experimentados, desarrolladores, académicos y representantes de organismos públicos.
+El encuentro está abierto a toda la comunidad interesada en OpenStreetMap, desde principiantes hasta mapeadores experimentados, desarrolladores, académicos y representantes de organismos públicos.
 
 ---
 
@@ -96,7 +96,7 @@ El encuentro está abierto a toda la comunidad interesada en OpenStreetMap, desd
 
 ## 👥 Perfiles de Participantes
 
-### **🗺️ Mappers OSM**
+### **🗺️ Mapeadores OSM**
 - **Experiencia:** Cualquier nivel (principiante a experto)
 - **Rol:** Participación activa en mapatón
 - **Beneficio:** Experiencia con datos oficiales gubernamentales
