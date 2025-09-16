@@ -4,7 +4,8 @@
 
 Sitio web estático generado con Jekyll para GitHub Pages del **Encuentro de la Comunidad de OpenStreetMap de Argentina**.
 
-**🔗 Sitio en vivo:** [https://manureta.github.io/encuentro-2025/](https://manureta.github.io/encuentro-2025/)
+**🔗 Sitio oficial:** [https://osm-ar.github.io/encuentro-2025/](https://osm-ar.github.io/encuentro-2025/)  
+**🛠️ Sitio de desarrollo:** [https://manureta.github.io/encuentro-2025/](https://manureta.github.io/encuentro-2025/)
 
 ### 🚀 Desarrollo Local
 
@@ -73,6 +74,7 @@ event:
 
 ### 🌍 Deploy
 
+**Sitio oficial:** [https://osm-ar.github.io/encuentro-2025/](https://osm-ar.github.io/encuentro-2025/)  
 **Sitio de desarrollo:** [https://manureta.github.io/encuentro-2025/](https://manureta.github.io/encuentro-2025/)
 
 Para GitHub Pages:
