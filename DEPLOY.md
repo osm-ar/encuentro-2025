@@ -2,12 +2,20 @@
 
 ## 🚀 Configuración GitHub Pages con Actions
 
-### 1. Configurar Repository Settings
+### 1. Configurar Repository Settings (Administradores)
+
+**IMPORTANTE:** Esta configuración debe ser realizada por los administradores del repositorio `osm-ar/encuentro-2025`.
 
 Ir a **Settings** > **Pages** en GitHub:
 
-- **Source:** Deploy from a branch → **GitHub Actions**
+- **Source:** Deploy from a branch → **GitHub Actions** ⚠️ CRÍTICO
 - Esto permite que el workflow `.github/workflows/jekyll-gh-pages.yml` maneje el deployment
+
+**Si no está configurado correctamente, el deploy fallará con:**
+```
+Error: Unable to get ACTIONS_ID_TOKEN_REQUEST_URL env variable
+Error: Ensure GITHUB_TOKEN has permission "id-token: write"
+```
 
 ### 2. Verificar Permissions
 
@@ -44,6 +52,19 @@ sitio-web/           # Fuentes Jekyll
 ### 6. Troubleshooting
 
 Si el deploy falla:
+
+#### ❌ Error: ACTIONS_ID_TOKEN_REQUEST_URL
+```
+Error: Unable to get ACTIONS_ID_TOKEN_REQUEST_URL env variable
+Error: Ensure GITHUB_TOKEN has permission "id-token: write"
+```
+
+**Solución:** Los administradores del repositorio deben:
+1. Ir a **Settings** > **Pages**
+2. Cambiar **Source** de "Deploy from a branch" a **"GitHub Actions"**
+3. Verificar que el repositorio tiene habilitadas las GitHub Actions
+
+#### 🔍 Otros Problemas Comunes
 
 1. **Verificar logs** en Actions tab
 2. **Baseurl correcto** en `_config.yml`:
