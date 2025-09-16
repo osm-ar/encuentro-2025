@@ -300,7 +300,10 @@ function initImageOptimization() {
 // Service Worker registration for offline capability
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/sw.js')
+        const baseUrl = window.siteConfig ? window.siteConfig.baseUrl : '';
+        const swPath = baseUrl + '/sw.js';
+        
+        navigator.serviceWorker.register(swPath)
             .then(function(registration) {
                 console.log('SW registered: ', registration);
             })
