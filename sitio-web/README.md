@@ -4,7 +4,8 @@
 
 Sitio web estático generado con Jekyll para GitHub Pages del **Encuentro de la Comunidad de OpenStreetMap de Argentina**.
 
-**🔗 Sitio en vivo:** [https://manureta.github.io/encuentro-2025/](https://manureta.github.io/encuentro-2025/)
+**🔗 Sitio oficial:** [https://osm-ar.github.io/encuentro-2025/](https://osm-ar.github.io/encuentro-2025/)  
+**🛠️ Sitio de desarrollo:** [https://[user].github.io/encuentro-2025/](https://[user].github.io/encuentro-2025/)
 
 ### 🚀 Desarrollo Local
 
@@ -73,14 +74,38 @@ event:
 
 ### 🌍 Deploy
 
-**Sitio de desarrollo:** [https://manureta.github.io/encuentro-2025/](https://manureta.github.io/encuentro-2025/)
+**Sitio oficial:** [https://osm-ar.github.io/encuentro-2025/](https://osm-ar.github.io/encuentro-2025/)  
+**Sitio de desarrollo:** [https://[user].github.io/encuentro-2025/](https://[user].github.io/encuentro-2025/)
 
 Para GitHub Pages:
 
-1. Fork o clonar repositorio `manureta/encuentro-2025`
+1. Fork o clonar repositorio `osm-ar/encuentro-2025`
 2. Habilitar GitHub Pages desde `main` branch en Settings
 3. Configurar custom domain si es necesario
 4. Push del código → Deploy automático con GitHub Actions
+
+### 🤝 Workflow de Contribución
+
+Para contribuir al sitio web:
+
+1. **Fork del repositorio:** `osm-ar/encuentro-2025`
+2. **Crear rama:** `git checkout -b feature/nombre-cambio`
+3. **Desarrollo local:**
+   ```bash
+   cd sitio-web/
+   bundle install
+   bundle exec jekyll serve
+   ```
+4. **Probar cambios** en desarrollo local
+5. **Commit y push** a tu fork
+6. **Pull Request** a `osm-ar/encuentro-2025`
+
+### 📊 Funcionalidades Implementadas Recientemente
+
+- ✅ **Métricas mejoradas** - Cards interactivas con iconos y animaciones
+- ✅ **Logo UNLu Ciencias Básicas** - Departamento anfitrión agregado
+- ✅ **Info transporte público** - Detalles de acceso en FAQ
+- ✅ **URLs oficiales** - Referencias corregidas a sitio osm-ar
 
 ### 📊 Próximas Funcionalidades
 

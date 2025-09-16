@@ -137,15 +137,44 @@ Encuentro de la comunidad de OpenStreetMap en Argentina enfocado en el tema **"C
 
 ---
 
+## 🤝 Contribuir al Proyecto
+
+### 🌐 Sitio Web
+- **Repositorio oficial:** `osm-ar/encuentro-2025`
+- **Desarrollo:** Fork → PR workflow
+- **Tecnología:** Jekyll + GitHub Pages
+- **Sitio oficial:** https://osm-ar.github.io/encuentro-2025/
+- **Sitio desarrollo:** https://[user].github.io/encuentro-2025/ (donde [user] es tu usuario GitHub)
+
+### 📝 Documentación
+- **Issues:** Reportar errores o sugerencias
+- **Wikis:** Documentación en wiki OSM
+- **Comunicaciones:** Mejoras en `/comunicaciones`
+
+### 🗺️ Mapeo
+- **MapRoulette:** Participar en challenges preparados
+- **Validation:** Revisar escuelas mapeadas
+- **Tags:** Usar `sotm_lujan2025=yes` para seguimiento
+
+---
+
 ## 🔗 Enlaces y Recursos
 
 - **OSM Calendar:** https://osmcal.org/event/4002/
 - **Wiki Evento:** https://wiki.openstreetmap.org/wiki/ES:Argentina/Eventos/Encuentro_de_la_Comunidad_2025
 - **MapRoulette Proyecto:** https://maproulette.org/browse/projects/61059
 - **Challenge Luján:** https://maproulette.org/browse/challenges/53133
+- **Sitio Web:** https://osm-ar.github.io/encuentro-2025/
 
 ---
 
 ## 📄 Licencia
 
 Este proyecto de organización del encuentro se comparte bajo los principios de colaboración abierta de la comunidad OpenStreetMap.
+
+### 🙏 Agradecimientos
+
+- **Universidad Nacional de Luján** - Anfitriona del evento
+- **Departamento de Ciencias Básicas** - Coordinación académica
+- **Comunidad OSM Argentina** - Participación y feedback
+- **Casos de éxito** - Pergamino, Misiones, proyectos documentados

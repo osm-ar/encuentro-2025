@@ -43,6 +43,37 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
       </div>
     </div>
     
+    <!-- Departamento de Ciencias Básicas -->
+    <div class="sponsor-flip-card">
+      <div class="sponsor-flip-inner">
+        <div class="sponsor-flip-front">
+          <img src="{{ '/assets/img/logo_unlu_basicas.png' | relative_url }}" alt="Departamento de Ciencias Básicas - UNLu">
+          <h4>Ciencias Básicas</h4>
+          <p><strong>Dpto. Anfitrión</strong></p>
+          <div class="flip-hint">Más información</div>
+        </div>
+        <div class="sponsor-flip-back sponsor-academico">
+          <div class="back-header">
+            <img src="{{ '/assets/img/logo_unlu_basicas.png' | relative_url }}" alt="Ciencias Básicas UNLu" class="back-logo">
+            <h4>Departamento de Ciencias Básicas</h4>
+          </div>
+          <div class="sponsor-details">
+            <p><strong>Rol:</strong> Departamento anfitrión</p>
+            <ul>
+              <li>📚 Coordinación académica</li>
+              <li>🏛️ Facilidades del edificio</li>
+              <li>🎯 Apoyo logístico</li>
+            </ul>
+            <div class="sponsor-metric">
+              <a href="https://www.basicas.unlu.edu.ar/?q=node/184" target="_blank" class="external-link">
+                🌐 Sitio del Departamento
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!-- OSM Argentina -->
     <div class="sponsor-flip-card">
       <div class="sponsor-flip-inner">
@@ -1048,6 +1079,129 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
     border: 2px solid #fff;
   }
 }
+
+/* Improved metrics styles */
+.metricas-encuentro {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.metrica-card {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  border: 2px solid #dee2e6;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.metrica-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.metrica-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.metrica-content .numero {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #2E5C8A;
+  line-height: 1;
+}
+
+.metrica-content .label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #495057;
+  line-height: 1.3;
+  margin-top: 0.5rem;
+}
+
+.metrica-content .sublabel {
+  font-weight: 400;
+  color: #6c757d;
+  font-size: 0.85rem;
+}
+
+/* Cases grid styles */
+.casos-exito-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.caso-exito-item {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border: 2px solid #dee2e6;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.caso-exito-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.caso-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.caso-icon {
+  font-size: 1.5rem;
+  display: block;
+}
+
+.caso-header h4 {
+  margin: 0;
+  color: #2E5C8A;
+  font-size: 1.1rem;
+}
+
+.caso-exito-item p {
+  margin: 0;
+  color: #495057;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .metricas-encuentro {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+  
+  .casos-exito-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .metrica-card {
+    padding: 1rem;
+  }
+  
+  .metrica-content .numero {
+    font-size: 2rem;
+  }
+  
+  .metrica-icon {
+    font-size: 2rem;
+  }
+}
 </style>
 
 ---
@@ -1056,31 +1210,75 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
 
 ### 📊 Métricas del Encuentro
 
-<div class="metricas-pergamino">
-  <div class="metrica">
-    <div class="numero">1</div>
-    <div class="label">Encuentro inaugural<br>OSM Argentina</div>
+<div class="metricas-encuentro">
+  <div class="metrica-card">
+    <div class="metrica-icon">🚀</div>
+    <div class="metrica-content">
+      <div class="numero">1</div>
+      <div class="label">Encuentro inaugural<br><span class="sublabel">OSM Argentina</span></div>
+    </div>
   </div>
-  <div class="metrica">
-    <div class="numero">248</div>
-    <div class="label">Tareas MapRoulette<br>Proyecto Escuelas</div>
+  
+  <div class="metrica-card">
+    <div class="metrica-icon">🗺️</div>
+    <div class="metrica-content">
+      <div class="numero">248</div>
+      <div class="label">Tareas MapRoulette<br><span class="sublabel">Proyecto Escuelas</span></div>
+    </div>
   </div>
-  <div class="metrica">
-    <div class="numero">2+</div>
-    <div class="label">Modalidades<br>Presencial + Virtual</div>
+  
+  <div class="metrica-card">
+    <div class="metrica-icon">🌐</div>
+    <div class="metrica-content">
+      <div class="numero">2+</div>
+      <div class="label">Modalidades<br><span class="sublabel">Presencial + Virtual</span></div>
+    </div>
   </div>
-  <div class="metrica">
-    <div class="numero">3+</div>
-    <div class="label">Casos de éxito<br>documentados</div>
+  
+  <div class="metrica-card">
+    <div class="metrica-icon">📋</div>
+    <div class="metrica-content">
+      <div class="numero">3+</div>
+      <div class="label">Casos de éxito<br><span class="sublabel">documentados</span></div>
+    </div>
   </div>
 </div>
 
 ### 🎖️ Casos de Éxito Representados
 
-- **Pergamino:** 10 años de colaboración municipal-OSM
-- **Misiones:** Programa provincial de capacitación 
-- **Escuelas:** 248 instituciones educativas mapeadas
-- **IDERA:** Conexión con infraestructura de datos oficial
+<div class="casos-exito-grid">
+  <div class="caso-exito-item">
+    <div class="caso-header">
+      <span class="caso-icon">🏛️</span>
+      <h4>Pergamino</h4>
+    </div>
+    <p>10 años de colaboración municipal-OSM</p>
+  </div>
+  
+  <div class="caso-exito-item">
+    <div class="caso-header">
+      <span class="caso-icon">🌿</span>
+      <h4>Misiones</h4>
+    </div>
+    <p>Programa provincial de capacitación</p>
+  </div>
+  
+  <div class="caso-exito-item">
+    <div class="caso-header">
+      <span class="caso-icon">🏫</span>
+      <h4>Escuelas</h4>
+    </div>
+    <p>248 instituciones educativas mapeadas</p>
+  </div>
+  
+  <div class="caso-exito-item">
+    <div class="caso-header">
+      <span class="caso-icon">🔗</span>
+      <h4>IDERA</h4>
+    </div>
+    <p>Conexión con infraestructura de datos oficial</p>
+  </div>
+</div>
 
 ---
 

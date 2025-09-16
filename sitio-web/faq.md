@@ -43,7 +43,11 @@ No es necesario. Habrá actividades para principiantes y usuarios avanzados. ¡E
 ### 📍 **Logística del Evento**
 
 **¿Cómo llego a la Universidad Nacional de Luján?**
-El evento se realizará en el {{ site.event.building }}, ubicado en {{ site.event.address }}. Puedes consultar rutas en transporte público o acceso vehicular en nuestro [mapa interactivo]({{ '/' | relative_url }}#mapa-encuentro).
+El evento se realizará en el {{ site.event.building }}, ubicado en {{ site.event.address }}.
+
+**Transporte público:** Tren desde CABA hasta Estación Universidad de Luján - Línea Sarmiento.
+
+Puedes consultar rutas completas en transporte público o acceso vehicular en nuestro [mapa interactivo]({{ '/' | relative_url }}#mapa-encuentro).
 
 **¿En qué aulas se realizará el evento?**
 Las actividades se desarrollarán en {% for classroom in site.event.classrooms %}{{ classroom.name }} ({{ classroom.floor }}){% unless forloop.last %} y {% endunless %}{% endfor %}.
