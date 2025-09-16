@@ -4,6 +4,8 @@
 
 Sitio web estático generado con Jekyll para GitHub Pages del **Encuentro de la Comunidad de OpenStreetMap de Argentina**.
 
+**🔗 Sitio en vivo:** [https://manureta.github.io/encuentro-2025/](https://manureta.github.io/encuentro-2025/)
+
 ### 🚀 Desarrollo Local
 
 ```bash
@@ -22,24 +24,39 @@ bundle exec jekyll serve
 sitio-web/
 ├── _config.yml              # Configuración Jekyll
 ├── index.md                 # Página principal
+├── programa.md              # Programa del encuentro
+├── casos-exito.md           # Casos de éxito Pergamino y Misiones
+├── proyecto-escuelas.md     # Proyecto Escuelas OSM
+├── sponsors.md              # Sponsors y colaboradores
+├── inscripcion.md           # Formulario de inscripción
+├── faq.md                   # Preguntas frecuentes
+├── participar.md            # Cómo participar
+├── flyer.md                 # Material de difusión
 ├── _layouts/                # Templates HTML
-│   ├── default.html         # Layout base
-│   └── page.html           # Layout páginas
+│   ├── default.html         # Layout base con navegación
+│   └── page.html           # Layout para páginas de contenido
 ├── assets/                  # Recursos estáticos
 │   ├── css/main.scss        # Estilos principales
-│   ├── js/main.js          # JavaScript
-│   └── img/                # Imágenes
+│   ├── js/main.js          # JavaScript e interactividad
+│   └── img/                # Logos, flyers e imágenes
 ├── Gemfile                  # Dependencias Ruby
 └── README.md               # Este archivo
 ```
 
-### 🎯 Características
+### 🎯 Características Implementadas
 
-- ✅ **Responsive design** - Optimizado móvil
-- ✅ **Mapa interactivo** - Leaflet con OSM tiles
-- ✅ **SEO optimizado** - Meta tags y structured data
-- ✅ **GitHub Pages ready** - Deploy automático
+- ✅ **Responsive design** - Optimizado móvil con menú hamburguesa
+- ✅ **Mapa interactivo** - Leaflet con OSM tiles y ubicación del evento
+- ✅ **SEO optimizado** - Meta tags y Open Graph completos
+- ✅ **GitHub Pages ready** - Deploy automático con GitHub Actions
 - ✅ **OSM branding** - Colores y estilo coherentes
+- ✅ **Navegación accesible** - Skip links y ARIA labels
+- ✅ **Formulario inscripción** - KoBoToolbox embebido
+- ✅ **Sponsors con flip cards** - Animaciones CSS3 interactivas
+- ✅ **FAQ completa** - Preguntas frecuentes detalladas
+- ✅ **Casos de éxito** - Pergamino y Misiones documentados
+- ✅ **Proyecto Escuelas** - MapRoulette integrado
+- ✅ **Material difusión** - Flyer oficial descargable
 
 ### 🔧 Configuración
 
@@ -56,20 +73,23 @@ event:
 
 ### 🌍 Deploy
 
+**Sitio de desarrollo:** [https://manureta.github.io/encuentro-2025/](https://manureta.github.io/encuentro-2025/)
+
 Para GitHub Pages:
 
-1. Crear repositorio `osm-argentina/encuentro-2025`
-2. Habilitar GitHub Pages desde `main` branch
-3. Push del código → Deploy automático
+1. Fork o clonar repositorio `manureta/encuentro-2025`
+2. Habilitar GitHub Pages desde `main` branch en Settings
+3. Configurar custom domain si es necesario
+4. Push del código → Deploy automático con GitHub Actions
 
 ### 📊 Próximas Funcionalidades
 
-- [ ] Widget MapRoulette embebido
+- [ ] Countdown timer hacia el evento
 - [ ] Galería de fotos casos de éxito
-- [ ] Countdown hacia el evento
-- [ ] Formulario registro participantes
 - [ ] Blog/noticias del encuentro
-- [ ] Integración redes sociales
+- [ ] Dashboard de progreso MapRoulette
+- [ ] Testimonios de participantes
+- [ ] Analytics y métricas de participación
 
 ### 🎨 Personalización
 

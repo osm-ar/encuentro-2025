@@ -10,7 +10,7 @@ Estos casos demuestran cómo la colaboración entre organismos públicos y la co
 
 ---
 
-## 📍 Municipalidad de Pergamino
+## 📍 Municipalidad de Pergamino {#pergamino}
 
 <div class="caso-exito pergamino">
   <div class="caso-header">
@@ -74,7 +74,7 @@ Estos casos demuestran cómo la colaboración entre organismos públicos y la co
 
 ---
 
-## 🌿 Gobierno de Misiones
+## 🌿 Gobierno de Misiones {#misiones}
 
 <div class="caso-exito misiones">
   <div class="caso-header">

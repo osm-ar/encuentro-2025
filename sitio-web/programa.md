@@ -50,12 +50,12 @@ subtitle: Cronograma completo - 27 de septiembre de 2025
 - **Carlos Brys** - Herramientas de software para organismos públicos
 
 #### **📋 Presentación de Casos de Éxito** (30 min) {#casos-exito}
-- **📍 [Caso Pergamino](/casos-exito#pergamino)** - 10 años colaboración municipal
-- **🌿 [Caso Misiones](/casos-exito#misiones)** - Programa provincial capacitación
+- **📍 [Caso Pergamino]({{ '/casos-exito#pergamino' | relative_url }})** - 10 años colaboración municipal
+- **🌿 [Caso Misiones]({{ '/casos-exito#misiones' | relative_url }})** - Programa provincial capacitación
 - **Metodologías replicables** y lecciones aprendidas
 
 #### **🏫 Presentación Proyecto Escuelas OSM** (15 min) {#escuelas-osm}
-- **[Escuelas OSM Argentina](/proyecto-escuelas)** - 248 tareas preparadas
+- **[Escuelas OSM Argentina]({{ '/proyecto-escuelas' | relative_url }})** - 248 tareas preparadas
 - **Metodología** con datos oficiales del Ministerio de Educación
 
 ---
