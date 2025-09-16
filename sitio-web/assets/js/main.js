@@ -109,6 +109,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Función para inicializar el mapa del encuentro
 function initEncuentroMap() {
+    const mapElement = document.getElementById('mapa-encuentro');
+    
+    // Verificar si el mapa ya fue inicializado
+    if (mapElement._leaflet_id) {
+        return;
+    }
+    
     // Coordenadas Universidad Nacional de Luján
     const lat = -34.578776;
     const lng = -59.086683;
