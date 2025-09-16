@@ -5,7 +5,7 @@
 Sitio web estático generado con Jekyll para GitHub Pages del **Encuentro de la Comunidad de OpenStreetMap de Argentina**.
 
 **🔗 Sitio oficial:** [https://osm-ar.github.io/encuentro-2025/](https://osm-ar.github.io/encuentro-2025/)  
-**🛠️ Sitio de desarrollo:** [https://manureta.github.io/encuentro-2025/](https://manureta.github.io/encuentro-2025/)
+**🛠️ Sitio de desarrollo:** [https://[user].github.io/encuentro-2025/](https://[user].github.io/encuentro-2025/)
 
 ### 🚀 Desarrollo Local
 
@@ -75,11 +75,11 @@ event:
 ### 🌍 Deploy
 
 **Sitio oficial:** [https://osm-ar.github.io/encuentro-2025/](https://osm-ar.github.io/encuentro-2025/)  
-**Sitio de desarrollo:** [https://manureta.github.io/encuentro-2025/](https://manureta.github.io/encuentro-2025/)
+**Sitio de desarrollo:** [https://[user].github.io/encuentro-2025/](https://[user].github.io/encuentro-2025/)
 
 Para GitHub Pages:
 
-1. Fork o clonar repositorio `manureta/encuentro-2025`
+1. Fork o clonar repositorio `osm-ar/encuentro-2025`
 2. Habilitar GitHub Pages desde `main` branch en Settings
 3. Configurar custom domain si es necesario
 4. Push del código → Deploy automático con GitHub Actions

@@ -143,7 +143,8 @@ Encuentro de la comunidad de OpenStreetMap en Argentina enfocado en el tema **"C
 - **Repositorio oficial:** `osm-ar/encuentro-2025`
 - **Desarrollo:** Fork → PR workflow
 - **Tecnología:** Jekyll + GitHub Pages
-- **Sitio:** https://osm-ar.github.io/encuentro-2025/
+- **Sitio oficial:** https://osm-ar.github.io/encuentro-2025/
+- **Sitio desarrollo:** https://[user].github.io/encuentro-2025/ (donde [user] es tu usuario GitHub)
 
 ### 📝 Documentación
 - **Issues:** Reportar errores o sugerencias

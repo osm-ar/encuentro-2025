@@ -39,7 +39,7 @@ sitio-web/           # Fuentes Jekyll
 ### 5. URLs del Sitio
 
 - **Sitio oficial:** https://osm-ar.github.io/encuentro-2025/
-- **Sitio de desarrollo:** https://manureta.github.io/encuentro-2025/
+- **Sitio de desarrollo:** https://[user].github.io/encuentro-2025/
 
 ### 6. Troubleshooting
 
@@ -50,7 +50,7 @@ Si el deploy falla:
    ```yaml
    baseurl: "/encuentro-2025"
    url: "https://osm-ar.github.io"  # Para sitio oficial
-   url: "https://manureta.github.io" # Para desarrollo
+   url: "https://[user].github.io" # Para desarrollo
    ```
 3. **Dependencias** actualizadas en `Gemfile.lock`
 4. **Symlinks removidos** (no compatibles con GitHub Pages)

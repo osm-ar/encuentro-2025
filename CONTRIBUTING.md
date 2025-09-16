@@ -2,6 +2,8 @@
 
 ¡Gracias por tu interés en contribuir al Encuentro OSM Argentina 2025! Esta guía te ayudará a participar en el proyecto.
 
+> **Nota:** En esta documentación `[user]` se refiere a tu nombre de usuario de GitHub. Reemplaza `[user]` con tu usuario real cuando copies comandos o URLs.
+
 ## 🎯 Formas de Contribuir
 
 ### 🌐 Sitio Web
@@ -29,7 +31,7 @@
 ### 1. Setup Inicial
 ```bash
 # Fork del repositorio osm-ar/encuentro-2025
-git clone https://github.com/tu-usuario/encuentro-2025.git
+git clone https://github.com/[user]/encuentro-2025.git
 cd encuentro-2025
 
 # Agregar upstream remote
@@ -112,7 +114,7 @@ git push origin feature/nombre-descriptivo
 bundle exec jekyll serve --host 0.0.0.0 --port 4000
 
 # Probar en dispositivos móviles
-# http://tu-ip-local:4000
+# http://[your-local-ip]:4000
 ```
 
 ### 🔍 Validación HTML
