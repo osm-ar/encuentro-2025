@@ -87,6 +87,11 @@ document.addEventListener('DOMContentLoaded', function() {
         initEncuentroMap();
     }
     
+    // Inicializar countdown si existe el elemento
+    if (document.getElementById('countdown-timer')) {
+        initEventCountdown();
+    }
+    
     // Smooth scroll para enlaces internos
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
@@ -186,44 +191,64 @@ function formatDate(dateString) {
     return new Date(dateString).toLocaleDateString('es-AR', options);
 }
 
-// Función para countdown hacia el evento (opcional)
+// Función para countdown hacia el evento
 function initEventCountdown() {
     const eventDate = new Date('2025-09-27T09:00:00-03:00');
-    const countdownElement = document.getElementById('countdown');
+    const daysElement = document.getElementById('days');
+    const hoursElement = document.getElementById('hours');
+    const minutesElement = document.getElementById('minutes');
+    const secondsElement = document.getElementById('seconds');
     
-    if (!countdownElement) return;
+    if (!daysElement || !hoursElement || !minutesElement || !secondsElement) return;
     
     function updateCountdown() {
         const now = new Date();
         const timeDiff = eventDate - now;
         
         if (timeDiff <= 0) {
-            countdownElement.innerHTML = '¡El encuentro está en curso!';
+            // El evento ya pasó o está en curso
+            daysElement.textContent = '00';
+            hoursElement.textContent = '00';
+            minutesElement.textContent = '00';
+            secondsElement.textContent = '00';
+            
+            // Cambiar el título
+            const titleElement = document.querySelector('.countdown-title');
+            if (titleElement) {
+                titleElement.textContent = '🎉 ¡El encuentro ya comenzó!';
+            }
             return;
         }
         
         const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
         const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
         
-        countdownElement.innerHTML = `
-            <div class="countdown-item">
-                <span class="countdown-number">${days}</span>
-                <span class="countdown-label">días</span>
-            </div>
-            <div class="countdown-item">
-                <span class="countdown-number">${hours}</span>
-                <span class="countdown-label">horas</span>
-            </div>
-            <div class="countdown-item">
-                <span class="countdown-number">${minutes}</span>
-                <span class="countdown-label">minutos</span>
-            </div>
-        `;
+        // Función para agregar animación al cambiar números
+        function updateWithAnimation(element, newValue) {
+            const formattedValue = String(newValue).padStart(2, '0');
+            if (element.textContent !== formattedValue) {
+                element.classList.add('updating');
+                setTimeout(() => {
+                    element.textContent = formattedValue;
+                    element.classList.remove('updating');
+                }, 100);
+            }
+        }
+        
+        // Actualizar cada elemento con animación
+        updateWithAnimation(daysElement, days);
+        updateWithAnimation(hoursElement, hours);
+        updateWithAnimation(minutesElement, minutes);
+        updateWithAnimation(secondsElement, seconds);
     }
     
+    // Inicializar inmediatamente
     updateCountdown();
-    setInterval(updateCountdown, 60000); // Actualizar cada minuto
+    
+    // Actualizar cada segundo
+    setInterval(updateCountdown, 1000);
 }
 
 // Performance optimizations

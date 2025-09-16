@@ -27,6 +27,28 @@ include_map: true
 - **📍 Lugar:** {{ site.event.location }}
 - **👥 Modalidad:** Híbrida (presencial + virtual)
 
+<div class="countdown-container">
+  <div class="countdown-title">⏰ Faltan para el encuentro</div>
+  <div id="countdown-timer" class="countdown-timer">
+    <div class="countdown-unit">
+      <span class="countdown-number" id="days">--</span>
+      <span class="countdown-label">Días</span>
+    </div>
+    <div class="countdown-unit">
+      <span class="countdown-number" id="hours">--</span>
+      <span class="countdown-label">Horas</span>
+    </div>
+    <div class="countdown-unit">
+      <span class="countdown-number" id="minutes">--</span>
+      <span class="countdown-label">Min</span>
+    </div>
+    <div class="countdown-unit">
+      <span class="countdown-number" id="seconds">--</span>
+      <span class="countdown-label">Seg</span>
+    </div>
+  </div>
+</div>
+
 ### 👨‍💼 Coordinador: {{ site.chairman.name }}
 
 **{{ site.chairman.experience }}** especializado en {{ site.chairman.specialty }}. [Ver perfil OSM]({{ site.chairman.osm_profile }})
