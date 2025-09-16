@@ -26,47 +26,6 @@ subtitle: Difundí el Encuentro OSM Argentina 2025
 
 ---
 
-## 🎨 Versiones y Capas del Flyer
-
-### 📁 Archivos Disponibles
-
-<div class="flyer-versions-grid">
-  <div class="flyer-version-card">
-    <div class="version-preview">
-      <img src="{{ '/assets/img/flyer_web_compact.svg' | relative_url }}" alt="Versión Web Compacta">
-    </div>
-    <div class="version-info">
-      <h4>🌐 Versión Web</h4>
-      <p>Optimizada para web, tamaño compacto y carga rápida</p>
-      <a href="{{ '/assets/img/flyer_web_compact.svg' | relative_url }}" target="_blank" class="btn btn-sm">Ver SVG</a>
-    </div>
-  </div>
-  
-  <div class="flyer-version-card">
-    <div class="version-preview">
-      <img src="{{ '/assets/img/flyer_text_layer.svg' | relative_url }}" alt="Capa de Texto">
-    </div>
-    <div class="version-info">
-      <h4>📝 Capa de Texto</h4>
-      <p>Solo elementos de texto, ideal para traducciones</p>
-      <a href="{{ '/assets/img/flyer_text_layer.svg' | relative_url }}" target="_blank" class="btn btn-sm">Ver SVG</a>
-    </div>
-  </div>
-  
-  <div class="flyer-version-card">
-    <div class="version-preview">
-      <img src="{{ '/assets/img/flyer_graphics_layer.svg' | relative_url }}" alt="Capa Gráfica">
-    </div>
-    <div class="version-info">
-      <h4>🎨 Capa Gráfica</h4>
-      <p>Elementos decorativos y gráficos reutilizables</p>
-      <a href="{{ '/assets/img/flyer_graphics_layer.svg' | relative_url }}" target="_blank" class="btn btn-sm">Ver SVG</a>
-    </div>
-  </div>
-</div>
-
----
-
 ## 📋 Información del Flyer
 
 ### 🎯 Datos Destacados
