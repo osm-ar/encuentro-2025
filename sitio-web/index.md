@@ -12,7 +12,7 @@ include_map: true
     <p>{{ site.event.location }}</p>
     <p class="hero-subtitle">Comunidad y Estado</p>
     <div class="hero-actions">
-      <a href="/flyer" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.9rem;">Ver flyer completo</a>
+      <a href="{{ '/flyer' | relative_url }}" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.9rem;">Ver flyer completo</a>
     </div>
   </div>
 </div>

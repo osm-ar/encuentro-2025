@@ -99,7 +99,7 @@ subtitle: Registrate para el Encuentro OSM Argentina 2025
       <h4>Ubicación</h4>
       <p><strong>{{ site.event.location }}</strong></p>
       <p>{{ site.event.address }}</p>
-      <p><a href="/#mapa-encuentro">🗺️ Ver en mapa</a></p>
+      <p><a href="{{ '/' | relative_url }}#mapa-encuentro">🗺️ Ver en mapa</a></p>
     </div>
     
     <div class="evento-item">
@@ -107,7 +107,7 @@ subtitle: Registrate para el Encuentro OSM Argentina 2025
       <h4>Programa</h4>
       <p><strong>Charlas + Talleres + Mapatón</strong></p>
       <p>Enfoque: "Comunidad y Estado"</p>
-      <p><a href="/programa">📋 Ver programa completo</a></p>
+      <p><a href="{{ '/programa' | relative_url }}">📋 Ver programa completo</a></p>
     </div>
     
     <div class="evento-item">
@@ -174,8 +174,8 @@ subtitle: Registrate para el Encuentro OSM Argentina 2025
     <div class="contacto-item">
       <h4>📚 Más Información</h4>
       <p><a href="{{ site.links.wiki }}" target="_blank">Wiki del Evento</a></p>
-      <p><a href="/faq">❓ Preguntas Frecuentes</a></p>
-      <p><a href="/participar">🎯 Cómo Participar</a></p>
+      <p><a href="{{ '/faq' | relative_url }}">❓ Preguntas Frecuentes</a></p>
+      <p><a href="{{ '/participar' | relative_url }}">🎯 Cómo Participar</a></p>
     </div>
   </div>
 </div>

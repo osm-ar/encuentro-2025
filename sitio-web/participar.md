@@ -232,7 +232,7 @@ Este encuentro sigue los principios establecidos por la comunidad OpenStreetMap:
   
   <div class="acciones-participar">
     <a href="{{ site.links.osm_calendar }}" class="btn btn-success btn-large">Confirmar Asistencia</a>
-    <a href="/programa" class="btn btn-outline">Ver Programa Completo</a>
+    <a href="{{ '/programa' | relative_url }}" class="btn btn-outline">Ver Programa Completo</a>
   </div>
 </div>
 

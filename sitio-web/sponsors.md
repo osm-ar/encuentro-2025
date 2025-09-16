@@ -1094,7 +1094,7 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
     <a href="{{ site.links.wiki }}" target="_blank" class="btn btn-primary">
       📧 Contactar Organización
     </a>
-    <a href="/casos-exito" class="btn btn-outline">
+    <a href="{{ '/casos-exito' | relative_url }}" class="btn btn-outline">
       📋 Ver Casos de Éxito
     </a>
   </div>
@@ -1116,7 +1116,7 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
     <h4>Casos de Éxito</h4>
     <a href="https://www.openstreetmap.org/user/MunicipalidadDePergamino" target="_blank">Pergamino OSM</a>
     <a href="https://www.modernizacion.misiones.gov.ar/curso-de-mapeo-colaborativo-con-openstreetmap/" target="_blank">Programa Misiones</a>
-    <a href="/proyecto-escuelas" target="_blank">Proyecto Escuelas</a>
+    <a href="{{ '/proyecto-escuelas' | relative_url }}" target="_blank">Proyecto Escuelas</a>
   </div>
 </div>
 

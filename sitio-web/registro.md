@@ -23,7 +23,7 @@ show_back_button: false
     <a href="{{ site.links.inscripcion_oficial }}" target="_blank" class="btn btn-primary">
       Abrir en Nueva Ventana
     </a>
-    <a href="/inscripcion" class="btn btn-outline">
+    <a href="{{ '/inscripcion' | relative_url }}" class="btn btn-outline">
       Ver Información Completa
     </a>
   </div>
@@ -36,9 +36,9 @@ show_back_button: false
   <p>Una vez completado el formulario:</p>
   <ul>
     <li>Recibirás confirmación por email</li>
-    <li>Revisa el <a href="/programa">programa completo</a></li>
+    <li>Revisa el <a href="{{ '/programa' | relative_url }}">programa completo</a></li>
     <li>Únete al <a href="{{ site.links.osm_calendar }}" target="_blank">evento en OSM Calendar</a></li>
-    <li>Prepárate para el <a href="/proyecto-escuelas">mapatón de escuelas</a></li>
+    <li>Prepárate para el <a href="{{ '/proyecto-escuelas' | relative_url }}">mapatón de escuelas</a></li>
   </ul>
 </div>
 
