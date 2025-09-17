@@ -46,7 +46,7 @@ sitio-web/           # Fuentes Jekyll
 
 ### 5. URLs del Sitio
 
-- **Sitio oficial:** https://osm-ar.github.io/encuentro-2025/
+- **Sitio oficial:** https://encuentro2025.openstreetmap.org.ar/
 - **Sitio de desarrollo:** https://[user].github.io/encuentro-2025/
 
 ### 6. Troubleshooting
@@ -69,9 +69,9 @@ Error: Ensure GITHUB_TOKEN has permission "id-token: write"
 1. **Verificar logs** en Actions tab
 2. **Baseurl correcto** en `_config.yml`:
    ```yaml
-   baseurl: "/encuentro-2025"
-   url: "https://osm-ar.github.io"  # Para sitio oficial
-   url: "https://[user].github.io" # Para desarrollo
+   baseurl: ""  # Para dominio personalizado
+   url: "https://encuentro2025.openstreetmap.org.ar"  # Para sitio oficial
+   url: "https://[user].github.io/encuentro-2025" # Para desarrollo
    ```
 3. **Dependencias** actualizadas en `Gemfile.lock`
 4. **Symlinks removidos** (no compatibles con GitHub Pages)

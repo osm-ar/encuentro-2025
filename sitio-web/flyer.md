@@ -41,7 +41,7 @@ subtitle: Difundí el Encuentro OSM Argentina 2025
 El flyer incluye códigos QR que dirigen a:
 
 1. **Inscripción:** [{{ site.links.inscripcion_oficial }}]({{ site.links.inscripcion_oficial }})
-2. **Sitio web:** [https://osm-ar.github.io/encuentro-2025/](https://osm-ar.github.io/encuentro-2025/)
+2. **Sitio web:** [https://encuentro2025.openstreetmap.org.ar/](https://encuentro2025.openstreetmap.org.ar/)
 3. **Wiki OSM:** [{{ site.links.wiki }}]({{ site.links.wiki }})
 
 ### 📱 Compartir en Redes

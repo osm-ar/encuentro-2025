@@ -6,7 +6,7 @@ subtitle: Cronograma completo - 27 de septiembre de 2025
 
 ## 📅 Programa Detallado
 
-**Universidad Nacional de Luján - Ruta 5 y Avenida Constitución**
+**[Universidad Nacional de Luján]({{ '/venue' | relative_url }}) - Ruta 5 y Avenida Constitución**
 
 ### 📋 Índice del Programa
 - [8:30-9:00 Acreditación](#acreditacion)

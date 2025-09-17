@@ -31,7 +31,7 @@ El encuentro está abierto a toda la comunidad interesada en OpenStreetMap, desd
 
 ### **💺 Participación Presencial**
 
-**Ubicación:** Universidad Nacional de Luján  
+**Ubicación:** [Universidad Nacional de Luján]({{ '/venue' | relative_url }})  
 **Dirección:** Ruta 5 y Avenida Constitución, Luján, Buenos Aires  
 **Aforo:** Limitado a capacidad del aula
 

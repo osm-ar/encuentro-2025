@@ -11,7 +11,7 @@ subtitle: Registrate para el Encuentro OSM Argentina 2025
   <div class="modalidades-info">
     <div class="modalidad presencial">
       <h3>🏢 Modalidad Presencial</h3>
-      <p>Universidad Nacional de Luján</p>
+      <p><a href="{{ '/venue' | relative_url }}">Universidad Nacional de Luján</a></p>
       <p><small>✅ Cupos limitados por capacidad del aula</small></p>
     </div>
     <div class="modalidad virtual">
