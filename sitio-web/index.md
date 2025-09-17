@@ -174,5 +174,5 @@ Un **espacio de intercambio entre pares** generado desde y para la comunidad de 
 <div class="footer-evento">
   <p><strong>Organiza:</strong> Comunidad OpenStreetMap Argentina</p>
   <p><strong>Coordinador:</strong> {{ site.chairman.name }}</p>
-  <p><strong>Anfitriona:</strong> Universidad Nacional de Luján</p>
+  <p><strong>Anfitriona:</strong> <a href="{{ '/venue' | relative_url }}">Universidad Nacional de Luján</a></p>
 </div>
