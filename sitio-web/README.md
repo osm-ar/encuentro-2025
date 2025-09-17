@@ -102,14 +102,16 @@ Para contribuir al sitio web:
 
 ### 📊 Funcionalidades Implementadas Recientemente
 
-- ✅ **Métricas mejoradas** - Cards interactivas con iconos y animaciones
-- ✅ **Logo UNLu Ciencias Básicas** - Departamento anfitrión agregado
-- ✅ **Info transporte público** - Detalles de acceso en FAQ
-- ✅ **URLs oficiales** - Referencias corregidas a sitio osm-ar
+- ✅ **Countdown timer** - Contador regresivo hacia el evento en página principal
+- ✅ **Página venue** - Información completa de la sede UNLu
+- ✅ **Mapa interactivo OSM** - Marcadores de aulas con datos reales
+- ✅ **Logo OSM Argentina** - Marcador principal con branding oficial
+- ✅ **Leyenda del mapa** - Guía visual de todos los marcadores
+- ✅ **Navegación a venue** - Enlaces contextuales desde menciones UNLu
+- ✅ **URLs dominio personalizado** - encuentro2025.openstreetmap.org.ar
 
 ### 📊 Próximas Funcionalidades
 
-- [ ] Countdown timer hacia el evento
 - [ ] Galería de fotos casos de éxito
 - [ ] Blog/noticias del encuentro
 - [ ] Dashboard de progreso MapRoulette
