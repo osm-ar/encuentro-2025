@@ -1,0 +1,22 @@
+// Página del flyer completo
+
+.flyer-completo {
+  text-align: center;
+  padding: $spacing-xl 0;
+  
+  .flyer-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: $border-radius-lg;
+    box-shadow: $shadow-lg;
+    margin: $spacing-xl 0;
+  }
+  
+  .flyer-actions {
+    margin: $spacing-xl 0;
+    display: flex;
+    gap: $spacing-md;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

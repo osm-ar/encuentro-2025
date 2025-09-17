@@ -1,0 +1,50 @@
+// Layout principal
+
+.site-main {
+  min-height: calc(100vh - 200px);
+  padding: $spacing-xxl $spacing-xl;
+  
+  @include mobile {
+    padding: $spacing-xl $spacing-md;
+  }
+}
+
+// Contenedores de contenido
+.page-content {
+  @include container;
+  padding: $spacing-xl;
+  
+  @include mobile {
+    padding: $spacing-md;
+  }
+}
+
+// Headers de página
+.page-header {
+  text-align: center;
+  margin-bottom: $spacing-xxl;
+  
+  h1 {
+    color: $primary-color;
+    font-size: 2.5rem;
+    margin-bottom: $spacing-sm;
+  }
+  
+  .page-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: $spacing-sm;
+  }
+  
+  .page-date {
+    color: #999;
+    font-size: 0.9rem;
+  }
+}
+
+.page-footer {
+  text-align: center;
+  margin-top: $spacing-xxl;
+  padding-top: $spacing-xl;
+  border-top: 1px solid $border-color;
+}

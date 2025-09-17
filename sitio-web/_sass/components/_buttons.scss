@@ -1,0 +1,87 @@
+// Componentes de botones
+
+.btn {
+  @include button-base;
+  
+  &.btn-primary {
+    background: $primary-color;
+    color: white;
+    
+    &:hover {
+      background: darken($primary-color, 10%);
+    }
+  }
+  
+  &.btn-success {
+    background: #28a745;
+    color: white;
+    
+    &:hover {
+      background: #218838;
+    }
+  }
+  
+  &.btn-outline {
+    background: transparent;
+    color: $primary-color;
+    border-color: $primary-color;
+    
+    &:hover {
+      background: $primary-color;
+      color: white;
+    }
+  }
+  
+  &.btn-large {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+  }
+}
+
+.btn-participar {
+  @include gradient-accent;
+  color: $primary-color !important;
+  padding: 0.75rem 1.25rem;
+  border-radius: $border-radius-lg;
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  box-shadow: 0 3px 8px rgba($accent-color, 0.3);
+  transition: all $transition-normal;
+  border: none;
+  text-decoration: none;
+  
+  &:hover {
+    background: linear-gradient(135deg, darken($accent-color, 5%), $accent-color) !important;
+    color: white !important;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba($accent-color, 0.4);
+  }
+  
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.btn-flyer {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  text-decoration: none;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: $border-radius-sm;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all $transition-normal;
+  @include backdrop-blur;
+  
+  &:hover {
+    background: rgba($accent-color, 0.9);
+    border-color: $accent-color;
+    color: $primary-color;
+    transform: translateY(-2px);
+  }
+}

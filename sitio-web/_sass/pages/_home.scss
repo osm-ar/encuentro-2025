@@ -1,0 +1,210 @@
+// Página principal (home)
+
+// Hero section
+.hero-section {
+  position: relative;
+  color: white;
+  text-align: center;
+  padding: 6rem $spacing-xl;
+  margin: -3rem -$spacing-xl 3rem -$spacing-xl;
+  overflow: hidden;
+  
+  // Fondo base con degradado OSM
+  @include gradient-primary;
+  
+  // Imagen del dibujo del flyer como elemento central
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 300px;
+    background: url('../img/dibujo_flyer_osm.png') center/contain no-repeat;
+    opacity: 0.5;
+    z-index: 1;
+    transform: translate(-50%, -50%) scale(1.3);
+    filter: none;
+  }
+  
+  // Overlay para legibilidad
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      135deg,
+      rgba(46, 92, 138, 0.8) 0%,
+      rgba(117, 170, 219, 0.6) 50%,
+      rgba(244, 196, 48, 0.3) 100%
+    );
+    z-index: 2;
+  }
+  
+  .event-badge {
+    position: relative;
+    z-index: 3;
+  }
+}
+
+// Animación de decoraciones
+@keyframes floatDecoration {
+  0%, 100% { 
+    transform: translateY(0px) scale(1); 
+  }
+  50% { 
+    transform: translateY(-10px) scale(1.02); 
+  }
+}
+
+.event-badge {
+  max-width: 700px;
+  margin: 0 auto;
+  animation: floatDecoration 6s ease-in-out infinite;
+  
+  h1 {
+    font-size: 3.5rem;
+    margin: 0 0 $spacing-sm 0;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    line-height: 1.1;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin: 0 0 $spacing-sm 0;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    color: $accent-color;
+  }
+  
+  p {
+    font-size: 1.4rem;
+    margin: 0 0 $spacing-sm 0;
+    opacity: 0.95;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  }
+  
+  .hero-subtitle {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: $accent-color;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: $spacing-md;
+  }
+  
+  .hero-actions {
+    margin-top: $spacing-xl;
+  }
+}
+
+// Programa preview
+.programa-preview {
+  background: $light-gray;
+  border-radius: $border-radius-lg;
+  padding: $spacing-xl;
+  margin: $spacing-xl 0;
+}
+
+.horario-item {
+  display: flex;
+  align-items: center;
+  padding: $spacing-md 0;
+  border-bottom: 1px solid $border-color;
+  
+  &:last-child {
+    border-bottom: none;
+  }
+  
+  &.destacado {
+    background: lighten($accent-color, 35%);
+    margin: 0 -$spacing-md;
+    padding: $spacing-md;
+    border-radius: $border-radius-sm;
+    border: 2px solid $accent-color;
+  }
+}
+
+.hora {
+  font-weight: 600;
+  color: $primary-color;
+  min-width: 120px;
+  font-size: 0.9rem;
+}
+
+.actividad {
+  font-weight: 500;
+}
+
+// Enlaces oficiales
+.enlaces-oficiales {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: $spacing-md;
+  margin: $spacing-xl 0;
+}
+
+.enlace-oficial {
+  display: block;
+  padding: $spacing-lg;
+  background: white;
+  border: 2px solid $border-color;
+  border-radius: $border-radius-lg;
+  text-decoration: none;
+  color: $text-color;
+  font-weight: 600;
+  text-align: center;
+  transition: all $transition-normal;
+  
+  &:hover {
+    border-color: $primary-color;
+    background: $light-gray;
+    transform: translateY(-2px);
+  }
+}
+
+// Responsive
+@include mobile {
+  .hero-section {
+    padding: 3rem $spacing-md;
+    margin: -3rem -$spacing-md 2rem -$spacing-md;
+    
+    &::before {
+      width: 300px;
+      height: 200px;
+      transform: translate(-50%, -50%) scale(1);
+    }
+  }
+  
+  .event-badge {
+    h1 {
+      font-size: 2.5rem;
+    }
+    
+    h2 {
+      font-size: 2rem;
+    }
+    
+    p {
+      font-size: 1.1rem;
+    }
+    
+    .hero-subtitle {
+      font-size: 1.4rem;
+    }
+  }
+  
+  .horario-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: $spacing-sm;
+  }
+  
+  .enlaces-oficiales {
+    grid-template-columns: 1fr;
+  }
+}

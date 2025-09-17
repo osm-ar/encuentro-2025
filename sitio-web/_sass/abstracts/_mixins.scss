@@ -1,0 +1,67 @@
+// Mixins útiles para el proyecto
+
+// Responsive breakpoints
+@mixin mobile {
+  @media (max-width: $breakpoint-mobile) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: $breakpoint-tablet) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $breakpoint-desktop) {
+    @content;
+  }
+}
+
+// Botones base
+@mixin button-base {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: $border-radius-sm;
+  font-weight: 600;
+  text-align: center;
+  transition: all $transition-normal;
+  border: 2px solid transparent;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+// Gradientes
+@mixin gradient-primary {
+  background: linear-gradient(135deg, $primary-color, $secondary-color);
+}
+
+@mixin gradient-accent {
+  background: linear-gradient(135deg, $accent-color, lighten($accent-color, 10%));
+}
+
+// Focus states accesibles
+@mixin focus-outline {
+  outline: 3px solid $accent-color;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+// Backdrop blur
+@mixin backdrop-blur {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+// Container centrado
+@mixin container {
+  max-width: $breakpoint-desktop;
+  margin: 0 auto;
+  padding: 0 $spacing-xl;
+  
+  @include mobile {
+    padding: 0 $spacing-md;
+  }
+}
