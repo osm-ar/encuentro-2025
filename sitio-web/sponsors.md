@@ -33,7 +33,7 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
 .sponsor-flip-card {
   background-color: transparent;
   width: 100%;
-  height: 330px;
+  height: 250px;
   perspective: 1000px;
   transition: height 0.6s ease;
 }
@@ -649,7 +649,7 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   transition: all 0.6s ease;
   cursor: pointer;
-  height: 280px;
+  height: 240px;
   display: flex;
   flex-direction: column;
 }
