@@ -144,30 +144,31 @@ Qué es ChatMap y cómo podemos incluir a la toda la comunidad en el mapa.
 ## 👨‍🏫 Instructores del Encuentro
 
 ### **Emilio Mariscal** {#emilio-mariscal}
-<img src="https://cdn.hotosm.org/website/emilio-mariscal.png" alt="Emilio Mariscal" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
+<img src="{{ '/assets/img/emi-mariscal.jpeg' | relative_url }}" alt="Emilio Mariscal" width="102" height="97" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
 
 **Software Engineering Manager - [Humanitarian OpenStreetMap Team](https://www.hotosm.org/people/emilio-mariscal/)**
 - 20+ años experiencia en desarrollo de software (JavaScript, Python, C++)
-- Bombero voluntario especializado en incendios forestales y protección del bosque
-- Experto en Drone Tasking Manager y mapeo aéreo para emergencias
+- Bombero voluntario, especializado en incendios forestales
+- Integrante de CHOIQUE
 - **Especialidad del taller:** Utilización de drones para captura aérea de bajo costo
 
 ### **Silvina Meritano** {#silvina-meritano}
 <img src="{{ '/assets/img/silvina_meritano.jpg' | relative_url }}" alt="Silvina Meritano" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
 
-**Socióloga - Universidad Nacional de Río Cuarto**
-- Especialista en estudios urbanos y mapeo participativo
-- Instructora del curso "El Mapa como Herramienta en la Investigación y Extensión Universitaria"
-- Experiencia en trabajo de campo y documentación de barrios
+**Trabajadora Social y Mg. Sociología - CONICET (CEA-UNC)**
+- Becaria doctoral de CONICET
+- Especialista en estudios urbanos y de seguridad
+- Instructora y organizadora de cursos de capacitación y posgrado sobre mapeo participativo.
+- Integrante de CHOIQUE
 - **Especialidad del taller:** EveryDoor y ChatMap para mapeo colaborativo
 
 ### **Bastian Greshake Tzovaras** {#bastian-greshake}
 <img src="https://cdn.masto.host/scholarsocial/accounts/avatars/000/116/560/original/a23e2e15732b7195.jpg" alt="Bastian Greshake Tzovaras" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
 
-**Desarrollador OSM - [@gedankenstuecke](https://scholar.social/@gedankenstuecke)**
-- Contribuidor principal de [Panoramax](https://tzovar.as/open-source-streetview/) (~40,000 imágenes, 2,500 km)
-- Desarrollador de herramientas de comparación before/after para OSM
-- Experto en integración MapComplete-Panoramax
+**Investigador [Peer-Produced Research Lab](https://peer-produced.science/) - [@gedankenstuecke](https://scholar.social/@gedankenstuecke)**
+- Experto en la teoría y la práctica de la colaboración en línea, [incluyendo OSM](https://tzovar.as/tool-diversity/)
+- [Desarrollador de software libre](https://codeberg.org/gedankenstuecke/)
+- Colaborador de [CoMaps](https://www.comaps.app/), [MapComplete](https://tzovar.as/wayside-shrines-mapcomplete/) y [Panoramax](https://panoramax.fr/)
 - **Especialidad del taller:** Panoramax - Street-View open source
 
 ### **Andrés Duhour** {#andres-duhour}

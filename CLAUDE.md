@@ -1,0 +1,2 @@
+- utilizar curl para descargar
+- Recuerda descomentar el baseurl antes de hacer deploy a GitHub Pages.
