@@ -1,4 +1,4 @@
-name: Deploy Jekyll site to GitHub Pages (Test Environment)
+name: Deploy Jekyll site to GitHub Pages
 
 on:
   push:
@@ -37,11 +37,11 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
-      - name: Build with Jekyll (using test config)
+      - name: Build with Jekyll
         run: |
           cd sitio-web
-          # Use _config_test.yml for manureta testing environment  
-          bundle exec jekyll build --config _config.yml,_config_test.yml --destination ./_site
+          # Use standard config for production deployment
+          bundle exec jekyll build --destination ./_site
         env:
           JEKYLL_ENV: production
 
