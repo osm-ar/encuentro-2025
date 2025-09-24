@@ -74,7 +74,7 @@ Un **espacio de intercambio entre pares** generado desde y para la comunidad de 
   
   <div class="horario-item">
     <div class="hora">9:30-11:00</div>
-    <div class="actividad">💬 Charlas Temáticas - OSM en organismos públicos</div>
+    <div class="actividad">💬 Charlas: Federico Gazaba + Carlos Brys</div>
   </div>
   
   <div class="horario-item">
@@ -88,8 +88,13 @@ Un **espacio de intercambio entre pares** generado desde y para la comunidad de 
   </div>
   
   <div class="horario-item destacado">
-    <div class="hora">13:30-18:00</div>
-    <div class="actividad">🗺️ Mapatón - Proyecto Escuelas OSM</div>
+    <div class="hora">13:30-15:30</div>
+    <div class="actividad">🗺️ Taller: Drones + EveryDoor (Emilio + Silvina)</div>
+  </div>
+  
+  <div class="horario-item destacado">
+    <div class="hora">16:00-18:00</div>
+    <div class="actividad">🗺️ Taller: Panoramax + ChatMap (Bastian + Silvina)</div>
   </div>
   
   <div class="horario-item">
@@ -104,7 +109,7 @@ Un **espacio de intercambio entre pares** generado desde y para la comunidad de 
 
 ## 🏫 Proyecto Especial: Escuelas OSM
 
-**Actividad principal del mapatón:** Mapear escuelas usando datos oficiales del Ministerio de Educación con **248 tareas** preparadas en MapRoulette.
+**Actividad continua durante los talleres:** Mapear escuelas usando datos oficiales del Ministerio de Educación con **248 tareas** preparadas en MapRoulette. Los participantes pueden trabajar en paralelo en el proyecto mientras asisten a los talleres especializados.
 
 [Ver proyecto completo]({{ '/proyecto-escuelas' | relative_url }}){:.btn .btn-outline} [Participar en MapRoulette]({{ site.links.maproulette_lujan }}){:.btn .btn-success}
 
