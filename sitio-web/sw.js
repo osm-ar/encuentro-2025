@@ -1,12 +1,14 @@
+---
+---
 // Service Worker para Encuentro OSM Argentina 2025
 // Proporciona funcionalidad básica offline
 
-const CACHE_NAME = 'osm-argentina-2025-v2';
+const CACHE_NAME = 'osm-argentina-2025-v3';
 const urlsToCache = [
     // Solo cachear recursos que realmente existen
-    '/assets/css/main.css',
-    '/assets/js/main.js',
-    '/assets/img/osm-ar-logo.png'
+    '{{ "/assets/css/main.css" | relative_url }}',
+    '{{ "/assets/js/main.js" | relative_url }}',
+    '{{ "/assets/img/osm-ar-logo.png" | relative_url }}'
 ];
 
 // Install event - cache core resources
