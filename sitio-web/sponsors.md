@@ -709,7 +709,150 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
     width: 100%;
   }
 }
+
+/* Premium Sponsors Section */
+.sponsors-premium {
+  background: linear-gradient(135deg, #F4C430, #FFD700);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  margin: 2rem 0 3rem 0;
+  box-shadow: 0 8px 32px rgba(244, 196, 48, 0.3);
+  border: 2px solid rgba(46, 92, 138, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.sponsors-premium::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.sponsors-premium h3 {
+  color: #2E5C8A;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0 0 1.5rem 0;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.3);
+}
+
+.sponsors-premium-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.sponsors-premium .sponsor-flip-card {
+  height: 240px;
+}
+
+.sponsors-premium .sponsor-flip-front {
+  background: linear-gradient(135deg, #ffffff, #f8f9fa);
+  border: 2px solid #2E5C8A;
+}
+
+.sponsors-premium .sponsor-flip-back {
+  background: linear-gradient(135deg, #2E5C8A, #75AADB) !important;
+}
+
+@media (max-width: 768px) {
+  .sponsors-premium {
+    padding: 2rem 1.5rem;
+    margin: 1.5rem 0 2rem 0;
+  }
+  
+  .sponsors-premium h3 {
+    font-size: 1.5rem;
+  }
+  
+  .sponsors-premium-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .sponsors-premium .sponsor-flip-card {
+    height: 220px;
+  }
+}
 </style>
+
+<!-- Premium Sponsors Section -->
+<div class="sponsors-premium">
+  <h3>⭐ Sponsors Principales</h3>
+  <div class="sponsors-premium-grid">
+    <!-- TomTom -->
+    <div class="sponsor-flip-card">
+      <div class="sponsor-flip-inner">
+        <div class="sponsor-flip-front">
+          <img src="{{ '/assets/img/TomTom-logo-RGB_lockup.png' | relative_url }}" alt="TomTom">
+          <h4>TomTom</h4>
+          <p><strong>Sponsor Tecnológico</strong></p>
+          <div class="flip-hint">Más información</div>
+        </div>
+        <div class="sponsor-flip-back">
+          <div class="back-header">
+            <img src="{{ '/assets/img/TomTom-logo-RGB_lockup.png' | relative_url }}" alt="TomTom" class="back-logo">
+            <h4>TomTom</h4>
+          </div>
+          <div class="sponsor-details">
+            <p><strong>Industria:</strong> Tecnología de localización</p>
+            <ul>
+              <li>🗺️ Líder en mapas y navegación</li>
+              <li>🚙 Soluciones automotrices</li>
+              <li>📱 APIs de geolocalización</li>
+              <li>🌍 Datos de tráfico en tiempo real</li>
+            </ul>
+            <div class="sponsor-metric">
+              <a href="https://www.tomtom.com/" target="_blank" class="external-link">
+                🌐 Sitio oficial TomTom
+              </a>
+              <div class="metric-text" style="margin-top: 0.5rem;">
+                #TomTom #TomTomMaps #OSMArgentina
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- GeoLibres Argentina -->
+    <div class="sponsor-flip-card">
+      <div class="sponsor-flip-inner">
+        <div class="sponsor-flip-front">
+          <img src="{{ '/assets/img/logo_geolibres.png' | relative_url }}" alt="GeoLibres Argentina">
+          <h4>GeoLibres Argentina</h4>
+          <p><strong>Asociación Civil</strong></p>
+          <div class="flip-hint">Más información</div>
+        </div>
+        <div class="sponsor-flip-back">
+          <div class="back-header">
+            <img src="{{ '/assets/img/logo_geolibres.png' | relative_url }}" alt="GeoLibres" class="back-logo">
+            <h4>GeoLibres Argentina</h4>
+          </div>
+          <div class="sponsor-details">
+            <p><strong>Fundada:</strong> 2019</p>
+            <ul>
+              <li>🆓 Software libre geoespacial</li>
+              <li>🤝 Nuclea OSM Argentina</li>
+              <li>👥 Red Geoinquiet@s</li>
+            </ul>
+            <div class="sponsor-metric">
+              <a href="https://geolibres.org.ar/" target="_blank" class="external-link">
+                🌐 Sitio oficial GeoLibres
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="sponsors-section">
   <h2>🤝 Nuestros Aliados</h2>
@@ -808,37 +951,6 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
       </div>
     </div>
     
-    <!-- GeoLibres Argentina -->
-    <div class="sponsor-flip-card">
-      <div class="sponsor-flip-inner">
-        <div class="sponsor-flip-front">
-          <img src="{{ '/assets/img/logo_geolibres.png' | relative_url }}" alt="GeoLibres Argentina">
-          <h4>GeoLibres Argentina</h4>
-          <p><strong>Asociación Civil</strong></p>
-          <div class="flip-hint">Más información</div>
-        </div>
-        <div class="sponsor-flip-back sponsor-oficial">
-          <div class="back-header">
-            <img src="{{ '/assets/img/logo_geolibres.png' | relative_url }}" alt="GeoLibres" class="back-logo">
-            <h4>GeoLibres Argentina</h4>
-          </div>
-          <div class="sponsor-details">
-            <p><strong>Fundada:</strong> 2019</p>
-            <ul>
-              <li>🆓 Software libre geoespacial</li>
-              <li>🤝 Nuclea OSM Argentina</li>
-              <li>👥 Red Geoinquiet@s</li>
-            </ul>
-            <div class="sponsor-metric">
-              <a href="https://geolibres.org.ar/" target="_blank" class="external-link">
-                🌐 Sitio oficial GeoLibres
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
     <!-- Kaart -->
     <!-- --hide--
     <div class="sponsor-flip-card">
@@ -871,41 +983,6 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
       </div>
     </div>
     -->
-    
-    <!-- TomTom -->
-    <div class="sponsor-flip-card">
-      <div class="sponsor-flip-inner">
-        <div class="sponsor-flip-front">
-          <img src="{{ '/assets/img/TomTom-logo-RGB_lockup.png' | relative_url }}" alt="TomTom">
-          <h4>TomTom</h4>
-          <p><strong>Sponsor Tecnológico</strong></p>
-          <div class="flip-hint">Más información</div>
-        </div>
-        <div class="sponsor-flip-back sponsor-oficial">
-          <div class="back-header">
-            <img src="{{ '/assets/img/TomTom-logo-RGB_lockup.png' | relative_url }}" alt="TomTom" class="back-logo">
-            <h4>TomTom</h4>
-          </div>
-          <div class="sponsor-details">
-            <p><strong>Industria:</strong> Tecnología de localización</p>
-            <ul>
-              <li>🗺️ Líder en mapas y navegación</li>
-              <li>🚙 Soluciones automotrices</li>
-              <li>📱 APIs de geolocalización</li>
-              <li>🌍 Datos de tráfico en tiempo real</li>
-            </ul>
-            <div class="sponsor-metric">
-              <a href="https://www.tomtom.com/" target="_blank" class="external-link">
-                🌐 Sitio oficial TomTom
-              </a>
-              <div class="metric-text" style="margin-top: 0.5rem;">
-                #TomTom #TomTomMaps #OSMArgentina
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     
     <!-- Geoinquiet@s Argentina -->
     <div class="sponsor-flip-card">
