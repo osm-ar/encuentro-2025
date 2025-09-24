@@ -1,0 +1,6 @@
+# Configuración para prueba con subdirectorio
+baseurl: "/encuentro2025"
+url: "http://localhost:4000"
+
+# Override para prueba
+environment: test

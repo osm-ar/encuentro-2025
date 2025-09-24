@@ -1,0 +1,47 @@
+// Reset básico y estilos base
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+  transition: overflow $transition-normal;
+  
+  &.menu-open {
+    overflow: hidden;
+  }
+}
+
+// Enlaces por defecto
+a {
+  color: $primary-color;
+  text-decoration: underline;
+  text-decoration-color: rgba($primary-color, 0.3);
+  text-underline-offset: 3px;
+  transition: all $transition-normal;
+  
+  &:hover {
+    color: darken($primary-color, 10%);
+    text-decoration-color: rgba($primary-color, 0.7);
+    text-decoration-thickness: 2px;
+  }
+  
+  &:focus {
+    @include focus-outline;
+  }
+  
+  // Enlaces externos
+  &[target="_blank"]:not(.btn):not(.enlace-oficial):not(.nav-menu a) {
+    &:after {
+      content: " ↗";
+      font-size: 0.8em;
+      opacity: 0.7;
+      margin-left: 2px;
+    }
+  }
+}

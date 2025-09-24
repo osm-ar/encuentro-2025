@@ -1,0 +1,47 @@
+// Componentes de formularios
+
+.formulario-container {
+  max-width: 900px;
+  margin: $spacing-xl auto;
+}
+
+.formulario-embed {
+  background: white;
+  border-radius: $border-radius-lg;
+  overflow: hidden;
+  box-shadow: $shadow-md;
+  margin-bottom: $spacing-md;
+  
+  iframe {
+    width: 100%;
+    min-height: 800px;
+    border: none;
+    display: block;
+    
+    @include mobile {
+      min-height: 600px;
+    }
+  }
+}
+
+.formulario-alternativo {
+  text-align: center;
+  padding: $spacing-md;
+  background: $light-gray;
+  border-radius: $border-radius-sm;
+  border-left: 4px solid $accent-color;
+  
+  p {
+    margin: $spacing-sm 0;
+  }
+  
+  small {
+    color: #666;
+  }
+}
+
+@include mobile {
+  .formulario-container {
+    margin: $spacing-md;
+  }
+}

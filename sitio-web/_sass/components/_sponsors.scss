@@ -1,0 +1,83 @@
+// Sección de sponsors
+
+.sponsors-section {
+  background: $light-gray;
+  padding: $spacing-xxl $spacing-xl;
+  margin: $spacing-xxl 0;
+  border-radius: $border-radius-lg;
+  text-align: center;
+  
+  h2 {
+    color: $primary-color;
+    margin-bottom: $spacing-xl;
+    font-size: 2rem;
+  }
+}
+
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: $spacing-xl;
+  margin: $spacing-xl 0;
+  align-items: center;
+}
+
+.sponsor-item {
+  background: white;
+  padding: $spacing-lg;
+  border-radius: $border-radius-lg;
+  box-shadow: $shadow-sm;
+  transition: transform $transition-normal;
+  
+  &:hover {
+    transform: translateY(-2px);
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 80px;
+    object-fit: contain;
+  }
+  
+  h4 {
+    margin: $spacing-md 0 $spacing-sm 0;
+    color: $primary-color;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+  }
+}
+
+// Tipos de sponsors
+.sponsor-oficial {
+  border-left: 4px solid $accent-color;
+}
+
+.sponsor-academico {
+  border-left: 4px solid $secondary-color;
+}
+
+.sponsor-colaborador {
+  border-left: 4px solid #28a745;
+}
+
+.sponsors-call {
+  background: white;
+  padding: $spacing-xl;
+  border-radius: $border-radius-lg;
+  border: 2px dashed $border-color;
+  margin-top: $spacing-xl;
+  
+  h3 {
+    color: $primary-color;
+    margin-bottom: $spacing-md;
+  }
+  
+  p {
+    margin-bottom: $spacing-md;
+    color: #666;
+  }
+}

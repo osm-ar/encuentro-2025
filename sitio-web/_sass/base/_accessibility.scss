@@ -1,0 +1,46 @@
+// Estilos de accesibilidad
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: $primary-color;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 0 0 4px 4px;
+  z-index: $z-header;
+  font-weight: 600;
+  
+  &:focus {
+    top: 0;
+  }
+}
+
+// Estados de foco para navegación por teclado
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  @include focus-outline;
+}
+
+// Soporte para alto contraste
+@media (prefers-contrast: high) {
+  .hero-section {
+    background: #000;
+    color: #fff;
+  }
+}
+
+// Soporte para movimiento reducido
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

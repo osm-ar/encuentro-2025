@@ -1,0 +1,44 @@
+// Variables del tema OSM Argentina 2025
+
+// Colores principales
+$primary-color: #2E5C8A;  // Azul OSM
+$secondary-color: #75AADB; // Azul claro
+$accent-color: #F4C430;    // Amarillo dorado (del flyer)
+$text-color: #333;
+$light-gray: #f8f9fa;
+$border-color: #e9ecef;
+
+// Breakpoints responsive
+$breakpoint-mobile: 768px;
+$breakpoint-tablet: 1024px;
+$breakpoint-desktop: 1200px;
+
+// Espaciado
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+$spacing-xxl: 3rem;
+
+// Z-index
+$z-dropdown: 1000;
+$z-header: 1000;
+$z-mobile-menu: 999;
+
+// Transiciones
+$transition-fast: 0.2s ease;
+$transition-normal: 0.3s ease;
+$transition-slow: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+// Border radius
+$border-radius-sm: 4px;
+$border-radius-md: 6px;
+$border-radius-lg: 8px;
+$border-radius-xl: 12px;
+
+// Box shadows
+$shadow-sm: 0 2px 4px rgba(0,0,0,0.1);
+$shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+$shadow-lg: 0 8px 16px rgba(0,0,0,0.1);
+$shadow-xl: 0 8px 24px rgba(0,0,0,0.12);
