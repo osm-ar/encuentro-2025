@@ -712,12 +712,12 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
 
 /* Premium Sponsors Section */
 .sponsors-premium {
-  background: linear-gradient(135deg, #F4C430, #FFD700);
+  background: linear-gradient(135deg, #75AADB, #2E5C8A);
   border-radius: 16px;
-  padding: 2.5rem 2rem;
-  margin: 2rem 0 3rem 0;
-  box-shadow: 0 8px 32px rgba(244, 196, 48, 0.3);
-  border: 2px solid rgba(46, 92, 138, 0.2);
+  padding: 2rem 1.8rem;
+  margin: 1.5rem 0 2.5rem 0;
+  box-shadow: 0 8px 32px rgba(46, 92, 138, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;
   overflow: hidden;
 }
@@ -734,12 +734,7 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
 }
 
 .sponsors-premium h3 {
-  color: #2E5C8A;
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin: 0 0 1.5rem 0;
-  text-align: center;
-  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.3);
+  display: none;
 }
 
 .sponsors-premium-grid {
@@ -754,7 +749,7 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
 
 .sponsors-premium .sponsor-flip-front {
   background: linear-gradient(135deg, #ffffff, #f8f9fa);
-  border: 2px solid #2E5C8A;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .sponsors-premium .sponsor-flip-back {
@@ -763,12 +758,8 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
 
 @media (max-width: 768px) {
   .sponsors-premium {
-    padding: 2rem 1.5rem;
-    margin: 1.5rem 0 2rem 0;
-  }
-  
-  .sponsors-premium h3 {
-    font-size: 1.5rem;
+    padding: 1.5rem 1.2rem;
+    margin: 1rem 0 1.8rem 0;
   }
   
   .sponsors-premium-grid {
