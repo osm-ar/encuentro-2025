@@ -606,6 +606,109 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
     border: 2px solid #fff;
   }
 }
+
+/* Sponsors Call Section */
+.sponsors-call {
+  background: linear-gradient(135deg, #2E5C8A, #75AADB);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  text-align: center;
+  margin: 3rem 0;
+  box-shadow: 0 8px 32px rgba(46, 92, 138, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sponsors-call h3 {
+  color: #F4C430;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 1.5rem 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.sponsors-call p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0 0 1rem 0;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.sponsors-call p strong {
+  color: #F4C430;
+  font-weight: 600;
+}
+
+.sponsors-call a {
+  color: #F4C430;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(244, 196, 48, 0.3);
+  transition: all 0.3s ease;
+}
+
+.sponsors-call a:hover {
+  color: #FFD700;
+  border-bottom-color: #FFD700;
+  text-decoration: none;
+}
+
+.sponsors-call .btn {
+  margin: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+  border: 2px solid transparent;
+}
+
+.sponsors-call .btn-primary {
+  background: #F4C430;
+  color: #2E5C8A;
+  border-color: #F4C430;
+}
+
+.sponsors-call .btn-primary:hover {
+  background: #FFD700;
+  border-color: #FFD700;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(244, 196, 48, 0.4);
+}
+
+.sponsors-call .btn-outline {
+  background: transparent;
+  color: white;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.sponsors-call .btn-outline:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: white;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .sponsors-call {
+    padding: 2rem 1.5rem;
+    margin: 2rem 0;
+  }
+  
+  .sponsors-call h3 {
+    font-size: 1.6rem;
+  }
+  
+  .sponsors-call p {
+    font-size: 1rem;
+  }
+  
+  .sponsors-call .btn {
+    display: block;
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+}
 </style>
 
 <div class="sponsors-section">

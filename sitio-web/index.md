@@ -64,42 +64,42 @@ Un **espacio de intercambio entre pares** generado desde y para la comunidad de 
 <div class="programa-preview">
   <div class="horario-item">
     <div class="hora">8:30-9:00</div>
-    <div class="actividad">🎫 Acreditación</div>
+    <div class="actividad"><a href="{{ '/programa#acreditacion' | relative_url }}" style="color: inherit; text-decoration: none;">🎫 Acreditación</a></div>
   </div>
   
   <div class="horario-item">
     <div class="hora">9:00-9:30</div>
-    <div class="actividad">🎯 Apertura del Encuentro</div>
+    <div class="actividad"><a href="{{ '/programa#apertura' | relative_url }}" style="color: inherit; text-decoration: none;">🎯 Apertura del Encuentro</a></div>
   </div>
   
   <div class="horario-item">
     <div class="hora">9:30-11:00</div>
-    <div class="actividad">💬 Charlas: Federico Gazaba + Carlos Brys</div>
+    <div class="actividad"><a href="{{ '/programa#charlas' | relative_url }}" style="color: inherit; text-decoration: none;">💬 Charlas: Federico Gazaba + Carlos Brys</a></div>
   </div>
   
   <div class="horario-item">
     <div class="hora">11:00-12:30</div>
-    <div class="actividad">🛠️ Talleres y Experiencias</div>
+    <div class="actividad"><a href="{{ '/programa#talleres' | relative_url }}" style="color: inherit; text-decoration: none;">🛠️ Talleres y Experiencias</a></div>
   </div>
   
   <div class="horario-item">
     <div class="hora">12:30-13:30</div>
-    <div class="actividad">🍽️ Almuerzo</div>
+    <div class="actividad"><a href="{{ '/programa#almuerzo' | relative_url }}" style="color: inherit; text-decoration: none;">🍽️ Almuerzo</a></div>
   </div>
   
   <div class="horario-item destacado">
     <div class="hora">13:30-15:30</div>
-    <div class="actividad">🗺️ Taller: Drones + EveryDoor (Emilio + Silvina)</div>
+    <div class="actividad"><a href="{{ '/programa#mapaton' | relative_url }}" style="color: inherit; text-decoration: none;">🗺️ Taller: Drones + EveryDoor (Emilio + Silvina)</a></div>
   </div>
   
   <div class="horario-item destacado">
     <div class="hora">16:00-18:00</div>
-    <div class="actividad">🗺️ Taller: Panoramax + ChatMap (Bastian + Silvina)</div>
+    <div class="actividad"><a href="{{ '/programa#mapaton' | relative_url }}" style="color: inherit; text-decoration: none;">🗺️ Taller: Panoramax + ChatMap (Bastian + Silvina)</a></div>
   </div>
   
   <div class="horario-item">
     <div class="hora">18:00</div>
-    <div class="actividad">🎯 Cierre - Propuesta SOTM 2026</div>
+    <div class="actividad"><a href="{{ '/programa#cierre' | relative_url }}" style="color: inherit; text-decoration: none;">🎯 Cierre - Propuesta SOTM 2026</a></div>
   </div>
 </div>
 
