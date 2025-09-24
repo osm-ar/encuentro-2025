@@ -35,6 +35,7 @@ Encuentro de la comunidad de OpenStreetMap en Argentina enfocado en el tema **"C
 - Casos de éxito (Pergamino, Misiones)
 - Perfil del Chairman
 - Documentación técnica
+- **[Declaración de Interés Municipal](documentos/declaracion-interes-municipal.md)** - Resolución HCD Luján
 
 ### 📂 `/programa`
 - Cronograma detallado del encuentro
