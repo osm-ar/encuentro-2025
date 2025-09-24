@@ -25,8 +25,8 @@
 **Tema principal:** Uso de OpenStreetMap en organismos públicos
 
 **Invitados confirmados:**
-- **Federico Gazaba** - Experiencias de integración OSM en organismos públicos
-- **Carlos Brys** - Herramientas de software para organismos públicos
+- **[Federico Gazaba](#federico-gazaba)** - IDE Pergamino: Experiencias de integración OSM en organismos públicos
+- **[Carlos Brys](#carlos-brys)** - Mapa de Gestión de Emergencias Ambientales en la provincia de Misiones
 
 **Casos de éxito de referencia:**
 - **Pergamino:** 10 años de colaboración municipal (2,246 ediciones)
@@ -50,12 +50,27 @@
 ### 🗺️ **13:30 - 18:00** | Mapatón y Talleres Avanzados
 
 #### Taller de Mapeo Multimodal
-**Instructor:** **Emilio Mariscal**  
 **Coordinación local:** **Andrés Duhour** (especialista cuenca Río Luján)
-- Utilización de drones
-- Herramientas para captura de imágenes de calle
-- Mapeo de calles, construcciones y elementos naturales asociados al **río Luján**
-- Análisis post-mapeo con osmlanduseR
+
+**(13:30 a 15:30)**
+
+**Utilización de drones para captura aérea**  
+**Instructor:** Emilio Mariscal  
+Drone Tasking Manager: qué es y cómo podemos usar drones de bajo costo para crear nuestras propias imágenes aéreas sin ser especialistas.
+
+**Mapeo de calles, construcciones y elementos naturales asociados al río Luján**  
+**Instructora:** Silvina Meritano  
+Cómo usar EveryDoor para agregar conocimiento local al mapa de OSM.
+
+**(16:00 a 18:00)**
+
+**Herramientas para captura de imágenes de calle: Panoramax**  
+**Instructor:** Bastian Greshake Tzovaras  
+Qué es Panoramax y cómo podemos crear nuestro propio "Street-View"
+
+**Herramientas para captura de imágenes de calle: ChatMap**  
+**Instructora:** Silvina Meritano  
+Qué es ChatMap y cómo podemos incluir a la toda la comunidad en el mapa.
 
 #### 🏫 Proyecto Especial: Escuelas OSM Argentina
 **Actividad principal del mapatón:**
@@ -91,6 +106,62 @@
 - Editores: iD, JOSM
 - Herramientas de captura de imágenes
 - Drones (taller de Emilio Mariscal)
+
+---
+
+## 👨‍🏫 Instructores del Encuentro
+
+### **Emilio Mariscal** {#emilio-mariscal}
+<img src="https://cdn.hotosm.org/website/emilio-mariscal.png" alt="Emilio Mariscal" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
+
+**Software Engineering Manager - [Humanitarian OpenStreetMap Team](https://www.hotosm.org/people/emilio-mariscal/)**
+- 20+ años experiencia en desarrollo de software (JavaScript, Python, C++)
+- Bombero voluntario especializado en incendios forestales y protección del bosque
+- Experto en Drone Tasking Manager y mapeo aéreo para emergencias
+- **Especialidad del taller:** Utilización de drones para captura aérea de bajo costo
+
+### **Silvina Meritano** {#silvina-meritano}
+<img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="Silvina Meritano - OSM Argentina" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
+
+**Socióloga - Universidad Nacional de Río Cuarto**
+- Especialista en estudios urbanos y mapeo participativo
+- Instructora del curso "El Mapa como Herramienta en la Investigación y Extensión Universitaria"
+- Experiencia en trabajo de campo y documentación de barrios
+- **Especialidad del taller:** EveryDoor y ChatMap para mapeo colaborativo
+
+### **Bastian Greshake Tzovaras** {#bastian-greshake}
+<img src="https://cdn.masto.host/scholarsocial/accounts/avatars/000/116/560/original/a23e2e15732b7195.jpg" alt="Bastian Greshake Tzovaras" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
+
+**Desarrollador OSM - [@gedankenstuecke](https://scholar.social/@gedankenstuecke)**
+- Contribuidor principal de [Panoramax](https://tzovar.as/open-source-streetview/) (~40,000 imágenes, 2,500 km)
+- Desarrollador de herramientas de comparación before/after para OSM
+- Experto en integración MapComplete-Panoramax
+- **Especialidad del taller:** Panoramax - Street-View open source
+
+### **Andrés Duhour** {#andres-duhour}
+**Coordinador General - Especialista Río Luján**
+- 10+ años experiencia OpenStreetMap Argentina
+- Desarrollador de osmlanduseR (paquete R)
+- Especialista en cuenca del río Luján y análisis de uso de suelo
+- **Coordinación:** Proyecto Escuelas OSM y análisis post-mapeo
+
+### **Federico Gazaba** {#federico-gazaba}
+<img src="{{ '/assets/img/logo_pergamino.png' | relative_url }}" alt="Federico Gazaba - Municipalidad de Pergamino" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
+
+**Coordinador GIS/IDE - [Municipalidad de Pergamino](https://ide.pergamino.gob.ar/)**
+- Coordinador proyecto GIS/IDE municipal y Director de Sistemas de Información Georreferenciada
+- Autor libro "Introducción a SIG con QGIS v3.34" (segunda edición)
+- Especialista en implementación de IDE municipal con software libre
+- **Especialidad:** Integración OSM en organismos públicos (10+ años experiencia)
+
+### **Carlos Brys** {#carlos-brys}
+<img src="https://0.academia-photos.com/161483/41324/3613054/s200_carlos.brys.jpg" alt="Carlos Brys" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
+
+**Informático - Universidad Nacional de Misiones**
+- PhD candidato en Ciencias de la Información (Posadas, Misiones)
+- Activista software libre, OpenStreetMap y sociedad del conocimiento
+- Especialista en mapeo colaborativo Misiones
+- **Especialidad:** Gestión de emergencias ambientales y gobierno electrónico
 
 ---
 

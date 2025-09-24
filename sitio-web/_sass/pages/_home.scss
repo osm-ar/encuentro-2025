@@ -5,8 +5,8 @@
   position: relative;
   color: white;
   text-align: center;
-  padding: 6rem $spacing-xl;
-  margin: -3rem -$spacing-xl 3rem -$spacing-xl;
+  padding: 4rem $spacing-xl;
+  margin: -2rem -$spacing-xl 2rem -$spacing-xl;
   overflow: hidden;
   
   // Fondo base con degradado OSM
@@ -102,6 +102,12 @@
   }
 }
 
+// Sección sobre el encuentro - separación del hero
+.hero-section + h2 {
+  margin-top: 3rem;
+  padding-top: 1rem;
+}
+
 // Programa preview
 .programa-preview {
   background: $light-gray;
@@ -170,8 +176,8 @@
 // Responsive
 @include mobile {
   .hero-section {
-    padding: 3rem $spacing-md;
-    margin: -3rem -$spacing-md 2rem -$spacing-md;
+    padding: 2rem $spacing-md;
+    margin: -1.5rem -$spacing-md 1.5rem -$spacing-md;
     
     &::before {
       width: 300px;

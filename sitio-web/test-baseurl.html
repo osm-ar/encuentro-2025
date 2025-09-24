@@ -1,0 +1,26 @@
+---
+layout: default
+title: Test BaseURL
+---
+
+<h1>Prueba de BaseURL</h1>
+
+<p>Esta página prueba que todos los enlaces funcionen correctamente con baseurl.</p>
+
+<h2>Navegación</h2>
+<ul>
+  <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
+  <li><a href="{{ '/programa' | relative_url }}">Programa</a></li>
+  <li><a href="{{ '/venue' | relative_url }}">Sede</a></li>
+</ul>
+
+<h2>Imágenes</h2>
+<p>Logo OSM Argentina: <img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="OSM AR" width="50"></p>
+<p>Logo Pergamino: <img src="{{ '/assets/img/logo_pergamino.png' | relative_url }}" alt="Pergamino" width="50"></p>
+
+<h2>CSS y JS</h2>
+<p>El CSS y JS deben cargar correctamente desde {{ '/assets/css/main.css' | relative_url }}</p>
+
+<h2>Config Info</h2>
+<p><strong>BaseURL:</strong> "{{ site.baseurl }}"</p>
+<p><strong>URL:</strong> {{ site.url }}</p>
