@@ -1,6 +1,6 @@
 # Configuración para prueba con subdirectorio
-baseurl: "/encuentro2025"
-url: "http://localhost:4000"
+baseurl: "/encuentro-2025"
+url: "https://manureta.github.io"
 
 # Override para prueba
 environment: test
