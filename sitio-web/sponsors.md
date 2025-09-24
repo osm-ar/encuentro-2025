@@ -26,13 +26,16 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
   margin: 2rem 0;
+  /* Espacio extra para el efecto de agrandado */
+  padding: 2rem 0;
 }
 
 .sponsor-flip-card {
   background-color: transparent;
   width: 100%;
-  height: 280px;
+  height: 330px;
   perspective: 1000px;
+  transition: height 0.6s ease;
 }
 
 .sponsor-flip-inner {
@@ -47,6 +50,12 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
 
 .sponsor-flip-card:hover .sponsor-flip-inner {
   transform: rotateY(180deg);
+}
+
+.sponsor-flip-card:hover {
+  height: 380px;
+  z-index: 2;
+  position: relative;
 }
 
 .sponsor-flip-front, 
@@ -74,6 +83,7 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
   transform: rotateY(180deg);
   text-align: left;
   justify-content: flex-start;
+  overflow: hidden;
 }
 
 .sponsor-flip-back.sponsor-oficial {
@@ -135,27 +145,32 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
 .back-header {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
+  gap: 0.6rem;
   margin-bottom: 0.8rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid rgba(255,255,255,0.3);
+  flex-wrap: nowrap;
 }
 
 .back-logo {
-  width: 32px;
-  height: 32px;
+  width: 56px;
+  height: 56px;
   object-fit: contain;
   background: rgba(255,255,255,0.1);
   border-radius: 4px;
   padding: 2px;
+  flex-shrink: 0;
 }
 
 .back-header h4 {
   color: white;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
 }
 
 .sponsor-flip-back h4 {
@@ -274,14 +289,17 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   margin: 2rem 0;
+  /* Espacio extra para el efecto de agrandado */
+  padding: 2rem 0;
 }
 
 .flip-card {
   background-color: transparent;
   width: 100%;
-  height: 300px;
+  height: 240px;
   border-radius: 12px;
   perspective: 1000px;
+  transition: height 0.6s ease;
 }
 
 .flip-card-inner {
@@ -297,6 +315,12 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
 .flip-card:hover .flip-card-inner,
 .flip-card.flipped .flip-card-inner {
   transform: rotateY(180deg);
+}
+
+.flip-card:hover {
+  height: 360px;
+  z-index: 2;
+  position: relative;
 }
 
 .flip-card-front, 
@@ -607,6 +631,95 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
   }
 }
 
+/* Sponsors Grid (Red de Colaboración) */
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+  /* Espacio extra para el efecto de agrandado */
+  padding: 2rem 0;
+}
+
+.sponsor-item {
+  background: linear-gradient(135deg, #f8f9fa, #ffffff);
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: all 0.6s ease;
+  cursor: pointer;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sponsor-item:hover {
+  height: 320px;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  z-index: 2;
+  position: relative;
+}
+
+.sponsor-item.sponsor-academico {
+  border-left: 4px solid #28a745;
+}
+
+.sponsor-item.sponsor-colaborador {
+  border-left: 4px solid #17a2b8;
+}
+
+.sponsor-item h4 {
+  color: #2E5C8A;
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.sponsor-item p {
+  color: #666;
+  margin: 0 0 1rem 0;
+  font-size: 0.9rem;
+}
+
+.sponsor-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.sponsor-item li {
+  color: #555;
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.sponsor-item li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #28a745;
+  font-weight: bold;
+}
+
+/* Tarjetas flip en Red de Colaboración (las invitaciones) */
+.sponsors-grid .sponsor-flip-card:hover {
+  height: 400px;
+  z-index: 2;
+  position: relative;
+}
+
+/* Nuestros Aliados - altura más moderada */
+.sponsors-flip-grid .sponsor-flip-card:hover {
+  height: 340px;
+  z-index: 2;
+  position: relative;
+}
+
 /* Sponsors Call Section */
 .sponsors-call {
   background: linear-gradient(135deg, #2E5C8A, #75AADB);
@@ -741,10 +854,19 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
+  /* Espacio extra para el efecto de agrandado */
+  padding: 2rem 0;
 }
 
 .sponsors-premium .sponsor-flip-card {
-  height: 240px;
+  height: 260px;
+  transition: height 0.6s ease;
+}
+
+.sponsors-premium .sponsor-flip-card:hover {
+  height: 380px;
+  z-index: 2;
+  position: relative;
 }
 
 .sponsors-premium .sponsor-flip-front {

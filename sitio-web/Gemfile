@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 # Jekyll and GitHub Pages
 gem "github-pages", group: :jekyll_plugins
+gem "faraday-retry"
 
 # Optional plugins
 group :jekyll_plugins do
