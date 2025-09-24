@@ -112,21 +112,22 @@ Qué es ChatMap y cómo podemos incluir a la toda la comunidad en el mapa.
 ## 👨‍🏫 Instructores del Encuentro
 
 ### **Emilio Mariscal** {#emilio-mariscal}
-<img src="https://cdn.hotosm.org/website/emilio-mariscal.png" alt="Emilio Mariscal" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
+<img src="{{ '/assets/img/emi-mariscal.jpeg' | relative_url }}" alt="Emilio Mariscal" width="102" height="97" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
 
 **Software Engineering Manager - [Humanitarian OpenStreetMap Team](https://www.hotosm.org/people/emilio-mariscal/)**
 - 20+ años experiencia en desarrollo de software (JavaScript, Python, C++)
-- Bombero voluntario especializado en incendios forestales y protección del bosque
-- Experto en Drone Tasking Manager y mapeo aéreo para emergencias
+- Bombero voluntario, especializado en incendios forestales
+- Integrante de CHOIQUE
 - **Especialidad del taller:** Utilización de drones para captura aérea de bajo costo
 
 ### **Silvina Meritano** {#silvina-meritano}
 <img src="{{ '/assets/img/silvina_meritano.jpg' | relative_url }}" alt="Silvina Meritano" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
 
-**Socióloga - Universidad Nacional de Río Cuarto**
-- Especialista en estudios urbanos y mapeo participativo
-- Instructora del curso "El Mapa como Herramienta en la Investigación y Extensión Universitaria"
-- Experiencia en trabajo de campo y documentación de barrios
+**Trabajadora Social y Mg. Sociología - CONICET (CEA-UNC)**
+- Becaria doctoral de CONICET
+- Especialista en estudios urbanos y de seguridad
+- Instructora y organizadora de cursos de capacitación y posgrado sobre mapeo participativo.
+- Integrante de CHOIQUE
 - **Especialidad del taller:** EveryDoor y ChatMap para mapeo colaborativo
 
 ### **Bastian Greshake Tzovaras** {#bastian-greshake}
