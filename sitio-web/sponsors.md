@@ -772,26 +772,26 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
     -->
     
     <!-- TomTom -->
-    <!-- --hide--
     <div class="sponsor-flip-card">
       <div class="sponsor-flip-inner">
         <div class="sponsor-flip-front">
-          <img src="{{ '/assets/img/logo_tomtom.svg' | relative_url }}" alt="TomTom">
+          <img src="{{ '/assets/img/TomTom-logo-RGB_lockup.png' | relative_url }}" alt="TomTom">
           <h4>TomTom</h4>
           <p><strong>Sponsor Tecnológico</strong></p>
           <div class="flip-hint">Más información</div>
         </div>
         <div class="sponsor-flip-back sponsor-oficial">
           <div class="back-header">
-            <img src="{{ '/assets/img/logo_tomtom.svg' | relative_url }}" alt="TomTom" class="back-logo">
+            <img src="{{ '/assets/img/TomTom-logo-RGB_lockup.png' | relative_url }}" alt="TomTom" class="back-logo">
             <h4>TomTom</h4>
           </div>
           <div class="sponsor-details">
             <p><strong>Industria:</strong> Tecnología de localización</p>
             <ul>
-              <li>🗺️ Líder en mapas</li>
-              <li>🚙 Navegación</li>
-              <li>📱 APIs localización</li>
+              <li>🗺️ Líder en mapas y navegación</li>
+              <li>🚙 Soluciones automotrices</li>
+              <li>📱 APIs de geolocalización</li>
+              <li>🌍 Datos de tráfico en tiempo real</li>
             </ul>
             <div class="sponsor-metric">
               <a href="https://www.tomtom.com/" target="_blank" class="external-link">
@@ -802,7 +802,6 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
         </div>
       </div>
     </div>
-    -->
     
     <!-- Geoinquiet@s Argentina -->
     <div class="sponsor-flip-card">
