@@ -28,7 +28,9 @@ El encuentro incluye como actividad especial el **Proyecto Escuelas OSM Argentin
 ### Integración con el Programa
 
 #### Durante el Mapatón (13:30 - 18:00)
-- **Taller de Mapeo Multimodal** con Emilio Mariscal
+- **Taller de Mapeo Multimodal** con Emilio Mariscal (HOT, integrante CHOIQUE)
+- **Taller EveryDoor y ChatMap** con Silvina Meritano (CONICET, integrante CHOIQUE)
+- **Taller Panoramax** con Bastian Greshake Tzovaras (Peer-Produced Research Lab)
 - **Mapeo específico de escuelas de Luján** usando el Challenge 53133
 - **Práctica con herramientas** de verificación Overpass
 - **Trabajo colaborativo** presencial/virtual
@@ -78,10 +80,20 @@ source=Ministerio de Educación Argentina
 - **Caso de estudio** en vivo del proyecto escuelas
 - **Demostración** de workflows colaborativos
 
-#### Emilio Mariscal
+#### Emilio Mariscal (HOT, integrante CHOIQUE)
 - **Integración** con taller de mapeo multimodal
-- **Uso de herramientas** especializadas para verificación
+- **Uso de drones** para captura aérea de bajo costo
 - **Práctica con datos** estructurados gubernamentales
+
+#### Silvina Meritano (CONICET, integrante CHOIQUE)
+- **Taller EveryDoor** para mapeo móvil colaborativo
+- **Herramienta ChatMap** para inclusión comunitaria
+- **Mapeo participativo** con enfoque social
+
+#### Bastian Greshake Tzovaras (Peer-Produced Research Lab)
+- **Taller Panoramax** para Street-View open source
+- **Herramientas colaborativas** de captura de imágenes
+- **Integración MapComplete** y herramientas de verificación
 
 ---
 

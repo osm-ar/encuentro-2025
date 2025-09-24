@@ -115,7 +115,9 @@ Encuentro de la comunidad de OpenStreetMap en Argentina enfocado en el tema **"C
 - **Universidad Nacional de Luján:** Anfitriona del encuentro
 
 ### Participantes Confirmados
-- **Emilio Mariscal:** Taller de mapeo multimodal
+- **Emilio Mariscal:** Taller de mapeo multimodal (HOT, integrante CHOIQUE)
+- **Silvina Meritano:** Taller EveryDoor y ChatMap (CONICET, integrante CHOIQUE)
+- **Bastian Greshake Tzovaras:** Taller Panoramax (Peer-Produced Research Lab)
 - **Federico Gazaba:** Experiencias OSM en organismos públicos  
 - **Carlos Brys:** Herramientas de software
 
