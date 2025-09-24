@@ -1,4 +1,5 @@
 ---
+layout: null
 ---
 // Service Worker para Encuentro OSM Argentina 2025
 // Proporciona funcionalidad básica offline

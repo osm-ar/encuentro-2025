@@ -101,6 +101,10 @@ defaults:
     values:
       layout: "programa"
 
+# Include files that should be processed by Jekyll
+include:
+  - sw.js
+
 # Exclude from processing
 exclude:
   - README.md
