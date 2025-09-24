@@ -146,7 +146,7 @@ Qué es ChatMap y cómo podemos incluir a la toda la comunidad en el mapa.
 - **Coordinación:** Proyecto Escuelas OSM y análisis post-mapeo
 
 ### **Federico Gazaba** {#federico-gazaba}
-<img src="{{ '/assets/img/logo_pergamino.png' | relative_url }}" alt="Federico Gazaba - Municipalidad de Pergamino" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
+<img src="{{ '/assets/img/federico_gazaba.jpg' | relative_url }}" alt="Federico Gazaba" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
 
 **Coordinador GIS/IDE - [Municipalidad de Pergamino](https://ide.pergamino.gob.ar/)**
 - Coordinador proyecto GIS/IDE municipal y Director de Sistemas de Información Georreferenciada
