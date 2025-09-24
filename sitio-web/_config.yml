@@ -3,8 +3,14 @@
 # Site settings
 title: "Encuentro OSM Argentina 2025"
 description: "Encuentro de la Comunidad de OpenStreetMap de Argentina - 27 de septiembre 2025, Universidad Nacional de Luján"
-baseurl: "" # no subpath for custom domain
+# Environment-based configuration
+baseurl: "" # default for custom domain
 url: "https://encuentro2025.openstreetmap.org.ar" # custom domain
+
+# GitHub Pages environment override
+github_pages:
+  baseurl: "/encuentro-2025"
+  url: "https://manureta.github.io"
 
 # Performance and SEO
 timezone: "America/Argentina/Buenos_Aires"
