@@ -830,8 +830,8 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
               <li>👥 Red Geoinquiet@s</li>
             </ul>
             <div class="sponsor-metric">
-              <a href="https://www.linkedin.com/company/geolibres/" target="_blank" class="external-link">
-                🌐 GeoLibres en LinkedIn
+              <a href="https://geolibres.org.ar/" target="_blank" class="external-link">
+                🌐 Sitio oficial GeoLibres
               </a>
             </div>
           </div>
