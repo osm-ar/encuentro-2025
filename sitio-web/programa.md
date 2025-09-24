@@ -153,7 +153,7 @@ Qué es ChatMap y cómo podemos incluir a la toda la comunidad en el mapa.
 - **Especialidad del taller:** Utilización de drones para captura aérea de bajo costo
 
 ### **Silvina Meritano** {#silvina-meritano}
-<img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="Silvina Meritano - OSM Argentina" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
+<img src="{{ '/assets/img/silvina_meritano.jpg' | relative_url }}" alt="Silvina Meritano" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
 
 **Socióloga - Universidad Nacional de Río Cuarto**
 - Especialista en estudios urbanos y mapeo participativo
