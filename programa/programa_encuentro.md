@@ -132,10 +132,10 @@ Qué es ChatMap y cómo podemos incluir a la toda la comunidad en el mapa.
 ### **Bastian Greshake Tzovaras** {#bastian-greshake}
 <img src="https://cdn.masto.host/scholarsocial/accounts/avatars/000/116/560/original/a23e2e15732b7195.jpg" alt="Bastian Greshake Tzovaras" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
 
-**Desarrollador OSM - [@gedankenstuecke](https://scholar.social/@gedankenstuecke)**
-- Contribuidor principal de [Panoramax](https://tzovar.as/open-source-streetview/) (~40,000 imágenes, 2,500 km)
-- Desarrollador de herramientas de comparación before/after para OSM
-- Experto en integración MapComplete-Panoramax
+**Investigador [Peer-Produced Research Lab](https://peer-produced.science/) - [@gedankenstuecke](https://scholar.social/@gedankenstuecke)**
+- Experto en la teoría y la práctica de la colaboración en línea, [incluyendo OSM](https://tzovar.as/tool-diversity/)
+- [Desarrollador de software libre](https://codeberg.org/gedankenstuecke/)
+- Colaborador de [CoMaps](https://www.comaps.app/), [MapComplete](https://tzovar.as/wayside-shrines-mapcomplete/) y [Panoramax](https://panoramax.fr/)
 - **Especialidad del taller:** Panoramax - Street-View open source
 
 ### **Andrés Duhour** {#andres-duhour}
