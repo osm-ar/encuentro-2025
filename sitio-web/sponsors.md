@@ -804,7 +804,7 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
                 🌐 Sitio oficial TomTom
               </a>
               <div class="metric-text" style="margin-top: 0.5rem;">
-                #TomTom #TomTomMaps #OSMArgentina
+                #TomTom #TomTomCares #OSMArgentina
               </div>
             </div>
           </div>
@@ -837,6 +837,9 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
               <a href="https://geolibres.org.ar/" target="_blank" class="external-link">
                 🌐 Sitio oficial GeoLibres
               </a>
+              <div class="metric-text" style="margin-top: 0.5rem;">
+                #Geolibres #OSMArgentina
+              </div>
             </div>
           </div>
         </div>
