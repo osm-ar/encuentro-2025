@@ -139,8 +139,10 @@ Qué es ChatMap y cómo podemos incluir a la toda la comunidad en el mapa.
 - **Especialidad del taller:** Panoramax - Street-View open source
 
 ### **Andrés Duhour** {#andres-duhour}
+<img src="{{ '/assets/img/andres_duhour.jpg' | relative_url }}" alt="Andrés Duhour" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
+
 **Coordinador General - Especialista Río Luján**
-- 10+ años experiencia OpenStreetMap Argentina
+- 10+ años experiencia OpenStreetMap Argentina (AndresDuhour)
 - Desarrollador de osmlanduseR (paquete R)
 - Especialista en cuenca del río Luján y análisis de uso de suelo
 - **Coordinación:** Proyecto Escuelas OSM y análisis post-mapeo
