@@ -114,6 +114,8 @@ Qué es ChatMap y cómo podemos incluir a la toda la comunidad en el mapa.
 
 #### **🏫 Proyecto Especial: Escuelas OSM Argentina**
 
+**Facilitador:** [Manuel Retamozo](#manuel-retamozo) <span title="Especialista en bases de datos geográficas. GeoInquiet@s.">ℹ️</span>
+
 **Actividad principal del mapatón:**
 
 - **MapRoulette Challenge Luján:** [218 escuelas por mapear]({{ site.links.maproulette_lujan }})
@@ -197,6 +199,16 @@ Qué es ChatMap y cómo podemos incluir a la toda la comunidad en el mapa.
 - Activista software libre, OpenStreetMap y sociedad del conocimiento
 - Especialista en [mapeo colaborativo Misiones](https://www.openstreetmap.org/user/Carlos%20Brys)
 - **Especialidad:** Gestión de emergencias ambientales y gobierno electrónico
+
+### **Manuel Retamozo** {#manuel-retamozo}
+<img src="{{ '/assets/img/manuel_retamozo.png' | relative_url }}" alt="Manuel Retamozo" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
+
+**Facilitador Proyecto Escuelas OSM - Especialista en Bases de Datos Geográficas**
+- Integrante de **GeoInquiet@s** (Geoinquietos Argentina)
+- Especialista en bases de datos geográficas, análisis espacial y SIG
+- Facilitador de procesos de mapeo colaborativo con datos gubernamentales
+- Coordinador técnico del Proyecto Escuelas OSM Argentina
+- **Especialidad:** Integración y facilitación de talleres de mapeo colaborativo
 
 ---
 
