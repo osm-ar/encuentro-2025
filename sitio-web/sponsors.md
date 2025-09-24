@@ -1347,8 +1347,8 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
 <div class="sponsors-call">
   <h3>🤝 ¿Querés ser parte?</h3>
   <p>Si tu organización está interesada en apoyar futuros encuentros de la comunidad OpenStreetMap Argentina, contactanos:</p>
-  <p><strong>Coordinador:</strong> Andrés Duhour - [Ver perfil OSM]({{ site.chairman.osm_profile }})</p>
-  <p><strong>Wiki:</strong> [Información de contacto]({{ site.links.wiki }})</p>
+  <p><strong>Coordinador:</strong> Andrés Duhour - <a href="{{ site.chairman.osm_profile }}" target="_blank">Ver perfil OSM</a></p>
+  <p><strong>Wiki:</strong> <a href="{{ site.links.wiki }}" target="_blank">Información de contacto</a></p>
   
   <div style="margin-top: 1.5rem;">
     <a href="{{ site.links.wiki }}" target="_blank" class="btn btn-primary">
