@@ -900,6 +900,9 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
               <a href="https://www.tomtom.com/" target="_blank" class="external-link">
                 🌐 Sitio oficial TomTom
               </a>
+              <div class="metric-text" style="margin-top: 0.5rem;">
+                #TomTom #TomTomMaps #OSMArgentina
+              </div>
             </div>
           </div>
         </div>
