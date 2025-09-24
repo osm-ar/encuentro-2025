@@ -809,7 +809,6 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
     </div>
     
     <!-- GeoLibres Argentina -->
-    <!-- --hide-- 
     <div class="sponsor-flip-card">
       <div class="sponsor-flip-inner">
         <div class="sponsor-flip-front">
@@ -839,7 +838,6 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
         </div>
       </div>
     </div>
-    -->
     
     <!-- Kaart -->
     <!-- --hide--
