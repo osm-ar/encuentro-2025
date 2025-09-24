@@ -24,7 +24,7 @@ subtitle: Cronograma completo - 27 de septiembre de 2025
 ### 🎫 **8:30 - 9:00** | Acreditación {#acreditacion}
 
 - Registro de asistentes presenciales
-- Verificación de conexiones virtuales  
+- Verificación de conexiones virtuales
 - Entrega de materiales del encuentro
 - Networking inicial
 
@@ -94,22 +94,22 @@ subtitle: Cronograma completo - 27 de septiembre de 2025
 
 ##### **(13:30 a 15:30)**
 
-**Utilización de drones para captura aérea**  
-**Instructor:** [Emilio Mariscal](#emilio-mariscal) <span title="Software Engineering Manager - HOT. 20+ años experiencia en desarrollo y bombero voluntario especializado en incendios forestales.">ℹ️</span>  
+**Utilización de drones para captura aérea**
+**Instructor:** [Emilio Mariscal](#emilio-mariscal) <span title="Software Engineering Manager - HOT. 20+ años experiencia en desarrollo y bombero voluntario especializado en incendios forestales.">ℹ️</span>
 Drone Tasking Manager: qué es y cómo podemos usar drones de bajo costo para crear nuestras propias imágenes aéreas sin ser especialistas.
 
-**Mapeo de calles, construcciones y elementos naturales asociados al río Luján**  
-**Instructora:** [Silvina Meritano](#silvina-meritano) <span title="Socióloga especialista en estudios urbanos. Instructora Universidad Nacional de Río Cuarto.">ℹ️</span>  
+**Mapeo de calles, construcciones y elementos naturales asociados al río Luján**
+**Instructora:** [Silvina Meritano](#silvina-meritano) <span title="Socióloga especialista en estudios urbanos. Instructora Universidad Nacional de Río Cuarto.">ℹ️</span>
 Cómo usar EveryDoor para agregar conocimiento local al mapa de OSM.
 
 ##### **(16:00 a 18:00)**
 
-**Herramientas para captura de imágenes de calle: Panoramax**  
-**Instructor:** [Bastian Greshake Tzovaras](#bastian-greshake) <span title="Desarrollador OSM (@gedankenstuecke). Contribuidor principal de Panoramax con 40,000+ imágenes.">ℹ️</span>  
+**Herramientas para captura de imágenes de calle: Panoramax**
+**Instructor:** [Bastian Greshake Tzovaras](#bastian-greshake) <span title="Desarrollador OSM (@gedankenstuecke). Contribuidor principal de Panoramax con 40,000+ imágenes.">ℹ️</span>
 Qué es Panoramax y cómo podemos crear nuestro propio "Street-View"
 
-**Herramientas para captura de imágenes de calle: ChatMap**  
-**Instructora:** [Silvina Meritano](#silvina-meritano) <span title="Especialista en mapeo participativo y trabajo de campo.">ℹ️</span>  
+**Herramientas para captura de imágenes de calle: ChatMap**
+**Instructora:** [Silvina Meritano](#silvina-meritano) <span title="Especialista en mapeo participativo y trabajo de campo.">ℹ️</span>
 Qué es ChatMap y cómo podemos incluir a la toda la comunidad en el mapa.
 
 #### **🏫 Proyecto Especial: Escuelas OSM Argentina**
@@ -122,7 +122,7 @@ Qué es ChatMap y cómo podemos incluir a la toda la comunidad en el mapa.
 - **Fuentes oficiales:** Enlaces directos a legajos del Ministerio de Educación
 
 #### **Actividades del Mapatón**
-- **Mapeo colaborativo** del Proyecto Escuelas OSM  
+- **Mapeo colaborativo** del Proyecto Escuelas OSM
 - **Práctica** con herramientas de verificación gubernamental
 - **Trabajo en equipo** presencial/virtual con datos oficiales
 - **Caso práctico** de comunidad-estado en acción
@@ -172,7 +172,7 @@ Qué es ChatMap y cómo podemos incluir a la toda la comunidad en el mapa.
 - **Especialidad del taller:** Panoramax - Street-View open source
 
 ### **Andrés Duhour** {#andres-duhour}
-<img src="{{ '/assets/img/andres_duhour.jpg' | relative_url }}" alt="Andrés Duhour" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
+<img src="{{ '/assets/img/andres.github.jpeg' | relative_url }}" alt="Andrés Duhour" width="100" height="100" style="border-radius: 50%; float: left; margin: 0 15px 10px 0;">
 
 **Coordinador General - Especialista Río Luján**
 - 10+ años experiencia OpenStreetMap Argentina ([AndresDuhour]({{ site.chairman.osm_profile }}))
