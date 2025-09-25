@@ -289,7 +289,7 @@ permalink: /presentacion/
                     <p>📅 Sábado 27 de septiembre de 2025</p>
                     <p>📍 Universidad Nacional de Luján</p>
                     <p>🕘 09:00 - 19:00</p>
-                    <p style="color: #F4C430; font-size: 1.2rem; margin-top: 1rem;">🎊 12 slides - Presentación automática</p>
+                    <p style="color: #F4C430; font-size: 1.2rem; margin-top: 1rem;">🎊 13 slides - Presentación automática</p>
                 </div>
             </section>
 
@@ -454,29 +454,15 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 8: Nuestros Aliados -->
+            <!-- Slide 8: Nuestros Aliados - Institucionales -->
             <section>
-                <h2>🤝 Nuestros Aliados</h2>
+                <h2>🏢 Aliados Institucionales</h2>
                 <div class="aliados-grid">
                     <div class="aliado-item">
                         <img src="{{ '/assets/img/logo_unlu.png' | relative_url }}" alt="Universidad Nacional de Luján" class="aliado-logo">
                         <div>
                             <h3>Universidad Nacional de Luján</h3>
                             <p>Sede del encuentro • Apoyo institucional</p>
-                        </div>
-                    </div>
-                    <div class="aliado-item">
-                        <img src="{{ '/assets/img/logo_kaart_official.svg' | relative_url }}" alt="Kaart" class="aliado-logo">
-                        <div>
-                            <h3>Kaart</h3>
-                            <p>Especialistas en datos geoespaciales</p>
-                        </div>
-                    </div>
-                    <div class="aliado-item">
-                        <img src="{{ '/assets/img/logo_geoinquietos_ar_oficial.png' | relative_url }}" alt="GeoInquietos Argentina" class="aliado-logo">
-                        <div>
-                            <h3>GeoInquietos Argentina</h3>
-                            <p>Comunidad geoespacial argentina</p>
                         </div>
                     </div>
                     <div class="aliado-item">
@@ -489,7 +475,30 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 9: Alimentación y Logística -->
+            <!-- Slide 9: Nuestros Aliados - Comunidades -->
+            <section>
+                <h2>👥 Aliados Comunitarios</h2>
+                <div class="aliados-grid">
+                    <div class="aliado-item">
+                        <img src="{{ '/assets/img/logo_geoinquietos_ar_oficial.png' | relative_url }}" alt="GeoInquietos Argentina" class="aliado-logo">
+                        <div>
+                            <h3>GeoInquietos Argentina</h3>
+                            <p>Comunidad geoespacial argentina</p>
+                            <p style="color: #F4C430; font-size: 0.9rem; margin-top: 0.5rem;">🌐 Red FOSS4G Latinoamérica</p>
+                        </div>
+                    </div>
+                    <div class="aliado-item">
+                        <img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="OSM Argentina" class="aliado-logo">
+                        <div>
+                            <h3>OpenStreetMap Argentina</h3>
+                            <p>Comunidad nacional de mapeo colaborativo</p>
+                            <p style="color: #F4C430; font-size: 0.9rem; margin-top: 0.5rem;">🗺️ Organizador principal</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 10: Alimentación y Logística -->
             <section>
                 <h2>🍽️ Alimentación y Descansos</h2>
                 <div class="info-grid">
@@ -520,7 +529,7 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 10: Participación -->
+            <!-- Slide 11: Participación -->
             <section>
                 <h2>🚀 ¡Participa del Encuentro!</h2>
                 <div class="info-grid" style="margin: 3rem 0;">
@@ -545,7 +554,7 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 11: Coordinador -->
+            <!-- Slide 12: Coordinador -->
             <section>
                 <h2>👨‍💼 Coordinación del Evento</h2>
                 <div class="coordinador-container">
@@ -569,7 +578,7 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 12: Información Final -->
+            <!-- Slide 13: Información Final -->
             <section>
                 <img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="OSM Argentina" class="slide-logo">
                 <h1>¡Te Esperamos!</h1>
