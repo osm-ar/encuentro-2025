@@ -34,13 +34,13 @@ permalink: /presentacion/
         }
         
         .reveal h1 {
-            font-size: 3.5rem;
-            margin-bottom: 1.5rem;
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
         }
         
         .reveal h2 {
-            font-size: 2.5rem;
-            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            margin-bottom: 1rem;
         }
         
         .slide-logo {
@@ -78,7 +78,7 @@ permalink: /presentacion/
         
         .info-item h3 {
             margin-top: 0;
-            font-size: 1.4rem;
+            font-size: 1.1rem;
         }
         
         .sponsor-display {
@@ -220,8 +220,8 @@ permalink: /presentacion/
         }
         
         .large-text {
-            font-size: 2rem;
-            margin: 1rem 0;
+            font-size: 1.6rem;
+            margin: 0.8rem 0;
         }
         
         .highlight {
@@ -230,16 +230,16 @@ permalink: /presentacion/
         }
         
         .contact-info {
-            font-size: 1.4rem;
-            line-height: 1.8;
-            margin: 2rem 0;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin: 1.5rem 0;
         }
         
         .programa-time {
             color: #F4C430;
             font-weight: bold;
-            font-size: 1.2rem;
-            margin-bottom: 0.5rem;
+            font-size: 1rem;
+            margin-bottom: 0.3rem;
         }
         
         /* Progress bar personalizado */
@@ -289,7 +289,7 @@ permalink: /presentacion/
                     <p>📅 Sábado 27 de septiembre de 2025</p>
                     <p>📍 Universidad Nacional de Luján</p>
                     <p>🕘 09:00 - 19:00</p>
-                    <p style="color: #F4C430; font-size: 1.2rem; margin-top: 1rem;">🎊 13 slides - Presentación automática</p>
+                    <p style="color: #F4C430; font-size: 1rem; margin-top: 1rem;">🎊 14 slides - Presentación automática</p>
                 </div>
             </section>
 
@@ -403,27 +403,35 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 6: Casos de Éxito -->
+            <!-- Slide 6: Casos de Éxito - Parte 1 -->
             <section>
                 <h2>🏆 Casos de Éxito: Comunidad y Estado</h2>
-                <div class="casos-grid">
+                <div class="casos-grid" style="grid-template-columns: repeat(2, 1fr); gap: 1.5rem;">
                     <div class="caso-item">
-                        <img src="{{ '/assets/img/logo_pergamino.png' | relative_url }}" alt="Pergamino">
-                        <h3>Municipalidad de Pergamino</h3>
-                        <p><strong>10 años de colaboración</strong></p>
-                        <p>Mapeo sistemático de infraestructura urbana con participación ciudadana</p>
+                        <img src="{{ '/assets/img/logo_pergamino.png' | relative_url }}" alt="Pergamino" style="width: 60px; height: 60px;">
+                        <h3 style="font-size: 1.3rem;">Municipalidad de Pergamino</h3>
+                        <p style="font-size: 1rem;"><strong>10 años de colaboración</strong></p>
+                        <p style="font-size: 0.9rem;">Mapeo sistemático de infraestructura urbana con participación ciudadana. 2,246 ediciones oficiales.</p>
                     </div>
                     <div class="caso-item">
-                        <img src="{{ '/assets/img/logo_misiones.png' | relative_url }}" alt="Misiones">
-                        <h3>Programa Misiones</h3>
-                        <p><strong>Capacitación gubernamental</strong></p>
-                        <p>Entrenamiento de funcionarios públicos en herramientas OSM</p>
+                        <img src="{{ '/assets/img/logo_misiones.png' | relative_url }}" alt="Misiones" style="width: 60px; height: 60px;">
+                        <h3 style="font-size: 1.3rem;">Programa Misiones</h3>
+                        <p style="font-size: 1rem;"><strong>Capacitación gubernamental</strong></p>
+                        <p style="font-size: 0.9rem;">Entrenamiento de 15+ organismos públicos en herramientas OSM durante 3 días intensivos.</p>
                     </div>
-                    <div class="caso-item">
-                        <img src="{{ '/assets/img/logo_idera.png' | relative_url }}" alt="IDERA">
-                        <h3>Integración IDERA</h3>
-                        <p><strong>Datos oficiales</strong></p>
-                        <p>Conexión con la Infraestructura de Datos Espaciales</p>
+                </div>
+            </section>
+
+            <!-- Slide 7: Casos de Éxito - Parte 2 -->
+            <section>
+                <h2>🏆 Casos de Éxito: Infraestructura</h2>
+                <div class="casos-grid" style="grid-template-columns: 1fr; max-width: 600px; margin: 0 auto;">
+                    <div class="caso-item" style="text-align: center; padding: 2rem;">
+                        <img src="{{ '/assets/img/logo_idera.png' | relative_url }}" alt="IDERA" style="width: 80px; height: 80px; margin-bottom: 1rem;">
+                        <h3 style="font-size: 1.4rem;">Integración IDERA</h3>
+                        <p style="font-size: 1.1rem;"><strong>Datos oficiales integrados</strong></p>
+                        <p style="font-size: 1rem;">Conexión directa con la Infraestructura de Datos Espaciales de la República Argentina</p>
+                        <p style="color: #F4C430; font-size: 0.9rem; margin-top: 1rem;">🌐 Proyecto Escuelas OSM utiliza datos del Ministerio de Educación</p>
                     </div>
                 </div>
             </section>
@@ -434,10 +442,10 @@ permalink: /presentacion/
                 <div class="proyecto-container">
                     <div>
                         <h3 style="color: #F4C430;">Mapeo de Centros Educativos</h3>
-                        <p style="font-size: 1.2rem; margin-bottom: 1rem;">
+                        <p style="font-size: 1rem; margin-bottom: 0.8rem;">
                             Contribución colaborativa al <strong>Mapa Educativo Nacional</strong> a través de OpenStreetMap
                         </p>
-                        <ul style="text-align: left; font-size: 1.1rem; line-height: 1.8;">
+                        <ul style="text-align: left; font-size: 0.9rem; line-height: 1.6;">
                             <li>✅ Identificación de escuelas en zonas rurales</li>
                             <li>✅ Validación de datos oficiales</li>
                             <li>✅ Mejora de la accesibilidad educativa</li>
@@ -558,10 +566,18 @@ permalink: /presentacion/
             <section>
                 <h2>👨‍💼 Coordinación del Evento</h2>
                 <div class="coordinador-container">
-                    <img src="{{ '/assets/img/andres_duhour.jpg' | relative_url }}" alt="Andrés Duhour" class="coordinador-foto">
+                    <div style="position: relative; width: 200px; height: 200px; margin: 0 auto;">
+                        <img src="{{ '/assets/img/andres_duhour.jpg' | relative_url }}" alt="Andrés Duhour" style="width: 200px; height: 200px; border-radius: 50%; border: 5px solid #F4C430; position: relative; z-index: 2;">
+                        <div style="position: absolute; top: -10px; right: -10px; width: 60px; height: 60px; background: rgba(255,255,255,0.9); border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 3px solid #2E5C8A; z-index: 3;">
+                            <img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="OSM Argentina" style="width: 40px; height: 40px; border-radius: 50%;">
+                        </div>
+                        <div style="position: absolute; bottom: -5px; left: -5px; background: rgba(244, 196, 48, 0.9); padding: 3px 8px; border-radius: 12px; font-size: 0.7rem; font-weight: bold; color: #2E5C8A; z-index: 3;">
+                            🎆 OSM AR 2025
+                        </div>
+                    </div>
                     <div>
-                        <h3 style="font-size: 2.5rem;">Andrés Duhour</h3>
-                        <p style="font-size: 1.5rem;">Coordinador General</p>
+                        <h3 style="font-size: 2rem;">Andrés Duhour</h3>
+                        <p style="font-size: 1.2rem;">Coordinador General</p>
                         <div class="coordinador-stats">
                             <div class="stat">
                                 <span class="stat-number">19,204+</span>
@@ -572,8 +588,8 @@ permalink: /presentacion/
                                 <span class="stat-label">años de experiencia</span>
                             </div>
                         </div>
-                        <p style="font-size: 1.2rem;">🌊 <strong>Especialidad:</strong> Cuenca del Río Luján, osmlanduseR</p>
-                        <p style="font-size: 1.1rem; color: #F4C430;">🔗 openstreetmap.org/user/AndresDuhour</p>
+                        <p style="font-size: 1rem;">🌊 <strong>Especialidad:</strong> Cuenca del Río Luján, osmlanduseR</p>
+                        <p style="font-size: 0.9rem; color: #F4C430;">🔗 openstreetmap.org/user/AndresDuhour</p>
                     </div>
                 </div>
             </section>
