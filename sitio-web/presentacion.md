@@ -289,6 +289,7 @@ permalink: /presentacion/
                     <p>📅 Sábado 27 de septiembre de 2025</p>
                     <p>📍 Universidad Nacional de Luján</p>
                     <p>🕘 09:00 - 19:00</p>
+                    <p style="color: #F4C430; font-size: 1.2rem; margin-top: 1rem;">🎊 12 slides - Presentación automática</p>
                 </div>
             </section>
 
@@ -324,33 +325,7 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 3: Sponsor Premium - TomTom -->
-            <section>
-                <div class="sponsor-display">
-                    <img src="{{ '/assets/img/logo_tomtom.svg' | relative_url }}" alt="TomTom" class="slide-logo-large">
-                    <h2>Sponsor Premium</h2>
-                    <p style="font-size: 1.4rem; line-height: 1.6; max-width: 800px; margin: 0 auto;">
-                        TomTom es líder mundial en tecnologías de navegación y mapas, impulsando la movilidad con datos de mapas de alta calidad y servicios de localización innovadores.
-                    </p>
-                    <div class="sponsor-metrics">
-                        <div class="metric">
-                            <span class="metric-icon">💼</span>
-                            <span class="metric-label">Tecnología Global</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-icon">🌍</span>
-                            <span class="metric-label">Presencia Mundial</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-icon">🗺️</span>
-                            <span class="metric-label">Innovación en Mapas</span>
-                        </div>
-                    </div>
-                    <p class="hashtags">#TomTom #TomTomCares</p>
-                </div>
-            </section>
-
-            <!-- Slide 4: Sponsor Premium - Geolibres -->
+            <!-- Slide 3: Sponsor Premium - Geolibres -->
             <section>
                 <div class="sponsor-display">
                     <img src="{{ '/assets/img/logo_geolibres.png' | relative_url }}" alt="Geolibres" class="slide-logo-large">
@@ -376,7 +351,59 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 5: Casos de Éxito -->
+            <!-- Slide 4: Sponsor Premium - Kaart -->
+            <section>
+                <div class="sponsor-display">
+                    <img src="{{ '/assets/img/logo_kaart_official.svg' | relative_url }}" alt="Kaart" class="slide-logo-large">
+                    <h2>Sponsor Premium</h2>
+                    <p style="font-size: 1.4rem; line-height: 1.6; max-width: 800px; margin: 0 auto;">
+                        Kaart es líder en tecnología de datos geoespaciales, especializados en OpenStreetMap con proyectos globales de cartografía y herramientas avanzadas de mapeo.
+                    </p>
+                    <div class="sponsor-metrics">
+                        <div class="metric">
+                            <span class="metric-icon">📍</span>
+                            <span class="metric-label">OpenStreetMap</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-icon">🤖</span>
+                            <span class="metric-label">Tecnología Avanzada</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-icon">🌎</span>
+                            <span class="metric-label">Proyectos Globales</span>
+                        </div>
+                    </div>
+                    <p class="hashtags">#Kaart #OSMExperts</p>
+                </div>
+            </section>
+
+            <!-- Slide 5: Sponsor Premium - TomTom -->
+            <section>
+                <div class="sponsor-display">
+                    <img src="{{ '/assets/img/logo_tomtom.svg' | relative_url }}" alt="TomTom" class="slide-logo-large">
+                    <h2>Sponsor Premium</h2>
+                    <p style="font-size: 1.4rem; line-height: 1.6; max-width: 800px; margin: 0 auto;">
+                        TomTom es líder mundial en tecnologías de navegación y mapas, impulsando la movilidad con datos de mapas de alta calidad y servicios de localización innovadores.
+                    </p>
+                    <div class="sponsor-metrics">
+                        <div class="metric">
+                            <span class="metric-icon">💼</span>
+                            <span class="metric-label">Tecnología Global</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-icon">🌍</span>
+                            <span class="metric-label">Presencia Mundial</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-icon">🗺️</span>
+                            <span class="metric-label">Innovación en Mapas</span>
+                        </div>
+                    </div>
+                    <p class="hashtags">#TomTom #TomTomCares</p>
+                </div>
+            </section>
+
+            <!-- Slide 6: Casos de Éxito -->
             <section>
                 <h2>🏆 Casos de Éxito: Comunidad y Estado</h2>
                 <div class="casos-grid">
@@ -401,7 +428,7 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 6: Proyecto Escuelas -->
+            <!-- Slide 7: Proyecto Escuelas -->
             <section>
                 <h2>🏫 Proyecto Escuelas OSM</h2>
                 <div class="proyecto-container">
@@ -427,7 +454,7 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 7: Nuestros Aliados -->
+            <!-- Slide 8: Nuestros Aliados -->
             <section>
                 <h2>🤝 Nuestros Aliados</h2>
                 <div class="aliados-grid">
@@ -439,7 +466,7 @@ permalink: /presentacion/
                         </div>
                     </div>
                     <div class="aliado-item">
-                        <img src="{{ '/assets/img/logo_kaart.png' | relative_url }}" alt="Kaart" class="aliado-logo">
+                        <img src="{{ '/assets/img/logo_kaart_official.svg' | relative_url }}" alt="Kaart" class="aliado-logo">
                         <div>
                             <h3>Kaart</h3>
                             <p>Especialistas en datos geoespaciales</p>
@@ -462,7 +489,7 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 8: Alimentación y Logística -->
+            <!-- Slide 9: Alimentación y Logística -->
             <section>
                 <h2>🍽️ Alimentación y Descansos</h2>
                 <div class="info-grid">
@@ -493,7 +520,7 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 9: Participación -->
+            <!-- Slide 10: Participación -->
             <section>
                 <h2>🚀 ¡Participa del Encuentro!</h2>
                 <div class="info-grid" style="margin: 3rem 0;">
@@ -518,7 +545,7 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 10: Coordinador -->
+            <!-- Slide 11: Coordinador -->
             <section>
                 <h2>👨‍💼 Coordinación del Evento</h2>
                 <div class="coordinador-container">
@@ -542,7 +569,7 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 11: Información Final -->
+            <!-- Slide 12: Información Final -->
             <section>
                 <img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="OSM Argentina" class="slide-logo">
                 <h1>¡Te Esperamos!</h1>

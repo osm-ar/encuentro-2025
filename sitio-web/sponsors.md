@@ -899,6 +899,75 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
 <div class="sponsors-premium">
   <h3>⭐ Sponsors Principales</h3>
   <div class="sponsors-premium-grid">
+    <!-- GeoLibres Argentina -->
+    <div class="sponsor-flip-card">
+      <div class="sponsor-flip-inner">
+        <div class="sponsor-flip-front">
+          <img src="{{ '/assets/img/logo_geolibres.png' | relative_url }}" alt="GeoLibres Argentina">
+          <h4>GeoLibres Argentina</h4>
+          <p><strong>Asociación Civil</strong></p>
+          <div class="flip-hint">Más información</div>
+        </div>
+        <div class="sponsor-flip-back">
+          <div class="back-header">
+            <img src="{{ '/assets/img/logo_geolibres.png' | relative_url }}" alt="GeoLibres" class="back-logo">
+            <h4>GeoLibres Argentina</h4>
+          </div>
+          <div class="sponsor-details">
+            <p><strong>Fundada:</strong> 2019</p>
+            <ul>
+              <li>🆓 Software libre geoespacial</li>
+              <li>🤝 Nuclea OSM Argentina</li>
+              <li>👥 Red Geoinquiet@s</li>
+            </ul>
+            <div class="sponsor-metric">
+              <a href="https://geolibres.org.ar/" target="_blank" class="external-link">
+                🌐 Sitio oficial GeoLibres
+              </a>
+              <div class="metric-text" style="margin-top: 0.5rem;">
+                #Geolibres #OSMArgentina
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Kaart -->
+    <div class="sponsor-flip-card">
+      <div class="sponsor-flip-inner">
+        <div class="sponsor-flip-front">
+          <img src="{{ '/assets/img/logo_kaart_official.svg' | relative_url }}" alt="Kaart">
+          <h4>Kaart</h4>
+          <p><strong>Sponsor Técnico</strong></p>
+          <div class="flip-hint">Más información</div>
+        </div>
+        <div class="sponsor-flip-back">
+          <div class="back-header">
+            <img src="{{ '/assets/img/logo_kaart_official.svg' | relative_url }}" alt="Kaart" class="back-logo">
+            <h4>Kaart</h4>
+          </div>
+          <div class="sponsor-details">
+            <p><strong>Especialidad:</strong> Datos geoespaciales</p>
+            <ul>
+              <li>📍 Expertos en OpenStreetMap</li>
+              <li>🤖 Tecnología de mapeo avanzada</li>
+              <li>🌎 Proyectos globales de cartografía</li>
+              <li>🛠️ Herramientas especializadas OSM</li>
+            </ul>
+            <div class="sponsor-metric">
+              <a href="https://kaart.com/" target="_blank" class="external-link">
+                🌐 Sitio oficial Kaart
+              </a>
+              <div class="metric-text" style="margin-top: 0.5rem;">
+                #Kaart #OSMExperts #GeoData
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!-- TomTom -->
     <div class="sponsor-flip-card">
       <div class="sponsor-flip-inner">
@@ -927,40 +996,6 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
               </a>
               <div class="metric-text" style="margin-top: 0.5rem;">
                 #TomTom #TomTomCares #OSMArgentina
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- GeoLibres Argentina -->
-    <div class="sponsor-flip-card">
-      <div class="sponsor-flip-inner">
-        <div class="sponsor-flip-front">
-          <img src="{{ '/assets/img/logo_geolibres.png' | relative_url }}" alt="GeoLibres Argentina">
-          <h4>GeoLibres Argentina</h4>
-          <p><strong>Asociación Civil</strong></p>
-          <div class="flip-hint">Más información</div>
-        </div>
-        <div class="sponsor-flip-back">
-          <div class="back-header">
-            <img src="{{ '/assets/img/logo_geolibres.png' | relative_url }}" alt="GeoLibres" class="back-logo">
-            <h4>GeoLibres Argentina</h4>
-          </div>
-          <div class="sponsor-details">
-            <p><strong>Fundada:</strong> 2019</p>
-            <ul>
-              <li>🆓 Software libre geoespacial</li>
-              <li>🤝 Nuclea OSM Argentina</li>
-              <li>👥 Red Geoinquiet@s</li>
-            </ul>
-            <div class="sponsor-metric">
-              <a href="https://geolibres.org.ar/" target="_blank" class="external-link">
-                🌐 Sitio oficial GeoLibres
-              </a>
-              <div class="metric-text" style="margin-top: 0.5rem;">
-                #Geolibres #OSMArgentina
               </div>
             </div>
           </div>
@@ -1067,38 +1102,6 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
       </div>
     </div>
     
-    <!-- Kaart -->
-    <!-- --hide--
-    <div class="sponsor-flip-card">
-      <div class="sponsor-flip-inner">
-        <div class="sponsor-flip-front">
-          <img src="{{ '/assets/img/logo_kaart_official.svg' | relative_url }}" alt="Kaart">
-          <h4>Kaart</h4>
-          <p><strong>Sponsor Técnico</strong></p>
-          <div class="flip-hint">Más información</div>
-        </div>
-        <div class="sponsor-flip-back sponsor-oficial">
-          <div class="back-header">
-            <img src="{{ '/assets/img/logo_kaart_official.svg' | relative_url }}" alt="Kaart" class="back-logo">
-            <h4>Kaart</h4>
-          </div>
-          <div class="sponsor-details">
-            <p><strong>Especialidad:</strong> Datos geoespaciales</p>
-            <ul>
-              <li>📍 Expertos en OSM</li>
-              <li>🤖 Tecnología de mapeo</li>
-              <li>🌎 Proyectos globales</li>
-            </ul>
-            <div class="sponsor-metric">
-              <a href="https://kaart.com/" target="_blank" class="external-link">
-                🌐 Sitio oficial Kaart
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    -->
     
     <!-- Geoinquiet@s Argentina -->
     <div class="sponsor-flip-card">
