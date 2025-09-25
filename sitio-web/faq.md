@@ -56,7 +56,7 @@ Las actividades se desarrollarán en {% for classroom in site.event.classrooms %
 Sí, la universidad cuenta con estacionamiento gratuito para los asistentes.
 
 **¿Se proporciona almuerzo?**
-El evento incluye coffee breaks. Para el almuerzo, hay opciones gastronómicas en la zona universitaria.
+El evento incluye coffee breaks. Para el almuerzo, recomendamos **Lo de Rami** (restaurante en la zona) y otras opciones gastronómicas disponibles en el área universitaria. Puedes ver la ubicación de Lo de Rami en [OpenStreetMap](https://www.openstreetmap.org/way/684683865).
 
 **¿Hay facilidades para personas con discapacidad?**
 Sí, la sede cuenta con accesibilidad para personas con movilidad reducida. Si tienes necesidades específicas, contáctanos con anticipación.

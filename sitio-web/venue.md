@@ -52,6 +52,12 @@ La biblioteca y el campus ofrecen excelentes facilidades para los asistentes:
 - Salas de estudio y consulta
 - Espacios sociales y de descanso
 
+**🍽️ Opciones Gastronómicas:**
+- Coffee breaks incluidos durante el evento
+- **Lo de Rami**: Restaurante recomendado en la zona ([Ver en OSM](https://www.openstreetmap.org/way/684683865))
+- Diversas opciones gastronómicas en el área universitaria
+- Comedor universitario disponible
+
 ### 🔬 Laboratorios y Recursos
 
 La Universidad cuenta con laboratorios de última generación:
