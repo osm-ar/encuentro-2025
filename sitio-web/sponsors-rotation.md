@@ -99,7 +99,7 @@ permalink: /sponsors-rotation/
             width: 300px;
             max-height: 200px;
             object-fit: contain;
-            background: rgba(255,255,255,0.1);
+            background: rgba(255,255,255,0.9);
             padding: 2rem;
             border-radius: 30px;
             border: 3px solid #F4C430;
