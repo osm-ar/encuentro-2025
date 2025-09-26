@@ -693,6 +693,9 @@ permalink: /presentacion/
                     <p>🌐 <strong>Información:</strong> encuentro2025.openstreetmap.org.ar</p>
                     <p>📝 <strong>Inscripción:</strong> tinyurl.com/osm-lujan</p>
                     <p>📱 <strong>Comunidad:</strong> t.me/osm_ar</p>
+                    <p style="font-size: 0.8rem; margin-top: 1rem; opacity: 0.8;">
+                        🗺️ Continuidad: La Plata (jul 2025) → Luján (sep 2025) → SOTM Argentina 2026
+                    </p>
                 </div>
             </section>
 

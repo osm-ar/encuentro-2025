@@ -376,7 +376,10 @@ permalink: /sponsors-rotation/
                 </p>
                 <div class="sponsor-hashtags">
                     encuentro2025.openstreetmap.org.ar<br>
-                    <small style="font-size: 0.7em;">📱 t.me/osm_ar</small>
+                    <small style="font-size: 0.7em;">📱 t.me/osm_ar</small><br>
+                    <small style="font-size: 0.6em; opacity: 0.8; margin-top: 0.5rem; display: block;">
+                        🗺️ La Plata (jul) → Luján (sep) → SOTM Argentina 2026
+                    </small>
                 </div>
             </div>
         </div>
