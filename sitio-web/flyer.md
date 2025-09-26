@@ -76,11 +76,14 @@ El flyer incluye códigos QR que dirigen a:
 <div class="flyer-versions-grid">
   <div class="flyer-version-card">
     <div class="version-preview">
-      <div style="font-size: 3rem; color: #2E5C8A;">🎤</div>
+      <iframe src="{{ '/presentacion/' | relative_url }}" 
+              style="width: 100%; height: 100%; border: none; border-radius: 8px; pointer-events: none;"
+              title="Preview Presentación Oficial">
+      </iframe>
     </div>
     <div class="version-info">
       <h4>Presentación Oficial</h4>
-      <p>Presentación completa del evento con 15 slides automáticas. Incluye programa, sponsors, casos de éxito y material de difusión.</p>
+      <p>Presentación completa del evento con 14 slides automáticas. Incluye programa, sponsors, casos de éxito y continuidad histórica.</p>
       <div>
         <a href="{{ '/presentacion/' | relative_url }}" target="_blank" class="btn btn-primary btn-sm">
           🎤 Ver Presentación
@@ -94,7 +97,10 @@ El flyer incluye códigos QR que dirigen a:
   
   <div class="flyer-version-card">
     <div class="version-preview">
-      <div style="font-size: 3rem; color: #F4C430;">🔄</div>
+      <iframe src="{{ '/sponsors-rotation/' | relative_url }}" 
+              style="width: 100%; height: 100%; border: none; border-radius: 8px; pointer-events: none;"
+              title="Preview Rotación Sponsors">
+      </iframe>
     </div>
     <div class="version-info">
       <h4>Rotación Sponsors</h4>
@@ -173,6 +179,21 @@ El flyer incluye códigos QR que dirigen a:
   align-items: center;
   justify-content: center;
   border: 1px solid #dee2e6;
+  position: relative;
+}
+
+.version-preview::after {
+  content: 'Vista Previa - Haga clic para ver completa';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(46, 92, 138, 0.9);
+  color: white;
+  padding: 4px 8px;
+  font-size: 0.7rem;
+  text-align: center;
+  z-index: 10;
 }
 
 .version-preview img {

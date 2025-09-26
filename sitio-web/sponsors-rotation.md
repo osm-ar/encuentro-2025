@@ -3,7 +3,6 @@ layout: none
 title: "Sponsors y Aliados - Encuentro OSM Argentina 2025"
 permalink: /sponsors-rotation/
 ---
-<!DOCTYPE html>
 <html lang="es-AR">
 <head>
     <meta charset="UTF-8">
@@ -11,7 +10,7 @@ permalink: /sponsors-rotation/
     <title>Sponsors y Aliados - Encuentro OSM Argentina 2025</title>
     <link rel="icon" type="image/png" href="{{ '/assets/img/osm-ar-logo.png' | relative_url }}">
     <link rel="apple-touch-icon" href="{{ '/assets/img/osm-ar-logo.png' | relative_url }}">
-    
+
     <style>
         * {
             margin: 0;
@@ -237,19 +236,19 @@ permalink: /sponsors-rotation/
                 max-height: 150px;
                 padding: 1.5rem;
             }
-            
+
             .sponsor-title {
                 font-size: 1.4rem;
             }
-            
+
             .sponsor-description {
                 font-size: 1.2rem;
             }
-            
+
             .allies-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             .ally-logo {
                 width: 100px;
                 height: 100px;
@@ -274,7 +273,7 @@ permalink: /sponsors-rotation/
 
     <!-- Contenedor principal -->
     <div class="sponsors-container">
-        
+
         <!-- Slide 1: Geolibres -->
         <div class="rotating-content active" data-slide="0">
             <div class="sponsor-slide">
@@ -409,10 +408,10 @@ permalink: /sponsors-rotation/
             // Ocultar slide actual
             slides[currentSlide].classList.remove('active');
             progressDots[currentSlide].classList.remove('active');
-            
+
             // Siguiente slide (loop infinito)
             currentSlide = (currentSlide + 1) % slides.length;
-            
+
             // Mostrar nuevo slide
             slides[currentSlide].classList.add('active');
             progressDots[currentSlide].classList.add('active');
@@ -440,12 +439,12 @@ permalink: /sponsors-rotation/
                 if (index !== currentSlide) {
                     slides[currentSlide].classList.remove('active');
                     progressDots[currentSlide].classList.remove('active');
-                    
+
                     currentSlide = index;
-                    
+
                     slides[currentSlide].classList.add('active');
                     progressDots[currentSlide].classList.add('active');
-                    
+
                     resumeRotation(); // Reinicia el timer
                 }
             });
