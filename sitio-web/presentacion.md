@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: none
 title: "Presentación Encuentro OSM Argentina 2025"
 permalink: /presentacion/
 ---
@@ -9,6 +9,8 @@ permalink: /presentacion/
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presentación - Encuentro OSM Argentina 2025</title>
+    <link rel="icon" type="image/png" href="{{ '/assets/img/osm-ar-logo.png' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/assets/img/osm-ar-logo.png' | relative_url }}">
     
     <!-- Reveal.js CSS (Licencia MIT) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
@@ -28,18 +30,72 @@ permalink: /presentacion/
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
         }
         
+        /* Logo y fecha del evento en todas las pantallas - versión fija */
+        .event-branding {
+            position: fixed;
+            top: 15px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .event-logo {
+            width: 60px;
+            height: 60px;
+            background: rgba(255,255,255,0.9);
+            border-radius: 50%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 2px solid #F4C430;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 8px;
+        }
+        
+        .event-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        .event-date {
+            font-size: 0.6rem;
+            font-weight: bold;
+            color: #F4C430;
+            background: rgba(0,0,0,0.8);
+            padding: 4px 8px;
+            border-radius: 8px;
+            text-align: center;
+            min-width: 120px;
+        }
+        
+        /* Elementos de fondo transparentes para diseño - aplicados al fondo general */
+        .reveal {
+            background-image: 
+                radial-gradient(circle at 20% 80%, rgba(244, 196, 48, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 90% 20%, rgba(117, 170, 219, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(255, 255, 255, 0.05) 0%, transparent 30%),
+                linear-gradient(135deg, #2E5C8A, #75AADB);
+            background-size: 300px 300px, 400px 400px, 200px 200px, cover;
+            background-position: bottom left, top right, center, center;
+            background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+        }
+        
         .reveal h1, .reveal h2, .reveal h3 {
             color: #F4C430;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
         
         .reveal h1 {
-            font-size: 2.8rem;
+            font-size: 1.6rem;
             margin-bottom: 1rem;
         }
         
         .reveal h2 {
-            font-size: 2rem;
+            font-size: 1.4rem;
             margin-bottom: 1rem;
         }
         
@@ -81,6 +137,10 @@ permalink: /presentacion/
             font-size: 1.1rem;
         }
         
+        .info-item p {
+            font-size: 0.9rem;
+        }
+        
         .sponsor-display {
             text-align: center;
             padding: 2rem;
@@ -98,7 +158,7 @@ permalink: /presentacion/
         }
         
         .metric-icon {
-            font-size: 3rem;
+            font-size: 1.6rem;
             display: block;
             margin-bottom: 0.5rem;
         }
@@ -109,7 +169,7 @@ permalink: /presentacion/
         }
         
         .hashtags {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             color: #F4C430;
             margin-top: 2rem;
             font-weight: bold;
@@ -150,6 +210,14 @@ permalink: /presentacion/
             text-align: center;
         }
         
+        .proyecto-facilitador h4 {
+            font-size: 1.1rem;
+        }
+        
+        .proyecto-facilitador p {
+            font-size: 0.9rem;
+        }
+        
         .facilitador-foto {
             width: 150px;
             height: 150px;
@@ -172,6 +240,16 @@ permalink: /presentacion/
             display: flex;
             align-items: center;
             gap: 1rem;
+        }
+        
+        .aliado-item h3 {
+            font-size: 1.1rem;
+            margin: 0 0 0.5rem 0;
+        }
+        
+        .aliado-item p {
+            font-size: 0.9rem;
+            margin: 0;
         }
         
         .aliado-logo {
@@ -209,7 +287,7 @@ permalink: /presentacion/
         
         .stat-number {
             display: block;
-            font-size: 2rem;
+            font-size: 1.6rem;
             color: #F4C430;
             font-weight: bold;
         }
@@ -267,16 +345,24 @@ permalink: /presentacion/
             }
             
             .reveal h1 {
-                font-size: 2.5rem;
+                font-size: 1.4rem;
             }
             
             .reveal h2 {
-                font-size: 2rem;
+                font-size: 1.2rem;
             }
         }
     </style>
 </head>
 <body>
+    <!-- Branding fijo del evento -->
+    <div class="event-branding">
+        <div class="event-logo">
+            <img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="OSM Argentina">
+        </div>
+        <div class="event-date">27 SEP 2025<br>OSM AR • LUJÁN</div>
+    </div>
+
     <div class="reveal">
         <div class="slides">
             
@@ -325,11 +411,11 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 3: Sponsor Premium - Geolibres -->
+            <!-- Slide 3: Sponsor Oficial - Geolibres -->
             <section>
                 <div class="sponsor-display">
                     <img src="{{ '/assets/img/logo_geolibres.png' | relative_url }}" alt="Geolibres" class="slide-logo-large">
-                    <h2>Sponsor Premium</h2>
+                    <h2>Sponsor Oficial</h2>
                     <p style="font-size: 1.4rem; line-height: 1.6; max-width: 800px; margin: 0 auto;">
                         Geolibres promueve el uso de herramientas libres en geomática, apoyando proyectos educativos y la democratización del conocimiento geoespacial en América Latina.
                     </p>
@@ -351,11 +437,11 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 4: Sponsor Premium - Kaart -->
+            <!-- Slide 4: Sponsor Oficial - Kaart -->
             <section>
                 <div class="sponsor-display">
                     <img src="{{ '/assets/img/logo_kaart_official.svg' | relative_url }}" alt="Kaart" class="slide-logo-large">
-                    <h2>Sponsor Premium</h2>
+                    <h2>Sponsor Oficial</h2>
                     <p style="font-size: 1.4rem; line-height: 1.6; max-width: 800px; margin: 0 auto;">
                         Kaart es líder en tecnología de datos geoespaciales, especializados en OpenStreetMap con proyectos globales de cartografía y herramientas avanzadas de mapeo.
                     </p>
@@ -377,11 +463,11 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 5: Sponsor Premium - TomTom -->
+            <!-- Slide 5: Sponsor Oficial - TomTom -->
             <section>
                 <div class="sponsor-display">
                     <img src="{{ '/assets/img/logo_tomtom.svg' | relative_url }}" alt="TomTom" class="slide-logo-large">
-                    <h2>Sponsor Premium</h2>
+                    <h2>Sponsor Oficial</h2>
                     <p style="font-size: 1.4rem; line-height: 1.6; max-width: 800px; margin: 0 auto;">
                         TomTom es líder mundial en tecnologías de navegación y mapas, impulsando la movilidad con datos de mapas de alta calidad y servicios de localización innovadores.
                     </p>
@@ -567,7 +653,7 @@ permalink: /presentacion/
                 <h2>👨‍💼 Coordinación del Evento</h2>
                 <div class="coordinador-container">
                     <div style="position: relative; width: 200px; height: 200px; margin: 0 auto;">
-                        <img src="{{ '/assets/img/andres_duhour.jpg' | relative_url }}" alt="Andrés Duhour" style="width: 200px; height: 200px; border-radius: 50%; border: 5px solid #F4C430; position: relative; z-index: 2;">
+                        <img src="{{ '/assets/img/andres.github.jpeg' | relative_url }}" alt="Andrés Duhour" style="width: 200px; height: 200px; border-radius: 50%; border: 5px solid #F4C430; position: relative; z-index: 2; object-fit: cover;">
                         <div style="position: absolute; top: -10px; right: -10px; width: 60px; height: 60px; background: rgba(255,255,255,0.9); border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 3px solid #2E5C8A; z-index: 3;">
                             <img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="OSM Argentina" style="width: 40px; height: 40px; border-radius: 50%;">
                         </div>
@@ -576,7 +662,7 @@ permalink: /presentacion/
                         </div>
                     </div>
                     <div>
-                        <h3 style="font-size: 2rem;">Andrés Duhour</h3>
+                        <h3 style="font-size: 1.6rem;">Andrés Duhour</h3>
                         <p style="font-size: 1.2rem;">Coordinador General</p>
                         <div class="coordinador-stats">
                             <div class="stat">
@@ -639,11 +725,11 @@ permalink: /presentacion/
             // Configuración de teclado
             keyboard: {
                 32: function() { // Spacebar
-                    if (Reveal.isAutoSliding()) {
-                        Reveal.pauseAutoSlide();
+                    if (Reveal.getConfig().autoSlide > 0) {
+                        Reveal.configure({ autoSlide: 0 });
                         console.log('Presentación pausada');
                     } else {
-                        Reveal.resumeAutoSlide();
+                        Reveal.configure({ autoSlide: 10000 });
                         console.log('Presentación reanudada');
                     }
                 },
@@ -671,13 +757,19 @@ permalink: /presentacion/
         
         // Pausa automática con mouse hover
         const slidesContainer = document.querySelector('.reveal');
+        let wasAutoSliding = false;
         
         slidesContainer.addEventListener('mouseenter', function() {
-            Reveal.pauseAutoSlide();
+            wasAutoSliding = Reveal.getConfig().autoSlide > 0;
+            if (wasAutoSliding) {
+                Reveal.configure({ autoSlide: 0 });
+            }
         });
         
         slidesContainer.addEventListener('mouseleave', function() {
-            Reveal.resumeAutoSlide();
+            if (wasAutoSliding) {
+                Reveal.configure({ autoSlide: 10000 });
+            }
         });
         
         // Configuración fullscreen para presentaciones

@@ -1346,6 +1346,18 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2025
       <li>Medios de comunicación</li>
     </ul>
   </div>
+  
+  <!-- Material de Presentaciones -->
+  <div class="sponsor-item sponsor-colaborador">
+    <h4>🎤 Presentaciones del Evento</h4>
+    <p><strong>Material oficial para difundir</strong></p>
+    <ul>
+      <li><a href="{{ '/presentacion/' | relative_url }}" target="_blank">Presentación completa (15 slides)</a></li>
+      <li><a href="{{ '/sponsors-rotation/' | relative_url }}" target="_blank">Rotación de sponsors (7 slides)</a></li>
+      <li><a href="{{ '/flyer/' | relative_url }}" target="_blank">Material gráfico oficial</a></li>
+      <li>Listo para pantallas y eventos</li>
+    </ul>
+  </div>
 </div>
 
 <div class="collaboration-grid">

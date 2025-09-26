@@ -71,6 +71,46 @@ El flyer incluye códigos QR que dirigen a:
 
 ## 🎨 Recursos Adicionales
 
+### 📊 Presentaciones del Evento
+
+<div class="flyer-versions-grid">
+  <div class="flyer-version-card">
+    <div class="version-preview">
+      <div style="font-size: 3rem; color: #2E5C8A;">🎤</div>
+    </div>
+    <div class="version-info">
+      <h4>Presentación Oficial</h4>
+      <p>Presentación completa del evento con 15 slides automáticas. Incluye programa, sponsors, casos de éxito y material de difusión.</p>
+      <div>
+        <a href="{{ '/presentacion/' | relative_url }}" target="_blank" class="btn btn-primary btn-sm">
+          🎤 Ver Presentación
+        </a>
+        <a href="{{ '/presentacion/' | relative_url }}" target="_blank" class="btn btn-outline btn-sm">
+          📱 Modo Pantalla Completa
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="flyer-version-card">
+    <div class="version-preview">
+      <div style="font-size: 3rem; color: #F4C430;">🔄</div>
+    </div>
+    <div class="version-info">
+      <h4>Rotación Sponsors</h4>
+      <p>Presentación rotativa ideal para pantallas inactivas. Muestra sponsors, aliados y información del evento en 7 slides que rotan cada 8 segundos.</p>
+      <div>
+        <a href="{{ '/sponsors-rotation/' | relative_url }}" target="_blank" class="btn btn-primary btn-sm">
+          🔄 Ver Rotación
+        </a>
+        <a href="{{ '/sponsors-rotation/' | relative_url }}" target="_blank" class="btn btn-outline btn-sm">
+          📺 Modo Kiosco
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
 ### 📐 Especificaciones Técnicas
 
 - **Formato:** JPG
